@@ -14,3 +14,9 @@ MD5 (CFR-2016-title-12.zip) = da32f5986746113d31ad5b603867d7d0
 The HMDA Regulation C can be accessed in XML format from here:
 URL: https://www.gpo.gov/fdsys/pkg/CFR-2012-title12-vol8/xml/CFR-2012-title12-vol8-part1003.xml
 MD5 = e834b8a7ecf60ccd86f1e3a9b6b5358a
+
+Use the cfr_xml_parser.py script to extract data as follows:
+
+```sh
+python cfr_xml_parser.py > hmda_full.txt
+```
