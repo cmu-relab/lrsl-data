@@ -20,3 +20,28 @@ Use the cfr_xml_parser.py script to extract data as follows:
 ```sh
 python cfr_xml_parser.py > hmda_full.txt
 ```
+
+## Annotation using BRAT
+To use [BRAT](https://github.com/nlplab/brat) for annotation, make sure the
+submodule in the `brat` directory is properly initialized. If you see nothing
+inside the `brat` directory do this once:
+
+```sh
+git submodule update --init --recursive
+```
+
+Note that we use BRAT in standalone mode, so install and start it as follows:
+as:
+
+```sh
+# make sure you are in the brat directory
+cd brat/
+# install it for standalone mode if not done already
+# the installation asks for username and password to access brat
+# give something simple admin admin123 root@localhost
+./install.sh -u
+# when done, run the standalone server on <PORT_NUMBER> as follows
+# note that default port is 8001
+python standalone.py <PORT_NUMBER>
+```
+
