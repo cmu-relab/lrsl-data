@@ -1,0 +1,22 @@
+* BRAT := BRAT Rapid Annotation Tool
+** What does BRAT stands for?
+[[https://github.com/nlplab/brat][BRAT]] is a recursive acronym for BRAT Rapid Annotation Tool
+** How do I quickly check it out?
+Try [[http://weaver.nlplab.org/~brat/demo/latest/#/][online here!]]
+Else download, install in standalone mode and run as follows:
+#+BEGIN_SRC sh
+# download BRAT
+wget http://weaver.nlplab.org/~brat/releases/brat-v1.3_Crunchy_Frog.tar.gz
+# extract BRAT
+tar xzf brat-v1.3_Cruncy_Frog.tar.gz
+# install it for standalone mode if not done already
+# the installation asks for username and password to access brat
+# give something simple admin admin123 root@localhost
+cd brat-v1.3_Cruncy_Frog/
+./install.sh -u
+# when done, run the standalone server by giving optional <PORT_NUMBER> as follows
+# NOTE: Default <PORT_NUMBER> is 8001
+python standalone.py <PORT_NUMBER>
+# now point your browser to http://localhost:<PORT_NUMBER>
+open http://localhost:8001
+#+END_SRC
