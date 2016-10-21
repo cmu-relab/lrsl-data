@@ -52,7 +52,7 @@ You can define per project annotation configuration in your project directory.
 The sample configuration file in ~data/tutorial/annotation.conf~ is well
 commented. You can read more [[http://brat.nlplab.org/configuration.html#annotation-configuration][here]].
 The configuration is stored in ~annotation.conf~ file. Here's an example:
-#+BEGIN_SRC configuration
+#+BEGIN_SRC conf
 # cat /var/www/brat/data/sudhi_data/annotation.conf
 [entities]
 ENTITY_LABEL1
