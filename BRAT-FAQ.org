@@ -1,8 +1,8 @@
-* BRAT := BRAT Rapid Annotation Tool
+* BRAT-FAQ := BRAT Rapid Annotation Tool - Frequently Asked Questions
 ** What does BRAT stands for?
 [[https://github.com/nlplab/brat][BRAT]] is a recursive acronym for BRAT Rapid Annotation Tool
 ** How do I quickly check it out?
-Try [[http://weaver.nlplab.org/~brat/demo/latest/#/][online here!]]
+Try it [[http://weaver.nlplab.org/~brat/demo/latest/#/][online here]] without installing!
 Else download, install in standalone mode and run as follows:
 #+BEGIN_SRC sh
 # download BRAT
@@ -20,9 +20,11 @@ python standalone.py <PORT_NUMBER>
 # now point your browser to http://localhost:<PORT_NUMBER>
 open http://localhost:8001
 #+END_SRC
-** How do I access BRAT for lrsl-data?
-Take a look at [[http://gaius.isri.cmu.edu:8300/brat][Gaius]]. Administrivia can be directed to me or Travis.
-** How do I create data sources for lrsl-data?
+** How do I access BRAT for lrsl-data on Gaius?
+Just point your browser at [[http://gaius.isri.cmu.edu:8300/brat][Gaius]].
+
+Administrivia can be directed to me or Travis.
+** How do I create data sources for lrsl-data on Gaius?
 Simply copy over your data files as plain text.
 NOTE: Currently, you need to create empty .ann files for your data sources.
 #+BEGIN_SRC sh
@@ -47,9 +49,9 @@ Yes you may! The annotations are saved in the [[http://brat.nlplab.org/standoff.
 The format comes from the [[http://2011.bionlp-st.org/home/file-formats][BioNLP community]].
 ** How do I configure my annotation labels?
 You can define per project annotation configuration in your project directory.
-The sample configuration file in `data/tutorial/annotation.conf` is well
+The sample configuration file in ~data/tutorial/annotation.conf~ is well
 commented. You can read more [[http://brat.nlplab.org/configuration.html#annotation-configuration][here]].
-The configuration is stored in `annotation.conf` file. Here's an example:
+The configuration is stored in ~annotation.conf~ file. Here's an example:
 #+BEGIN_SRC configuration
 # cat /var/www/brat/data/sudhi_data/annotation.conf
 [entities]
@@ -64,3 +66,14 @@ EVENT1 LABEL1_Arg{2}:LABEL1, LABEL2_Arg?:LABEL2
 [attributes]
 # TODO
 #+END_SRC
+** How do I configure shortcuts to rapidly annotate my document?
+Simply create ~kb_shortcuts.conf~ in your project and associate ~ENTITY_LABELS~
+with keyboard strokes. For example:
+#+BEGIN_SRC conf
+# Keyborad configuration for project sudhi_data
+a LABEL_A
+b LABEL_B
+c LABEL_C
+#+END_SRC
+Now when you select text in BRAT, you can press ~b<ENTER>~ (that's ~b~ followed
+by the ~ENTER~ key) to quickly annotate the selected text with label ~LABEL_B~.
