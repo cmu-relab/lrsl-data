@@ -20,3 +20,47 @@ python standalone.py <PORT_NUMBER>
 # now point your browser to http://localhost:<PORT_NUMBER>
 open http://localhost:8001
 #+END_SRC
+** How do I access BRAT for lrsl-data?
+Take a look at [[http://gaius.isri.cmu.edu:8300/brat][Gaius]]. Administrivia can be directed to me or Travis.
+** How do I create data sources for lrsl-data?
+Simply copy over your data files as plain text.
+NOTE: Currently, you need to create empty .ann files for your data sources.
+#+BEGIN_SRC sh
+# Sample data creation process example
+mkdir sudhi_data
+cp /path/to/text_for_annotation.txt sudhi_data
+# XXX: Create assoicated .ann file for each .txt file
+# Example for just one file:
+touch sudhi_data/text_for_annotation.ann
+# Copy the directory to Gaius.
+# Supply $USER and $GAIUS_HOSTNAME appropriately.
+scp -r sudhi_data ${USER}@${GAIUS_HOSTNAME}:/var/www/brat/data/
+# Make sure apache can read and write your files by issusing following:
+# Of course, replace $USER and $GAIUS_HOSTNAME appropriately.
+ssh ${USER}@${GAIUS_HOSTNAME} "chown -R $USER:www-data /var/www/brat/data/sudhi_data"
+#+END_SRC
+** Is there a tutorial I can learn from?
+Yes! The BRAT comes with its own tutorial. Yes, just open BRAT, sign in and
+browse data/tutorial/news/000-introduction or [[https://gaius.isri.cmu.edu:8300/brat/index.xhtml#/tutorials/news/000-introduction][click here]] for the online version.
+** Can I modify .ann files directly?
+Yes you may! The annotations are saved in the [[http://brat.nlplab.org/standoff.html][standoff format explained here]].
+The format comes from the [[http://2011.bionlp-st.org/home/file-formats][BioNLP community]].
+** How do I configure my annotation labels?
+You can define per project annotation configuration in your project directory.
+The sample configuration file in `data/tutorial/annotation.conf` is well
+commented. You can read more [[http://brat.nlplab.org/configuration.html#annotation-configuration][here]].
+The configuration is stored in `annotation.conf` file. Here's an example:
+#+BEGIN_SRC configuration
+# cat /var/www/brat/data/sudhi_data/annotation.conf
+[entities]
+ENTITY_LABEL1
+ENTITY_LABEL2
+ENTITY_LABEL3
+EVENT_LABEL1
+[relations]
+RELATION1 Arg1:LABEL1, Arg2:LABEL2
+[events]
+EVENT1 LABEL1_Arg{2}:LABEL1, LABEL2_Arg?:LABEL2
+[attributes]
+# TODO
+#+END_SRC
