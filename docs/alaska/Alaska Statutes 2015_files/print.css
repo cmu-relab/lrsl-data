@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body { 
+color : #000000; 
+background : #ffffff; 
+font-family : Times, serif;
+font-size:16px;
+padding:0px 0px 0px 0px !important;
+line-height: 120%;
+/*margin:auto; */
+
+overflow-y: visible; !important
+}
+
+.basis_print table {
+font-size:14px;
+}
+
+.basis_print {
+
+
+overflow-y: visible; !important
+}
+
+.print {
+
+}
+
+.Basis_fulltext pre {
+margin-left:-190px; !important
+
+}
+
+.noprint {
+display:none;
+
+}
+
+li {
+padding-top: 6px;
+padding-bottom: 1px;
+}
+
+a { 
+text-decoration : underline; 
+color : #0000ff; 
+}
+
+
+div#footer,div#search,div#header,div#searchin,div#legisnav	{
+display:none;
+
+	}
+	
+div#leftcontent,div#rightcontent {
+width: 382px;
+}
+
+div#rightright,div#rightleft {
+width: 165px;
+
+}
+	
+.basisnav {
+display:none;
+}
+
+li ul {
+line-height: 50%;
+}
+
+div#innerwrapper {
+overflow:visible !important;
+width: 90%;
+text-align:left !important;
+
+}

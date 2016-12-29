@@ -1,0 +1,895 @@
+/* Alaska State Legislature CSS  */
+
+	/* Base Layout Setup */
+
+html { 
+	min-width: 850px;
+	 }
+
+body	{
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	border: 0;	
+	background: #fff url(http://www.akleg.gov/basis/temp/images/bodybg.jpg) top center repeat;
+	font: small/18px Verdana, "Lucida Grande", "Trebuchet MS", "Bitstream Vera Sans",  Helvetica, sans-serif;
+	}
+
+	/* Just a pretty general good idea */
+
+img	{
+	border: 0;
+	}
+
+	/* Default links 	*/
+
+a:link, a:visited {
+	font-weight : normal; 
+	text-decoration : underline;
+	color: #631E25;
+	}
+
+a:hover {
+	color: #263359;
+	}
+	
+	
+	/* Primary layout divisions */
+
+div#header {
+	background: #fff url(http://www.akleg.gov/basis/temp/images/headstripslice.jpg) top left repeat-x;
+	height:129px;
+	margin:0px auto;	
+	text-align:left;
+	overflow:hidden;
+	}
+
+div#topinner { 
+	padding:17px 17px 0px 17px;
+	background:url(http://www.akleg.gov/basis/temp/images/statebackground.gif) 60px 10px no-repeat;
+	height:165px;
+	}
+
+div#topinnerinner { 
+	padding:17px 17px 0px 17px;
+	}
+
+div#wrapper	{
+	color: #333;
+	width: 850px;
+	margin: 0 auto;
+	padding: 0;
+	text-align: left;
+	background: #fff url(http://www.akleg.gov/basis/temp/images/pagebg.jpg) top center repeat-y;
+	}
+	
+div#innerwrapper	{
+	color: #333;
+	width: 771px;
+	margin-left:80px;	
+	margin: 0 auto;
+	padding: 0;
+	text-align: left !important;
+	overflow:hidden;
+	}
+	
+div#innerwrapper pre {
+
+font-size:14px;
+
+}
+	
+div#google	{
+	color: #333;
+	width: 800px;
+	margin-left:80px;	
+	margin: 0;
+	padding: 0;
+	text-align: left
+	}
+	
+
+div#leftcontent 	{
+	float: left;
+	width: 368px;
+	min-height:840px !important;
+	padding: 0;
+	border: 0;
+	margin: 0;
+	background:#EEE;
+	/* False margin value for all versions of IE Win, including 6.0 */	
+	}
+	
+div#leftcontentin 	{
+	float: left;
+	width: 368px;
+	padding: 0;
+	border: 0;
+	margin: 0;
+	background:#FFF;
+	/* False margin value for all versions of IE Win, including 6.0 */	
+	}
+
+html>body div#leftcontent {
+	/* Correct value for browsers that don't suffer from IE Win's bugs */
+	margin-left: 0px;
+	min-height: 800px;
+	}
+
+div#rightcontent	{
+	margin: 0 0 0 371px;
+	padding: 0;
+	width: 400px;
+	border: 0;
+	}
+	
+div#rightcontentin	{
+	margin: 0 0 0 378px;
+	padding: 0 0 0 0;
+	width: 388px;
+	border: 1px solid white;	
+	}
+	
+div#bullet	{
+	margin: 0 10px 0 10px;
+	padding: 0 0 0 0;
+	width: 375px;	
+	}
+	
+div#fullpage	{
+	margin: 0 0 0 0;
+	padding: 0 0 0 20px;
+	width: 720px;
+	border: 1px solid white;	
+	clear:both;
+	}	
+
+div#happenings {
+	width:358px;
+	border:1px solid #FFF;
+	padding:0 0 10px 10px;
+}
+	
+div#rightleft {
+	width:174px;
+	border:1px solid #FFF;
+	padding:0 10px 10px 10px;
+	}
+	
+div#rightright {
+	width:174px;
+	float:right;
+	border:1px solid #FFF;
+	padding:0 10px 10px 10px;
+	}
+
+div#leftleft {
+	width:143px;
+	border:1px solid #FFF;
+	padding:0 10px 10px 20px;
+	}
+div#leftright {
+	width:173px;
+	float:right;
+	border:1px solid #FFF;
+	padding:0;
+	}
+
+
+div#footer	{
+	clear: both;
+	border: 0;
+	border-top: 10px solid #631E25;
+	background: #304877;
+	color: #FFF;
+	width: 751px;
+	padding: 0 10px 0 10px;
+	margin:0;
+	text-align:left !important;
+	}
+	
+div#footleft {
+	float: left;
+	width: 368px;
+	}
+
+div#footright {
+	float: right;
+	width: 368px;
+	}
+
+div#search {
+	background:#324a70;
+	border:1px solid black;
+	padding: 5px 5px 5px 13px;
+	margin: 0px 5px 5px 5px;
+	width:90%;
+	}
+	
+#search .display {
+	border: 1px solid #666;
+    background: #dbdbdb;
+	}	
+
+div#searcherror {
+	margin:0 10px 0px 15px;
+	height:56px;
+	padding:5px 0px 0px 10px;
+	}
+	
+div#searchin {
+	background:#324a70;
+	border:1px solid black;
+	margin:10px 10px 10px 0px;
+	padding:5px 0px 10px 10px;
+	}
+	
+	
+div#searchformstyle {
+	width:120px;
+	float:right;
+	margin-top:2px;
+	}
+	
+div#search input, div#searchin input {
+	color: #000;
+/*	background: #fff;
+	border: 1px solid #006; */
+	vertical-align:top;
+}
+
+
+
+div.clear {
+	clear:both;
+	width:800px;
+	}
+
+			
+div#legisnav {
+	height:28px;
+	text-align:left;
+	width:850px;
+	margin:0px auto;
+	}
+
+
+span.red {color: #FF0000}
+
+
+	/* Primary nav list	*/
+
+ul#menu	{
+	height: 28px;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	}
+
+ul#menu li {
+	height: 28px;
+	width:97px;
+	display: block;
+	float:left;
+	background:#fff;
+	text-align:center;
+	text-transform:uppercase;
+	font-family:helvetica, arial, verdana, sans-serif;
+	background:url(http://www.akleg.gov/basis/temp/images/navsbg.gif) top left no-repeat;
+	font-size:11px;
+	}
+	
+ul#menu li a, ul#menu li a:visited  {
+	color:#2E4675;
+	width:100%;
+	height:28px;
+	display:block;
+	padding-top:8px;
+	font-weight:bold;
+	text-decoration:none;
+	}
+	
+ul#menu li a:hover, ul#menu li a:visited:hover {
+	background:#FFF;
+	color:#631E25;
+	}
+
+ul#menu li#homenavbutton {
+	width:92px !important;
+	background:url(http://www.akleg.gov/basis/temp/images/homebg_blue.gif) top left no-repeat !important;
+	}
+
+ul#menu li#homenavbutton a:hover, ul#menu li#homenavbutton a:visited:hover {
+	color:#631E25 !important;
+	background:url(http://www.akleg.gov/basis/temp/images/homebg.gif) top left no-repeat !important;
+	}	
+
+ul#menu li#senatenavbutton {
+	width:96px;
+	background:#fff url(http://www.akleg.gov/basis/temp/images/senatebg_blue.gif) top left no-repeat !important;
+	}
+	
+ul#menu li#senatenavbutton a:hover, ul#menu li#senatenavbutton a:visited:hover {
+	color:#631E25 !important;
+	background:#fff url(http://www.akleg.gov/basis/temp/images/senatebg.gif) top left no-repeat !important;
+	}
+
+
+	
+ul#menu li#startednavbutton {border-right:1px solid #fff;}
+
+ul#submenu	{
+	height: 28px;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	}
+
+ul#submenu li {
+	height: 28px;
+	width:97px;
+	display: block;
+	float:left;
+	background:#fff;
+	text-align:center;
+	text-transform:uppercase;
+	font-family:helvetica, arial, verdana, sans-serif;
+	background:url(http://www.akleg.gov/basis/temp/images/navsbg.gif) top left no-repeat;
+	font-size:11px;
+	}
+
+	/* Nav button highlighting */
+
+body#inde li#homenavbutton a, body#inde li#homenavbutton a:visited  { background:#fff url(http://www.akleg.gov/basis/temp/images/homebg.gif) top left no-repeat !important;}
+body#sena li#senatenavbutton a, body#sena li#senatenavbutton a:visited  { background:#fff url(http://www.akleg.gov/basis/temp/images/senatebg.gif) top left no-repeat !important;}
+body#hous li#housenavbutton a, body#hous li#housenavbutton a:visited  { background:#fff !important;}
+body#sche li#schedulenavbutton a, body#sche li#schedulenavbutton a:visited  { background:#fff !important;}
+body#sear li#searchnavbutton a, body#sear li#searchnavbutton a:visited  { background:#fff !important;}
+body#medi li#medianavbutton a, body#medi li#medianavbutton a:visited  { background:#fff !important;}
+body#pubs li#pubsnavbutton a, body#pubs li#pubsnavbutton a:visited  { background:#fff !important;}	
+body#star li#startnavbutton a, body#star li#startnavbutton a:visited  { background:#fff !important;border-right:1px solid #fff;}
+
+
+	/* Daily Calendar List	*/
+
+ul.dailycals {
+	list-style:none;
+	margin: 0 !important;
+	padding: 0 !important;
+	font-size:11px;
+	font-family:verdana, helvetica, arial, sans-serif;
+	line-height:148%;
+	color:#333;
+	}
+
+ul.dailycals li {
+	margin: 0 !important;
+	padding: 0 !important;
+	}
+
+ul.basisnav{
+
+        position:absolute;
+        top:175px;
+	left:50%;
+	margin-left:-510px;
+	width:100px;
+        text-align:right;
+        color:#FFF;
+        padding:10px;
+        background: #304877;
+        list-style: none;
+        font-size: 90%;
+        }
+
+ul.basisnav ul {
+	position:absolute;
+	list-style: none;
+	margin-left:50px;
+	padding:10px;
+	background:#304877;
+	color:#FFF;
+	text-align:left;
+	display:none;
+	}
+ul.basisnav a {	color:#FFF;}
+
+ul.basisnav li:hover ul {display:block;} /* make flyout appear when the LI is hovered */ 
+
+ul.basislist{font-size: 90%;}
+
+
+	/* General Typography 	*/
+	
+h1	{
+	text-indent: -9999px;
+	overflow: hidden;
+	padding: 0;
+	width: 850px;
+	}
+	
+h1 a:link, h1 a:link:hover, h1 a:visited, h1 a:visited:hover{
+	display: block;	
+	width: 850px;
+	height: 101px;
+	background:url(http://www.akleg.gov/basis/temp/images/headstrip.jpg) top left no-repeat; 
+	padding: 0;
+	margin-left:-44px;
+	}
+	
+#topimage
+{
+	display: block;	
+	width: 850px;
+	height: 101px;
+	background:url(http://www.akleg.gov/basis/temp/images/headstrip.jpg) top left no-repeat; 
+	padding: 0;
+	margin-left:-44px;
+	}
+
+h2 {
+	font-weight:normal !important;
+	color:#263359;	
+	font-size:20px;
+	font-family:georgia, Palatino,'Palatino Linotype', 'Book Antiqua', Serif;
+}
+
+h2, h3, h4	{
+	font-weight: bold;
+	line-height: 1.2em;
+	margin: 25px 0 2px 0;
+	}
+	
+h4 {
+	font-weight:normal;
+	color:#000;	
+	font-size:12px;
+	font-family:georgia, Palatino,'Palatino Linotype', 'Book Antiqua', Serif;
+	margin-top:20px;
+	margin-bottom:10px;
+	text-transform:uppercase;
+	}	
+h5 {
+	text-decoration:underline;
+	color:#999999;
+	font-size:12px;
+	margin: 2px 0 2px 0;
+	font-family:georgia, Palatino,'Palatino Linotype', 'Book Antiqua', Serif;
+	text-transform:uppercase;
+	}
+
+p { 
+	font-size:11px;
+	font-family:verdana, helvetica, arial, sans-serif;
+	line-height:148%;
+	color:#333;
+	margin: 0 0 1em 0;
+	padding-left: 3px;
+	}
+
+	/* Specific Typography 	*/	
+	
+div#header h1 {margin:0px auto;width:850px;height:101px;}
+	
+html #leftcontent p.intro {
+	margin-top: 10px;
+	font-style: italic;
+	}	
+	
+p#titleintro {
+	font-family:Georgia, Palatino, Serif;
+	font-size:19px;color:#666;
+	margin:17px 0 -7px 17px;
+	}
+
+	
+
+h2#maintitleinner {
+	font-family:Georgia, Palatino, Serif;
+	font-size:26px;color:#631E25;
+	font-weight:normal;
+	margin:17px 0 0 17px;
+	padding:0px !important;}	
+	
+h2#maintitle {
+	font-family:Georgia, Palatino, Serif;
+	font-size:26px;color:#631E25;
+	font-weight:normal;
+	margin:0px 0 0 17px;
+	padding:0px !important;}
+	
+div#topinner p#titleintro {
+	font-family:Georgia, Palatino, Serif;
+	font-size:19px;color:#666;
+	margin:0 0 -7px 0 !important;
+	}
+
+div#topinner h2#maintitle {
+	font-family:Georgia, Palatino, Serif;
+	font-size:28px;color:#631E25;
+	font-weight:normal;
+	margin:0 0 12px 0 !important;
+	padding:0px !important;}
+	
+p#intropara {
+	font-family:Georgia, Palatino, Serif;
+	font-size:15px;
+	color:#333;
+	line-height:160%;
+	}
+
+div#topinner a, div#topinner a:visited {
+	text-decoration:underline;
+	font-weight:normal;
+	color:#263359;
+	width:368px;
+	}	
+	
+div#liolegis {
+	width: 220px;
+	padding: 10px;
+	height: 250px;
+	float: left;
+	text-align: center;
+	margin: 0 auto;
+}
+
+
+div#mainlefttext {padding:10px 10px 10px 20px;}	
+
+h2.subheads {
+	font-weight:normal;
+	color:#263359;	
+	font-size:17px;
+	font-family:georgia, Palatino,'Palatino Linotype', 'Book Antiqua', Serif;
+	margin-top:15px !important;
+	margin-left:0px !important;
+	}
+	
+h2.title {
+	font-weight:normal;
+	color:#263359;	
+	font-size:17px;
+	font-family:georgia, Palatino,'Palatino Linotype', 'Book Antiqua', Serif;
+	margin-top:5px !important;
+	margin-left:0px !important;
+	}
+
+h2.subheadsin {
+	font-weight:normal;
+	color:#263359;	
+	font-size:24px;
+	font-family:georgia, Palatino,'Palatino Linotype', 'Book Antiqua', Serif;
+	margin-top:20px !important;
+	margin-left:0px !important;
+	}
+	
+p.date {
+	font-weight:bold;
+	color:#631E25;	
+	font-size:14px;
+	font-family:georgia, Palatino,'Palatino Linotype', 'Book Antiqua', Serif;
+	margin-bottom:-10px;
+	}	
+	
+
+
+div#footer a, div#footer p, div#footer h4 {color:#FFF;}
+
+div#footer h4 {margin-top:0;}	
+	
+h4#searchword {
+	margin-top:12px !important;
+	color:#fff;
+	float:left;
+	}
+
+h4#bio {
+	font-weight:bold;	
+	color:#000;
+	text-transform:none;
+	}
+	
+h2#biohead {
+	color:#631E25;
+	font-weight:bold;	
+	text-transform:none;
+	margin-left: 5px !important;
+	}
+
+ h2#distheading{
+	color:#263359;
+	font-weight:bold;	
+	text-transform:none;
+	margin-top: 0px !important;
+	margin-left: 0px !important;
+	}
+	
+	/* Student Art in Cap stuff */
+	
+.photo { float: left; padding: 15px; height: 180px;}
+
+	/* Miscellaneous Other Styles 	*/	
+
+span.search {
+	font-weight:bold;
+	color:#fff;
+	font-size:11px;
+	margin-bottom:3px;
+	}		
+img#seal {
+	float:right;
+	margin:15px 15px 15px 30px;
+	}
+
+img.biopic {
+	border-color:#000000;
+	border-style: 1px solid;
+	}
+	
+img#navfill {
+	margin-left:-44px;
+	float:left;
+	}
+	
+img#videostill {margin-left:-7px;}
+img#hearit {
+	float:right;
+	margin:5px;
+	}
+	
+input#searchinput {
+	margin-left:10px;
+	margin-top:7px;
+	}
+	
+input#findit {margin-top:7px !important;}
+
+div#innerwrapper h2 {margin-left:20px;}
+
+div#liotitle {
+	width: 771px;
+	text-align: center;
+}
+
+p#liolegislators {
+	text-align: center;
+	font-family: Georgia;
+	font-size: 26px;
+	color: #631E25;
+	margin: 17px 0 17px 0;
+	
+}
+
+.liolinks li {
+	display: inline; 
+	margin-right: 7%;
+	margin-top: 1px;
+}
+
+#lioalert {
+	width: 768px;
+	border:1px solid black;
+	background-color: #f0CFCF;
+}
+	
+
+
+div#downloads {padding:5px 20px;margin-bottom:30px;}
+
+div#downloads hr {background:#ccc;height:1px;border:0;}
+
+div#wmp, div#acrobat {text-align:center;width:150px;float:left;vertical-align:bottom;}
+div#acrobat {margin-top:4px;}
+div#mediadailysch  {padding-right:20px;	width: 368px;}
+
+img.civicsimgs { float:right;clear:right;margin:5px;}
+
+ul#todaysdocs, ul#todaysdocs li, ul#todaysdocs li ul {
+list-style-type:none;
+
+}
+
+ul#olderdocs, ul#olderdocs li, ul#olderdocs li ul  {
+list-style-type:none;
+
+}
+
+ul#last7docs, ul#last7docs li, ul#last7docs li ul  {
+list-style-type:none;
+
+}
+
+.nobullets {
+list-style-type:none;
+
+}
+
+.footer {color: #631E25;}
+
+/* Font Styles -- For what? A little description would go a long way! */
+.style1 {font-size: 10px;}
+.style2 {font-size: 11px;}
+.style4 {font-size: 12px;}
+
+/* Styles for the Wizard */
+
+h3.question{
+	font-weight:normal;
+	color:#263359;	
+	font-size:20px;
+	font-family:georgia, Palatino,'Palatino Linotype', 'Book Antiqua', Serif;
+	margin-left: 10px;
+}
+
+h3.answer{
+	font-weight:normal;
+	font-size:16px;
+	font-family:georgia, Palatino,'Palatino Linotype', 'Book Antiqua', Serif;
+	margin-left: 15px;
+	margin-bottom: -5px;
+}
+
+ /* Cap Updates Slider */
+ 
+div#cap_slider {
+	padding:5px 5px 5px 5px;
+	margin:5px 5px 5px 5px;
+	width:350px;
+	}
+
+.basic a {
+	cursor:pointer;
+	display:block;
+	padding:5px;
+	margin-top: 0;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 12px;
+	color: black;
+	border-top: 1px solid #FFFFFF;
+	border-bottom: 1px solid #999;
+	
+	background-image: url("../images/AccordionTab0.gif");
+}
+.basic a:hover {
+	background-color: white;
+	background-image: url("../images/AccordionTab2.gif");
+}
+.basic a.selected {
+	color: black;
+	background-image: url("../images/AccordionTab2.gif");
+}
+
+.no_a {padding-left:10px; padding-bottom:8px;}
+.no_a a{background-image: none !important;}
+.a_float a{float:left; display:block !important;}
+
+div#bioleft 	{
+	float: left;
+	width: 325px;
+	padding: 0;
+	border: 0;
+	margin: 0;
+	/* False margin value for all versions of IE Win, including 6.0 */	
+	}
+div#bioright	{
+	margin: 0 0 0 371px;
+	padding: 0;
+	width: 325px;
+	border: 0;
+	}
+	
+div.lookup_left{
+	float:left;
+	width:400px;
+	background-color:#FFF;
+	border-right:1px solid black;
+}
+
+div.lookup_right{
+	float:left;
+	width:400px;
+	background-color:#FFF;
+}
+
+.red{
+	color:#F00;
+}
+
+div.lookup-head{
+	border-bottom:1px solid black;
+}
+
+ul.left{
+	list-style-position:inside;
+	text-align:left;
+}
+
+.left {
+	text-align:left;
+}
+
+div.clear{
+	clear:both;
+}
+
+span.link	{
+	cursor: pointer;
+}
+
+#alert {
+	width: 90%;
+	border:1px solid #666;
+	padding: 5px 5px 0px 13px;
+	margin: 10px 5px 0px 5px;
+	background-color: #f0CFCF;
+}
+
+#represent {
+	width:90%;
+	border:1px solid #666;
+	padding: 5px 5px 0px 13px;
+	margin: 0px 5px 0px 0px;
+	background-color: #e4ecff;
+	overflow:hidden;
+}
+
+#represent .display {
+	border: 1px solid #666;
+	background: #dbdbdb;
+	}
+
+#aklbox {
+	width:100%;
+	border:1px solid #666;
+	padding: 5px 5px 0px 13px;
+	margin: 0px 5px 0px -35px;
+	background-color: #e4ecff;
+	overflow:hidden;
+}
+
+.form-text{
+	font-size:10px;
+	color:#666;
+}
+.ajax-lookup{
+	background-color:#FFF;
+	padding: 5px 5px 5px 5px;
+	z-index:500;
+}
+
+ul.scr24 li { 
+	font-size:11px;
+	font-family:verdana, helvetica, arial, sans-serif;
+	line-height:100%;
+	color:#333;
+	margin: 0 0 1em 0;
+	padding-left: 3px;
+	}
+	
+#live li{
+	list-style-type:none;
+}
+
+#noHover:hover {color:white;cursor:default}
+
+ /* house & senate legislator list */
+#legislators{
+	width:680px;
+	margin: 0 auto;	
+}
+
+.leg_float{
+	width:170px;
+	float:left;
+}
+
+.SearchHighlight{
+	font-weight:bold;
+	color:blue;
+} 
+
+/*readmore js css */
+
+.hidden { display:none; }
