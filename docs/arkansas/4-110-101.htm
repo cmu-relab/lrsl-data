@@ -1,0 +1,420 @@
+
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0;" />
+<link  rel="stylesheet" type="text/css" href="/ri/newUIGlobal_22-OCT-2016.css"></link>
+
+
+<LINK REL="stylesheet" TYPE="text/css" HREF="/ri/starpag_22-OCT-2016.css" >
+<LINK REL="stylesheet" TYPE="text/css" HREF="/ri/ldcPopUp_22-OCT-2016.css">
+<LINK REL="stylesheet" TYPE="text/css" HREF="/ri/treeView_22-OCT-2016.css">
+<title>Search - 1 Result - Personal Information Protection Act</title>
+<META NAME="SEARCHHINT" CONTENT="48de36576ebd7b703d2846f00e86a963ecc9456810faef337a3de2b6c54729794d75dbd31228d4e57bf143f10c92c4ef426feaf1985ab093dfbf18485179b96fa85b2a313312856dcfb89a5e35da1db7f4351eeec7379cf12e3d9cac553539ba0be69a38e8309db7b03f03f6b7c8d83f884c4c27511fa076a5549d061e9f7a238145642c0b05483fa2f1f754999a9f6ab1df95e33ac43d4441ea5552665b9a2661188a5ba71c8a375e29cbed14651e973dbf19e6194afc1c">
+<script src="/ri/lnjquery_22-OCT-2016.js" language="JavaScript"></script><script src="/ri/browser_22-OCT-2016.js" language="JavaScript"></script><script src="/ri/ldcDom_utils_22-OCT-2016.js" language="JavaScript"></script><script src="/ri/ettoc_ns6_22-OCT-2016.js" language="JavaScript"></script><script src="/ri/dom_et3_ui_22-OCT-2016.js" language="JavaScript"></script><script src="/ri/ns_me_ui_22-OCT-2016.js" language="JavaScript"></script><script src="/ri/dom_me_ui_22-OCT-2016.js" language="JavaScript"></script><script src="/ri/commonscript_22-OCT-2016.js" language="JavaScript"></script><script src="/ri/browser_22-OCT-2016.js" language="JavaScript"></script>
+
+<SCRIPT language="JavaScript1.2">
+<!--
+
+
+function browseObject() {
+this.lni="5KKK-VND0-01BC-3529-00000-00";
+this.csi="364383";
+this.psl_lni="lni|364383|5KKK-VND0-01BC-3529-00000-00";
+this.svc="toc2doc";
+this.ajuri="";
+this.deyear="";
+this.disablePushme="1";
+this.disableFastPrintPushme="1";
+this.docName="";
+this.cite="";
+this.isgetable="1";
+this.xlinkURL="";
+this.browseURL="/research/retrieve?_m=e880e8bd68ba605c97187fff4518332e&displacement=0&_xfercite=%26%2360%3bcite%20cc%3d%26%2334%3bUSA%26%2334%3b%26%2362%3b%26%2360%3b%21%5bCDATA%5bA.C.A.%20%26%23167%3b%204-110-101%5d%5d%26%2362%3b%26%2360%3b%2fcite%26%2362%3b&_browseType=TEXTONLY&docnum=1&_fmtstr=BOOK&_startdoc=1&wchp=dGLbVzk-zSkAz&_md5=96aaf9dd56cbe5e803a16ad6289c0539";
+this.shepBuddyExpanded="0";
+this.searchHint="";
+this.searchHintWithBar="";
+this.shepBPon="1";
+this.firstCite="0";
+}
+var ln_browse=new browseObject();
+
+
+
+
+
+
+
+function loadHandler()
+{
+//WT: 154544-Start
+restoreViewOption();
+//WT: 154544-End
+if (location.host.indexOf("lexisnexis1.com") > 0) {
+window.name="cui";
+}
+
+self.focus();
+
+
+
+
+}
+
+function resizeHandler()
+{
+
+}
+function viewScript(name ,anchor){
+var loc="uri";
+var args = getWf(loc,anchor.href);
+var format="";
+if (args._fmtstr)
+format = args._fmtstr;
+if(format=="CITE" || format=="XCITE"){
+name="Cite";
+}
+if(format=="FULL"){
+name="Full";
+}
+if(format=="VKWIC" || format == "SKWIC"){
+name="KWIC";
+}
+if(format=="CUSTOM"){
+name="Custom";
+}
+if(format=="DIGEST"){
+name="Digest";
+}
+if(format=="BRIEF"){
+name="Brief";
+}
+if(format=="TTOCHITS"){
+name="TOC Hits";
+}
+if(format=="TOC"){
+name="TOC";
+}
+
+
+
+}
+//-->
+</SCRIPT>
+</head>
+
+<script></script>
+<!-- Begin Fix - Karthika
+Issue:HOTLINE-font colors in text of documents seems to change randomly
+for get a document by citation (irc Sec 401) in IE
+Fix:Interchange the two functions changeFont() and loadHandler()-->
+<body bgcolor="#FFFFFF" topmargin=0 leftmargin=0 rightmargin=0 ID="body"
+marginheight=0 marginwidth=0  onResize="resizeHandler()" onLoad="changeFont();loadHandler();" >
+<!-- End Fix -->
+<div id="globalNavbar">
+
+
+
+<script>
+<!--
+$(document).ready(function(){ 
+
+// Adding onclick to topic trail
+
+$('.truncatedSSA').mouseover(function(){
+//Begin: Fix for webstar 3971359  - Nov 18 - Moses
+$(this).data("truncTrail",$(this).html());
+//End: Fix for webstar 3971359  - Nov 18 - Moses
+$(this).html($(this).data("fullTrail"));
+});
+
+$('.truncatedSSA').mouseout(function(){
+$(this).html($(this).data("truncTrail"));
+});
+
+
+
+
+var arrOfDrodownElement =document.getElementsByName("dropList");
+if(arrOfDrodownElement.length>=2)
+{
+arrOfDrodownElement[1].setAttribute("name","dropList1");
+}
+
+$("select[name='dropList']").change(function(){
+viewname=$("option:selected", this).text();
+url=$("option:selected", this).val()
+anchor = document.createElement("a");
+anchor.setAttribute('href',url);
+anchor.setAttribute('id','dynamicAnchor');
+anchor.setAttribute('style','display:hidden');
+anchor.name='View';
+$(submitview(viewname,anchor));
+});
+
+$("select[name='dropList1']").change(function(){
+
+viewname=$("option:selected", this).text();
+url=$("option:selected", this).val();
+anchor = document.createElement("a");
+anchor.setAttribute('href',url);
+anchor.setAttribute('id','dynamicAnchor');
+anchor.setAttribute('style','display:hidden');
+anchor.name='View';
+$(submitview(viewname,anchor));
+});
+
+
+function submitview(viewname,anchor)
+{
+var newlink = document.getElementById('baseUrlForView');
+var baseUrl = newlink.value;
+if(anchor.href.indexOf(baseUrl) < 0) {
+anchor.href = baseUrl+anchor.href;
+}
+if(viewname== 'Cite')
+{
+//Begin Fix for webstar 3983306 - Nov 2011 - Moses
+// passed an extra argument as an identifier that cite view is selected
+if(window.pNav)
+pNav.preserveDocNo(1, anchor,1);
+//End Fix for webstar 3983306 - Nov 2011 - Moses
+window.setTaggedDocsState(anchor.href,'0','window')
+}
+if(viewname =='Digest')
+{
+if(window.pNav)
+pNav.preserveDocNo(1, anchor);
+window.setTaggedDocsState(anchor.href,'0','window')
+}
+if(viewname== 'Case Brief')
+{
+if(window.pNav)
+pNav.preserveDocNo(0, anchor);
+window.setTaggedDocsState(anchor.href,'0','window')
+}
+if(viewname=='Full'){
+if(window.pNav)
+pNav.preserveDocNo(0, anchor);
+window.setTaggedDocsState(anchor.href,'0','window')
+}
+if(viewname.search('Custom')!=-1){
+if(window.pNav)
+pNav.preserveDocNo(0, anchor);
+window.setTaggedDocsState(anchor.href,'Custom','window')
+}
+if(viewname.search('KWIC')!=-1){
+if(window.pNav)
+pNav.preserveDocNo(0, anchor);
+window.setTaggedDocsState(anchor.href,'0','window')
+}
+
+if(viewname== 'TOC'){
+window.setTaggedDocsState(anchor.href,'0','window');
+return window.pTocHits.persistHitCheckboxes(anchor,'0','window');
+}
+if(viewname =='TOC Hits')
+{
+
+if(window.pToc.tcFormSubmit)
+{
+if (window.pToc.tcOut(anchor, anchor.href))
+{
+window.setTaggedDocsState(anchor.href, '0','window', true);
+window.pToc.tcFormSubmit(anchor, 'citeForm',anchor.href);
+}
+}
+else
+{
+window.setTaggedDocsState(anchor.href,'0','window');
+}
+}
+}
+
+ });
+//-->
+</script>
+
+
+</div>
+<a name="Modeless"></a>
+
+<input type="hidden" id="baseUrlForView" name="baseUrlForView" value= >
+
+
+
+<!-- Hidded field for Dedupe Indication -->
+<INPUT TYPE=hidden ID="dedupeFlag"  NAME="dedupeFlag" VALUE="0">
+<input type="hidden" id="clusterIndicator" value="0">
+<FORM NAME="citeForm" ID="citeForm"  method=get class="brwsMrgnBtm">
+<INPUT TYPE=hidden NAME="pushme" VALUE="1">
+<INPUT TYPE=hidden NAME="tmpFBSel" VALUE="">
+<INPUT TYPE=hidden NAME="totaldocs" VALUE="">
+<INPUT TYPE=hidden NAME="taggedDocs" VALUE="">
+<input type=hidden name=toggleValue VALUE="">
+<INPUT TYPE=hidden NAME="numDocsChked" VALUE="">
+<INPUT TYPE=hidden NAME="prefFBSel" VALUE="0">
+<INPUT TYPE=hidden NAME="delformat" VALUE="BOOK">
+<INPUT TYPE=hidden NAME="fpDocs">
+<INPUT TYPE=hidden NAME="fpNodeId">
+<INPUT TYPE=hidden NAME="fpCiteReq">
+<input type=hidden name="expNewLead" value= id="expandedNewLead" />
+
+
+
+</FORM>
+</table>
+
+
+
+<div ID="bodystyle" class="variable">
+
+
+
+
+
+
+
+
+<div id="lineheight">
+&nbsp;
+</div>
+
+
+
+<div align=center>
+<em>
+A.C.A. § 4-110-101 
+</em>
+
+</div>
+<br>
+<center>Arkansas Code of 1987 Annotated Official Edition<br class="br"/>© 1987-2016 by the State of Arkansas<br class="br"/>All rights reserved.</center><center><br class="br"/><br class="br"/>*** Current through the 2016 Second Extraordinary Session, 2016 Fiscal Session, and 2016 Third Extraordinary Session of the 90th General Assembly. ***</center><center><br class="br"/>Title 4&nbsp;&nbsp;Business and Commercial Law &nbsp;<br class="br"/>Subtitle 7.&nbsp;&nbsp;Consumer Protection &nbsp;<br class="br"/>Chapter 110&nbsp;&nbsp;Personal Information Protection Act</center><center><br class="br"/>A.C.A. § 4-110-101 &nbsp;(2016)</center><br class="br"/><b>4-110-101.&nbsp;&nbsp;Short title.</b><br class="br"/><br class="br"/>&nbsp;&nbsp;This chapter shall be known and cited as the &quot;Personal Information Protection Act&quot;.<br class="br"/><br class="br"/><a class="segh_links" name="SEGH" id="SEGH_HISTORY"><b>HISTORY:</b></a> Acts 2005, No. 1526, § 1.
+
+
+</div>
+<div id="bodyend" style="position:absolute"></div>
+
+
+
+<form name="SubmitText" action="/research/search/mlst/submit" method=post>
+<input type=hidden name="_csort" value="">
+<input type=hidden name="sortFmtstr" value="">
+<input type=hidden name="selectedText" value="This is the first text...">
+<input type=hidden name="pushme" value="1">
+<input type=hidden name="inputdel" value="tccspec">
+<input type=hidden name="statedel" value="_tscspec">
+<INPUT TYPE="hidden" NAME="_stateList" VALUE="selectedText,docnum,_fmtstr,_startdoc,_startch">
+<INPUT TYPE="hidden" NAME="_ansset" VALUE="D-WA-A-A-A-MsSAYWD-UUW-UUYVYAUUU-U-U-U-U-U-U-AVYCZBZAAY-AVYBWAZEAY-DUVWEZZZY-A-U">
+<INPUT TYPE="hidden" NAME="lhnstatus" VALUE="closed">
+<INPUT TYPE="hidden" NAME="lhnwidth" VALUE="295">
+<INPUT TYPE="hidden" NAME="tccspec" VALUE="364383.c7b4293ee5674f209be0b97c04448767">
+<INPUT TYPE="hidden" NAME="_browseType" VALUE="TEXTONLY">
+<INPUT TYPE="hidden" NAME="_fmtstr" VALUE="FULL">
+<INPUT TYPE="hidden" NAME="docnum" VALUE="1">
+<INPUT TYPE="hidden" NAME="displacement" VALUE="0">
+<INPUT TYPE="hidden" NAME="oldFmt" VALUE="">
+<INPUT TYPE="hidden" NAME="oldAlias" VALUE="">
+<INPUT TYPE="hidden" NAME="_startdoc" VALUE="1">
+<INPUT TYPE="hidden" NAME="prevCase" VALUE="">
+<INPUT TYPE="hidden" NAME="prevCite" VALUE="A.C.A. &#167; 4-110-101">
+<INPUT TYPE="hidden" NAME="_session" VALUE="8dad6180-ce04-11e6-9696-e61baa955a37.1.3660495763.1254034.0.0.0">
+<INPUT TYPE="hidden" NAME="_state" VALUE="ORIGINATION_CODE%a400006%a3MIDDLEWARE_CODE%a4LP%a3zone%a4newStateHotTopicZone%a3lhnxlink%a4closed%a3lhnstatus%a4closed%a3hnlink%a4off%a3toclink%a4off%a3_dedupexlink%a4FALSE%a3_delPrivs%a4off%a3_noeslnk%a41%a3_interface%a41%a3docinfo%a4off%a3HIDE_ALL_SEPARATORS%a41%a3histXlink%a41%a3target%a4toc%a3authClient%a4%a3svc%a4toc2doc%a3isTabletRequest%a4false%a3lhnwidth%a4295%a3_search%a4Personal Information Protection Act%a3_form%a4tocslim%a3client%a4%a3_optval%a4110111100101010%a3_orig_tdocs%a42%a3_tcpaset%a4D-CE-A-W-W-MsSAYWD-UUW-UUYVYAUUU-U-U-U-U-U-U-AVYCZBVEEA-AVYBWACDEA-DUVWEAVAU-W-U%a3isNewsSource%a40%a3dedupeOption%a40%a3_xfercite%a4&#60;cite cc=&#34;USA&#34;&#62;&#60;![CDATA[A.C.A. &#167; 4-110-101]]&#62;&#60;/cite&#62;%a3_src%a4364383%a3">
+<INPUT TYPE="hidden" NAME="_bundles" VALUE="%a3forever%a6topframe%a5OFF%a6powernav%a5OFF%a6_kwsz%a525%a6LDCtabList%a53:All,3001038:Criminal Law,3001672:Arkansas,LIST_END%a6cc%a51%a6cls%a51%a6clOvr%a51%a6ochn%a51%a6lawed%a50%a6comphn%a51%a6PNMax%a5showNode%a6snid%a5ldc%a6pp%a5http://web.lexisnexis.com/research/retrieve?_m=4b63c87347981460d9c1f0ead382b363&#38;displacement=0&#38;oldFmt=FULL&#38;oldAlias=4-110-101.%26nbsp%3bShort%20title.&#38;oldtcsvrnid=TAAFAAHAAZAAB&#38;_fmtstr=BOOK&#38;alias=&#38;_stateList=alias&#38;docnum=1&#38;_startdoc=1&#38;wchp=dGLbVzk-zSkAz&#38;_md5=288afb895ead09c563a218e3e6367e7d%a6cp%a5http://web.lexisnexis.com/research/retrieve?_m=e880e8bd68ba605c97187fff4518332e&#38;displacement=0&#38;_xfercite=%26%2360%3bcite%20cc%3d%26%2334%3bUSA%26%2334%3b%26%2362%3b%26%2360%3b%21%5bCDATA%5bA.C.A.%20%26%23167%3b%204-110-101%5d%5d%26%2362%3b%26%2360%3b%2fcite%26%2362%3b&#38;_browseType=TEXTONLY&#38;docnum=1&#38;_fmtstr=BOOK&#38;_startdoc=1&#38;wchp=dGLbVzk-zSkAz&#38;_md5=96aaf9dd56cbe5e803a16ad6289c0539%a6ircEnabled%a5N%a6%a4%a3tabBundle%a6%a4">
+<INPUT TYPE="hidden" NAME="wchp" VALUE="dGLbVzk-zSkAz">
+<INPUT TYPE="hidden" NAME="_md5" VALUE="5baf14d137bd21254583d4ef1d6e3f9b">
+
+</form>
+<br>
+
+
+
+
+
+
+<br>
+<script>
+if (typeof(openFormhelp)=="undefined"){
+function openFormhelp(pageToLoad,winName,width,height,center){
+args=getArgs(width,height,center,0,0,0);
+if ((parseInt(navigator.appVersion) >= 4 ) && (center)){
+if(window.formhelp && !window.formhelp.closed){
+formhelp.close();
+}
+}
+formhelp=window.open(pageToLoad,winName,args);
+return false;
+}
+function getArgs(width,height,center,menu,yoffset,xoffset){
+xposition=0; yposition=0;
+if ((parseInt(navigator.appVersion) >= 4 ) && (center)){
+if (menu==0){
+xposition = (screen.width - width) - 10;
+yposition = (screen.height - height) - 58;
+}
+else if(menu==1){
+xposition = (screen.width - width) / 2;
+yposition = ((screen.height - height) / 2) - 67;
+}
+else if(menu==2){
+xposition = (screen.width - width) / 2;
+yposition = ((screen.height - height) / 2) - 67;
+menu = 0;
+}
+xposition += xoffset;
+yposition += yoffset;
+}
+if (navigator.appName == 'Netscape'){
+width = width + 25;
+height = height + 25;
+}
+args="width="+width+",height="+height
++",toolbar="+menu+",menubar="+menu
++",screenx="+ xposition+",screeny="+yposition
++",left="+xposition+",top="+yposition
++",resizable=1,scrollbars=1,";
+ return args;
+}
+}
+</script>
+<div style="padding-top:20px;padding-bottom:20px">
+<div style="clear:both;text-align:center;vertical-align:middle">
+<a href="http://www.lexisnexis.com" target="home"><img src="/ri/lexis_pagetop_xlink.gif" width=145 height=30 alt="LexisNexis Home" title="LexisNexis Home" border=0 class="bottomlogo"></a>
+<span style="display:inline-block;text-align:left;vertical-align:middle">
+<a href="https://web.lexisnexis.com/research/lnhome/about" target="help" onclick="return openFormhelp('https://web.lexisnexis.com/research/lnhome/about','formhelp',500,375,0)">About LexisNexis</a>
+&nbsp;
+<span class="l3d">
+|
+</span>
+<a href="http://www.lexisnexis.com/en-us/terms/privacy-policy.page" target="help" onclick="return openFormhelp('http://www.lexisnexis.com/en-us/terms/privacy-policy.page','formhelp',500,375,0)">Privacy Policy</a>
+&nbsp;
+<span class="l3d">
+|
+</span>
+<a href="https://web.lexisnexis.com/research/lnhome/terms/general" target="help" onclick="return openFormhelp('https://web.lexisnexis.com/research/lnhome/terms/general','formhelp',500,375,0)">Terms & Conditions</a>
+&nbsp;
+<span class="l3d">
+|
+</span>
+<a href="http://support.lexisnexis.com/contact_us.asp?vcProdName=lexiscom" onclick="return openFormhelp('http://support.lexisnexis.com/contact_us.asp?vcProdName=lexiscom','formhelp',500,375,0)">Contact Us</a>
+&nbsp;
+<br/>
+<span class="footer">
+<a href="https://web.lexisnexis.com/research/lnhome/terms/copyright/" target="help" onclick="return openFormhelp('https://web.lexisnexis.com/research/lnhome/terms/copyright/','formhelp',500,375,0)">Copyright &copy;</a>
+</span>
+&nbsp;2016 LexisNexis, a division of Reed Elsevier Inc. All rights reserved.
+</span>
+</div>
+<span style="padding-right:15px;float:right;margin-top:-35px">
+<a href="http://www.relxgroup.com" target="home"><img src="/ri/OrangeGrey_TM.png" width=145 height=23 alt="relx.com" title="relx.com" border=0 class="bottomlogo"></a>
+</span>
+</div>
+
+
+
+<!-- NPS2.0 - include the div which will be shown on change of sort drop down incombine source search -->
+
+<input type="hidden" id="sortDamataLink" name="sortDamataLink" value="">
+
+</body>
+
+</html>
