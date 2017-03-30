@@ -1,16 +1,16 @@
 4-110-101.  Short title.
 
-  This chapter shall be known and cited as the "Personal Information Protection Act".
+This chapter shall be known and cited as the "Personal Information Protection Act".
 
 4-110-102.  Findings and purpose.
 
-  (a) It is the intent of the General Assembly to ensure that sensitive personal information about Arkansas residents is protected.
+(a) It is the intent of the General Assembly to ensure that sensitive personal information about Arkansas residents is protected.
 
 (b) To that end, the purpose of this chapter is to encourage individuals, businesses, and state agencies that acquire, own, or license personal information about the citizens of the State of Arkansas to provide reasonable security for the information.
 
 4-110-103.  Definitions.
 
-  As used in this chapter:
+As used in this chapter:
 
    (1)  (A) "Breach of the security of the system" means unauthorized acquisition of computerized data that compromises the security, confidentiality, or integrity of personal information maintained by a person or business.
 

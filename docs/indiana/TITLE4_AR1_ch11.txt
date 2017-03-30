@@ -1,0 +1,169 @@
+
+IC 4-1-11
+Chapter 11. Notice of Security Breach
+
+IC 4-1-11-1
+Applicability
+
+Sec. 1. This chapter applies after June 30, 2006.
+As added by P.L.91-2005, SEC.2.
+
+IC 4-1-11-2
+"Breach of the security of the system"
+
+Sec. 2. (a) As used in this chapter, "breach of the security of the
+system" means unauthorized acquisition of computerized data that
+compromises the security, confidentiality, or integrity of personal
+information maintained by a state or local agency.
+
+(b) The term does not include the following:
+(1) Good faith acquisition of personal information by an agency
+or employee of the agency for purposes of the agency, if the
+personal information is not used or subject to further
+unauthorized disclosure.
+(2) Unauthorized acquisition of a portable electronic device on
+which personal information is stored if access to the device is
+protected by a password that has not been disclosed.
+
+As added by P.L.91-2005, SEC.2.
+
+IC 4-1-11-3
+"Personal information"
+
+Sec. 3. (a) As used in this chapter, "personal information" means:
+(1) an individual's:
+
+(A) first name and last name; or
+(B) first initial and last name; and
+
+(2) at least one (1) of the following data elements:
+(A) Social Security number.
+(B) Driver's license number or identification card number.
+(C) Account number, credit card number, debit card number,
+security code, access code, or password of an individual's
+financial account.
+
+(b) The term does not include the following:
+(1) The last four (4) digits of an individual's Social Security
+number.
+(2) Publicly available information that is lawfully made
+available to the public from records of a federal agency or local
+agency.
+
+As added by P.L.91-2005, SEC.2.
+
+IC 4-1-11-4
+"State agency"
+
+Sec. 4. As used in this section "state agency" has the meaning set
+forth in IC 4-1-10-2.
+
+Indiana Code 2016
+
+
+
+As added by P.L.91-2005, SEC.2.
+
+IC 4-1-11-5
+Disclosures of security breach
+
+Sec. 5. (a) Any state agency that owns or licenses computerized
+data that includes personal information shall disclose a breach of the
+security of the system following discovery or notification of the
+breach to any state resident whose unencrypted personal information
+was or is reasonably believed to have been acquired by an
+unauthorized person.
+
+(b) The disclosure of a breach of the security of the system shall
+be made:
+
+(1) without unreasonable delay; and
+(2) consistent with:
+
+(A) the legitimate needs of law enforcement, as described in
+section 7 of this chapter; and
+(B) any measures necessary to:
+
+(i) determine the scope of the breach; and
+(ii) restore the reasonable integrity of the data system.
+
+As added by P.L.91-2005, SEC.2.
+
+IC 4-1-11-6
+Notification to third party owner of security breach
+
+Sec. 6. (a) This section applies to a state agency that maintains
+computerized data that includes personal information that the state
+agency does not own.
+
+(b) If personal information was or is reasonably believed to have
+been acquired by an unauthorized person, the state agency shall
+notify the owner or licensee of the information of a breach of the
+security of the system immediately following discovery. The agency
+shall provide the notice to state residents as required under section
+5 of this chapter.
+As added by P.L.91-2005, SEC.2.
+
+IC 4-1-11-7
+Time requirement for notification
+
+Sec. 7. The notification required by this chapter:
+(1) may be delayed if a law enforcement agency determines that
+the notification will impede a criminal investigation; and
+(2) shall be made after the law enforcement agency determines
+that it will not compromise the investigation.
+
+As added by P.L.91-2005, SEC.2.
+
+IC 4-1-11-8
+Form of notification
+
+Sec. 8. Except as provided in section 9 of this chapter, a state
+agency may provide the notice required under this chapter:
+
+(1) in writing; or
+
+Indiana Code 2016
+
+
+
+(2) by electronic mail, if the individual has provided the state
+agency with the individual's electronic mail address.
+
+As added by P.L.91-2005, SEC.2.
+
+IC 4-1-11-9
+Alternate form of notification
+
+Sec. 9. (a) This section applies if a state agency demonstrates that:
+(1) the cost of providing the notice required under this chapter
+is at least two hundred fifty thousand dollars ($250,000);
+(2) the number of persons to be notified is at least five hundred
+thousand (500,000); or
+(3) the agency does not have sufficient contact information;
+
+the state agency may use an alternate form of notice set forth in
+subsection (b).
+
+(b) A state agency may provide the following alternate forms of
+notice if authorized by subsection (a):
+
+(1) Conspicuous posting of the notice on the state agency's web
+site if the state agency maintains a web site.
+(2) Notification to major statewide media.
+
+As added by P.L.91-2005, SEC.2.
+
+IC 4-1-11-10
+Notification to consumer reporting agencies
+
+Sec. 10. If a state agency is required to provide notice under this
+chapter to more than one thousand (1,000) individuals, the state
+agency shall notify without unreasonable delay all consumer
+reporting agencies (as defined in 15 U.S.C. 1681a) of the distribution
+and content of the notice.
+As added by P.L.91-2005, SEC.2. Amended by P.L.1-2006, SEC.7.
+
+Indiana Code 2016
+
+

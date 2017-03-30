@@ -16,3 +16,8 @@ Consolidated Plain Text Version: ACA_4-110.txt
 This version was created by "plain text copy paste" of the relevant text on the page.
 Note that the "copy paste" excludes "HISTORY:" annotation at the end of each page.
 Of course, the common header and LexisNexis' footer is excluded during the copy paste operation.
+
+To remove unnecessary spaces use following:
+```
+sed 's/^[[:space:]]*//;s/[[:space:]]*$//;/^[[:space:]]*$/d' ACA_4-110.txt > ACA_4-110_nospace.txt
+```

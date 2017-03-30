@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>TITLE  6 - CHAPTER 12B. COMPUTER SECURITY BREACHES</title>
+				
+	<!-- Mark of the Web -->
+	<!-- saved from url=(0014)about:internet -->
+
+	<!-- Backward-compatability scripts -->
+	<!-- Detects available browser features for HTML5 and CSS3 in the browser -->
+	<script src="/private/CLF30/js/modernizr-2.5.3.js"></script>
+
+	<!-- jQuery library calls -->
+	<script src="/private/CLF30/js/jquery-1.5.1.min.js"></script>
+	<script type='text/javascript' src='/usr/js/jquery.min.js'></script>
+  <script type='text/javascript' src='/usr/js/jquery.mobile.customized.min.js'></script>
+  <script type='text/javascript' src='/usr/js/jquery.easing.1.3.js'></script>
+   
+
+	<!-- Smooth Scroll Script for Long Pages of Content -->
+	<script type="text/javascript">
+	$(document).ready(function() {
+  $('a[href*=#]').each(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+    && location.hostname == this.hostname
+    && this.hash.replace(/#/,'') ) {
+      var $targetId = $(this.hash), $targetAnchor = $('[name=' + this.hash.slice(1) +']');
+      var $target = $targetId.length ? $targetId : $targetAnchor.length ? $targetAnchor : false;
+       if ($target) {
+         var targetOffset = $target.offset().top;
+         $(this).click(function() {
+           $('html, body').animate({scrollTop: targetOffset}, 400);
+           return false;
+         	});
+      	  }
+    	}
+ 	 });
+	});
+	</script>
+
+
+    <!-- Page scripts -->
+    <script>    
+    $(document).ready(function () {
+	
+	// Header Bar Items 
+	
+	$(".txtKeyword").click(function() {
+      $("#portalTopBar_shelfSearch").slideDown("slow");
+		  return false;
+  });
+  
+  $(".searchButton").click(function() {
+      var portalTopBarSearchFieldText = document.getElementById("txtKeyword").value;
+      if(portalTopBarSearchFieldText == '') {
+          $("#portalTopBar_shelfSearch").slideDown("slow");
+ } else {
+
+          var searchOption = $('input:radio[name=portalTopBarSearchOption]:checked').val();
+          if(searchOption == 1) {
+              window.location.href = "http://search.delaware.gov/search?as_sitesearch=http%3A%2F%2Fdelcode.delaware.gov&q="+portalTopBarSearchFieldText;
+          } else if(searchOption == 2) {
+              window.location.href = "http://search.delaware.gov/search?as_sitesearch=&q="+portalTopBarSearchFieldText;
+          } else if(searchOption == 3) {
+              window.location.href = "http://www.delaware.gov/phonedirectory/index.php?searchname="+portalTopBarSearchFieldText;
+          }           
+      }
+    return false;    
+  });  
+	
+	$(".servicesButton").click(function(){
+		if ($('#portalTopBar_shelfServices').is(":hidden")) {
+				if ($('#portalTopBar_shelfSearch').is(":visible")) {
+					$('#portalTopBar_shelfSearch').slideUp("slow");
+					$('#portalTopBar_shelfServices').delay(600).slideDown("slow");
+				} else {
+					$("#portalTopBar_shelfServices").slideDown("slow");
+				}
+			} else {
+				$("#portalTopBar_shelfServices").slideUp("slow");
+			}			
+		return false;
+	});
+	
+	
+  
+	/* P2010 LIVEPERSON POPUP WINDOW SCRIPT */
+	function openPopup(url,w,h,winname){var winl=(screen.width - w) / 2;var wint=(screen.height - h) / 2;popupWin=window.open(url,winname,'toolbar=1,location=1,directories=0,status=1,menubar=1,resizable=1,scrollbars=1,top='+wint+',screenY='+wint+',left='+winl+',screenX='+winl+',width='+w+',innerWidth='+w+',height='+h+',innerHeight='+h);}
+
+	
+	// Navigation nav bar state set
+	var navBarState = "closed";
+	var navstr = navBarState;
+	$("#closed").text(navstr);
+	
+	$("#forceDOMredraw").hide();
+       	
+	});
+	
+	
+	
+	// Force DOM Redraw for mobile orientation load and also change and on screen resize
+	 function forceDOMredraw(){
+        $("#forceDOMredraw").show();
+        setTimeout(function () {
+            $("#forceDOMredraw").hide();
+        }, 50);
+        //alert("FPS!");
+    }
+    
+    // Listener for DOM redraw
+    
+    if (window.addEventListener) //DOM method for binding an event
+	window.addEventListener('load', function(){ if(!window.pageYOffset){ forceDOMredraw(); } } );
+	else if (window.attachEvent) //IE 7 support
+	window.attachEvent('load', function(){ if(!window.pageYOffset){ forceDOMredraw(); } } );
+    
+    if (window.addEventListener) //DOM method for binding an event
+	window.addEventListener('orientationchange', forceDOMredraw);
+	else if (window.attachEvent) //IE 7 support
+	window.attachEvent('orientationchange', forceDOMredraw );
+        
+    
+	
+	// Navigation
+	var navBarState = "closed";
+	
+	function collapsing_nav() {
+		$("body").addClass("enhanced");
+		$("#collapsing-nav > li:first").addClass("selected");
+		$("#collapsing-nav > li").not(":first").find("ul").hide();
+		$("#collapsing-nav > li span").click(function() {
+			if ($(this).parent().find("ul").is(":visible")) {
+				$(this).parent().removeClass("selected");
+				$(this).parent().find("ul").slideUp("fast");
+			}
+			else {
+				$(this).parent().addClass("selected");
+				$(this).parent().find("ul").slideDown("fast");
+			}
+		});
+	}
+	
+	$(collapsing_nav);
+
+	function showNavBar() {
+		$("#nav_bar").fadeIn();
+		$("#nav_close_button1").show();
+		$("#nav_open_button1").hide();
+		$("#nav_close_button2").show();
+		$("#nav_open_button2").hide();
+		navBarState = "open";
+		var navstr = navBarState;
+		$("#closed").text(navstr);
+		}
+		
+	function hideNavBar() {
+		$("#nav_bar").fadeOut();
+		$("#nav_close_button1").hide();
+		$("#nav_open_button1").show();
+		$("#nav_close_button2").hide();
+		$("#nav_open_button2").hide();
+		navBarState = "closed";
+		var navstr = navBarState;
+		$("#closed").text(navstr);
+		}
+	
+
+	// Listener for window resizing. On move, reports window size after 100ms delay.
+	$(window).resize(function() {
+		if(this.resizeTO) clearTimeout(this.resizeTO);
+		this.resizeTO = setTimeout(function() {
+			$(this).trigger('resizeEnd');
+		    //alert("update");
+		}, 100);
+	});
+
+	// Receives report for window resize. Performs action.
+	$(window).bind('resizeEnd', function() {
+			
+		// display elements, for testing only		
+		$("#width").text($(this).width());
+		$("#height").text($(this).height());
+			
+		
+		if (   (($(window).width()) < 800 )  &&  (navBarState == "open")  ) {
+			setTimeout(function() {
+			$("#nav_close_button1").fadeIn();
+			$("#nav_open_button1").hide();
+			$("#nav_close_button2").fadeIn();
+			$("#nav_open_button2").hide();
+			},50);
+		}
+		
+		if (   (($(window).width()) > 799 )  &&  (navBarState == "open")  ) {
+			setTimeout(function() {
+			$("#nav_close_button1").hide();
+			$("#nav_open_button1").hide();
+			$("#nav_close_button2").hide();
+			$("#nav_open_button2").hide();
+			},50);
+		}
+		
+		
+		if (   (($(window).width()) < 800 )  &&  (navBarState == "closed")  ) {
+			setTimeout(function() {
+			$("#nav_bar").hide();
+			$("#nav_open_button1").fadeIn();
+			$("#nav_close_button1").hide();
+			$("#nav_open_button2").hide();
+			$("#nav_close_button2").hide();
+			},50);
+		}
+		
+		if (   (($(window).width()) > 799 )  &&  (navBarState == "closed")  ) {
+			setTimeout(function() {
+			$("#nav_close_button1").hide();
+			$("#nav_open_button2").hide();
+			$("#nav_close_button1").hide();
+			$("#nav_open_button1").hide();
+			//$("#nav_bar").fadeIn();
+			},50);
+		}
+		
+		
+		if (   (($(window).width()) < 800 )  ) {
+			if ($('#portalTopBar_shelfServices').is(":visible")) {
+					$('#portalTopBar_shelfServices').slideUp("fast");
+				} 
+		}
+		
+		
+		if (   (($(window).width()) > 799 )  ) {
+			setTimeout(function() {
+			$("#nav_bar").fadeIn();
+			},50);
+		}
+		
+	});
+	
+    </script>
+    
+    
+	<!-- Favorite Icon -->
+	<link rel="shortcut icon" href="/private/CLF30/img/favicon.ico">
+	
+	<!-- Bookmarklets Icon -->
+	<link rel="apple-touch-icon" sizes="57x57" href="/usr/img/apple-icon57.png" />
+	<link rel="apple-touch-icon" sizes="72x72" href="/usr/img/apple-icon72.png" />
+	<link rel="apple-touch-icon" sizes="114x114" href="/usr/img/apple-icon114.png" />
+	
+	<!-- Bootstrap JS -->
+	<script src="/private/CLF30/js/bootstrap.js"></script>
+
+	<!-- Core Stylesheets CLF for Header Bar, Global Images, Forms, and State Footer  -->
+	<link href="/private/CLF30/css/CLF_core.css" rel="stylesheet">
+	<link href="/private/CLF30/css/CLF_core_layout.css" rel="stylesheet">
+	<link href="/private/CLF30/css/CLF_core_images.css" rel="stylesheet">
+	<link href="/private/CLF30/css/CLF_core_forms.css" rel="stylesheet">
+	<link href="/private/CLF30/css/CLF_core_support_retro.css" rel="stylesheet">
+	<link href="/private/CLF30/css/CLF_core_exceptions.css" rel="stylesheet">
+	
+	<!-- Agency Customizable Stylesheet / Includes some images and Customization -->
+	<link href="/usr/css/CLF_agency_styles.css" rel="stylesheet">
+
+	<!-- Font Awesome Icons -->
+  <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+	<!-- stable, iOS/Android viewport command -->
+	<meta name="viewport" content="width=device-width,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+
+	<!-- Agency Scripts and JS Include File -->
+    <script src="/usr/js/CLF_agency_js.js"></script>
+    
+    <!-- Bootstrap Styles -->
+    <link href="/private/CLF30/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="/private/CLF30/css/bootstrap.css" rel="stylesheet">
+    
+    <!-- CSS Media Query retro support IE7, IE8, etc. -->
+	<script src="/private/CLF30/js/respond.min.js"></script>
+
+    <!-- Google Analytics script -->
+	<script type="text/javascript">
+  	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-67562883-1', 'auto');
+	  ga('send', 'pageview');
+	/**
+	* Function that tracks a click on an outbound link in Google Analytics.
+	* This function takes a valid URL string as an argument, and uses that URL string
+	* as the event label.
+	*/
+	var trackOutboundLink = function(url) {
+	   ga('send', 'event', 'outbound', 'click', url, {'hitCallback':
+		 function () {
+		 document.location = url;
+		 }
+	   });
+	}
+	</script>
+</head><body>    <div id="forceDOMredraw"></div>
+	<div id="pw1"><div id="pw2"><div id="pw3"><div id="pw4">
+	<div id="eas1"><div id="eas2"><div id="eas3"><div id="eas4"><div id="eas5"><div id="eas6">	
+	</div></div></div></div></div></div>
+	<header role="banner">
+		<div id="hg1"><div id="hg2"><div id="hg3"><div id="hg4"><div id="hg5"><div id="hg6">
+		<h1 class="semanticHide">State of Delaware - Search and Services/Information</h1>
+			
+			<div id="hg1_l">
+				<div id="sl1"><div id="sl2"><div id="sl3"><div id="sl4">
+					<a href="http://www.delaware.gov"><img src="/private/CLF30/img/CLF_hdr_StateOfDelaware_big2.png" alt="State of Delaware - The Official Website of the First State" title="State of Delaware Web - The Official Website of the First State" class="hdr_StateOfDelaware" /></a>
+					<a href="http://www.delaware.gov"><img src="/private/CLF30/img/CLF_btn_delaware_d2.png" alt="State of Delaware - The Official Website of the First State" title="State of Delaware Web - The Official Website of the First State" class="hdr_StateOfDelawareD" /></a>
+				</div></div></div></div>
+			</div>
+
+			<div id="hg1_r">
+				<div id="searchGroup" role="search">
+					<div id="searchGroupLeft">
+					<label for="txtKeyword" id="search-label">Search:</label>
+						<div id="searchAreaLeft"></div>
+						<div id="searchAreaMiddle"><input id="txtKeyword" type="text" class="txtKeyword"></div>
+						<div id="searchAreaRight"></div>
+					</div>
+					<div id="searchGroupRight">
+						<input onclick="" type="image" class="searchButton" src="/private/CLF30/img/CLF_1px.gif" alt="search">
+					</div>
+				</div>
+				
+				<div id="servicesGroup">
+					<div id="servicesGroupLeft">
+						<a href="#" onclick=""><img src="/private/CLF30/img/CLF_1px.gif" alt="Services and Information" title="Services and Information" class="hdr_servicesLabel" /></a>
+					</div>
+					<div id="servicesGroupRight">
+						<input onclick="" type="image" class="servicesButton" src="/private/CLF30/img/CLF_1px.gif" alt="services">
+					</div>
+				</div>
+				
+				<div id="sGsG_c">
+				</div>
+			</div>
+			
+			<div id="hg1_c">
+			</div>
+		
+				
+		</div></div></div></div></div></div>
+		<!-- TOP BAR SHELVES -->
+			<div id="portalTopBar_shelfSearch" class="hidden">
+				<div id="portalTopBar_shelfSearchWrap">
+					<div id="portalTopBar_shelfSearchSelectors">
+					
+						<div id="portalTopBarSearchOptionLabel1Wrap" class="portalTopBarSearchOptionItemLabel"><input type="radio" name="portalTopBarSearchOption" id="portalTopBarSearchOption1" value="1" checked></div>
+						<div id="portalTopBarSearchOption1Wrap" class="portalTopBarSearchOptionItemButton"><label for="portalTopBarSearchOption1" id="portalTopBarSearchOptionLabel1">This Site</label></div>
+						
+						<div id="portalTopBarSearchOptionLabel2Wrap" class="portalTopBarSearchOptionItemLabel"><input type="radio" name="portalTopBarSearchOption" id="portalTopBarSearchOption2" value="2"></div>
+						<div id="portalTopBarSearchOption2Wrap" class="portalTopBarSearchOptionItemButton"><label for="portalTopBarSearchOption2" id="portalTopBarSearchOptionLabel2">Statewide</label></div>
+						
+						<div id="portalTopBarSearchOptionLabel3Wrap" class="portalTopBarSearchOptionItemLabel"><input type="radio" name="portalTopBarSearchOption" id="portalTopBarSearchOption3" value="3"></div>
+						<div id="portalTopBarSearchOption3Wrap" class="portalTopBarSearchOptionItemButton"><label for="portalTopBarSearchOption3" id="portalTopBarSearchOptionLabel3">Phone Directory</label></div>
+					</div>
+					<div id="portalTopBar_shelfSearchAdvancedLink">
+						
+					</div>
+				</div>
+			</div>
+			
+			<div id="portalTopBar_shelfServices" class="hidden">
+				<div class="portalTopBar_shelfInner">
+					<div class="portalTopBar_shelfInnerInner">
+						<div class="portalShelfLinkColumn LinkColumnQuickLinks">
+							<strong>Citizen Services</strong><br>
+							<a href="https://egov.dnrec.delaware.gov/egovpublic/dnrec/disp?doc=LoginScreen&amp;deptPath=public&amp;op=showDefault&amp;dept=5">Get Park Passes</a><br>
+							<a href="http://www.deldot.gov/information/travel_advisory/">Check Traffic</a><br>
+							<a href="https://egov.dnrec.delaware.gov/egovpublic/dnrec/disp?doc=LoginScreen&amp;deptPath=public&amp;op=showDefault&amp;dept=5">Get Fishing License</a><br>
+							<a href="https://uics.delawareworks.com/Forms/Form_WL1.aspx">Unemployment Claim</a><br>
+							<a href="http://courts.delaware.gov/Help/Traffic/index.stm">Pay Traffic Ticket</a><br>
+							<a href="https://assist.dhss.delaware.gov/">Apply for Services</a><br>
+							<a href="http://delawarestatejobs.com/">Apply for State Job</a><br>
+							<div class="LinkColumnRightMore">+ <a href="http://www.delaware.gov" class="btn-functionBarCitizen">More</a></div>
+						</div>
+						<div class="portalShelfLinkColumn LinkColumnQuickLinks">
+							<strong>Business Services</strong><br>
+							<a href="http://www.delaware.gov/topics/incorporateindelaware">Incorporate</a><br>
+							<a href="http://onestop.delaware.gov/">Register a Business</a><br>
+							<a href="https://delecorp.delaware.gov/tin/EntitySearch.jsp">Name Availability</a><br>
+							<a href="https://delecorp.delaware.gov/tin/GINameSearch.jsp">Search Entity Names</a><br>
+							<a href="http://www.courts.delaware.gov/tradenames/">Search Trade Names</a><br>
+							<a href="https://dorweb.revenue.delaware.gov/scripts/licrenew/licrenew.dll">Renew License</a><br>
+							<a href="https://dorweb.revenue.delaware.gov/bussrch/">Search Licenses</a><br>
+							<div class="LinkColumnRightMore">+ <a href="http://www.delaware.gov" class="btn-functionBarBusiness">More</a></div>
+						</div>
+						<div id="portalShelfLinkColumnTopics" class="portalShelfLinkColumn LinkColumnQuickLinks">
+							<strong>Topics</strong><br>
+							<a href="http://www.delaware.gov/topics/certificates">Certificates</a><br>
+							<a href="http://www.delaware.gov/topics/complaintsreports">Complaints/Reporting</a><br>
+							<a href="http://www.delaware.gov/topics/k12ed">Education (K-12)</a><br>
+							<a href="http://www.delaware.gov/topics/humanservices">Human Services</a><br>
+							<a href="http://www.delaware.gov/topics/legal">Courts &amp; Law</a><br>
+							<a href="http://www.delaware.gov/topics/vehicles">Motor Vehicles</a><br>
+							<a href="http://www.delaware.gov/topics/recreation">Sports &amp; Recreation</a><br>
+							<div class="LinkColumnRightMore">+ <a href="http://www.delaware.gov" class="btn-functionBarTopics">More</a></div>
+						</div>
+						<div id="portalShelfLinkColumnNewsSocialMedia" class="portalShelfLinkColumn LinkColumnQuickLinks">
+							<strong>News</strong><br>
+							<a href="#" class="http://news.delaware.gov">Latest State News</a><br>
+							<br>
+							<strong>Social Media</strong><br>
+							<a href="http://www.delaware.gov/" class="btn-functionBarFacebook">Facebook</a><br>
+							<a href="http://www.delaware.gov/" class="btn-functionBarTwitter">Twitter</a><br>
+							<a href="http://www.delaware.gov/" class="btn-functionBarBlogs">Blogs</a><br>
+							<a href="http://www.delaware.gov/" class="btn-functionBarYouTube">YouTube</a><br>
+							<a href="http://www.delaware.gov/" class="btn-functionBarFlickr">Flickr</a><br>
+						</div>
+						<div class="portalShelfLinkColumn">
+							<strong>Help</strong><br>
+							<a href="http://portal.delaware.gov/help/">24x7 Help Center</a><br>
+							<a href="http://www.delaware211.org/">Delaware 211</a><br>
+							<br>
+							<strong>Live Chat</strong><br>
+							<a href="http://server.iad.liveperson.net/hc/33511087/?cmd=file&amp;file=visitorWantsToChat&amp;site=33511087&amp;byhref=1&amp;SESSIONVAR!skill=Corp_Info&amp;imageUrl=http://portal.delaware.gov/help/images/liveperson/icons/corp/info/" onClick="lpButtonCTTUrl = 'http://server.iad.liveperson.net/hc/33511087/?cmd=file&amp;file=visitorWantsToChat&amp;site=33511087&amp;SESSIONVAR!skill=Corp_Info&amp;imageUrl=http://portal.delaware.gov/help/images/liveperson/icons/corp/info/&amp;referrer='+escape(document.location); lpButtonCTTUrl = (typeof(lpAppendVisitorCookies) != 'undefined' ? lpAppendVisitorCookies(lpButtonCTTUrl) : lpButtonCTTUrl); openPopup(lpButtonCTTUrl,475,400,'chat33511087');return false;">Corporations</a><br>
+							<a href="http://server.iad.liveperson.net/hc/33511087/?cmd=file&amp;file=visitorWantsToChat&amp;site=33511087&amp;byhref=1&amp;SESSIONVAR!skill=Rev_BIT&amp;imageUrl=http://portal.delaware.gov/help/images/liveperson/icons/revenue/taxbus/" onClick="lpButtonCTTUrl = 'http://server.iad.liveperson.net/hc/33511087/?cmd=file&amp;file=visitorWantsToChat&amp;site=33511087&amp;SESSIONVAR!skill=Rev_BIT&amp;imageUrl=http://portal.delaware.gov/help/images/liveperson/icons/revenue/taxbus/&amp;referrer='+escape(document.location); lpButtonCTTUrl = (typeof(lpAppendVisitorCookies) != 'undefined' ? lpAppendVisitorCookies(lpButtonCTTUrl) : lpButtonCTTUrl); openPopup(lpButtonCTTUrl,475,400,'chat33511087');return false;">Revenue</a><br>
+							<a href="http://server.iad.liveperson.net/hc/33511087/?cmd=file&amp;file=visitorWantsToChat&amp;site=33511087&amp;byhref=1&amp;SESSIONVAR!skill=Portal_Help&amp;imageUrl=http://portal.delaware.gov/help/images/liveperson/icons/portal/" onClick="lpButtonCTTUrl = 'http://server.iad.liveperson.net/hc/33511087/?cmd=file&amp;file=visitorWantsToChat&amp;site=33511087&amp;SESSIONVAR!skill=Portal_Help&amp;imageUrl=http://portal.delaware.gov/help/images/liveperson/icons/portal/&amp;referrer='+escape(document.location); lpButtonCTTUrl = (typeof(lpAppendVisitorCookies) != 'undefined' ? lpAppendVisitorCookies(lpButtonCTTUrl) : lpButtonCTTUrl); openPopup(lpButtonCTTUrl,475,400,'chat33511087');return false;">General Questions</a><br>
+						</div>
+						<div class="portalShelfLinkColumn">
+							<strong>Contacts</strong><br>
+							<a href="http://phonedirectory.delaware.gov/">Phone Directory</a><br>
+							<a href="http://legis.delaware.gov/Legislature.nsf/Lookup/Know_Your_Legislators?open&amp;nav=leginfo">Find Your Legislator</a><br>
+							<br>
+							<strong class="secondHeaderShelf">Subscribe</strong><br>
+							<a href="http://subscribe.delaware.gov">E-mail / Text Alerts</a><br>
+							<a href="http://www.delaware.gov/topics/socialmedia">Social Media</a><br>
+							<a href="http://www.delaware.gov/rss/portal.xml">RSS</a>
+						</div>
+						<div class="portalShelfLinkColumn"><strong>Government</strong><br>
+							<a href="http://governor.delaware.gov">Governor</a><br>
+							<a href="http://www.delaware.gov/topics/yourgovernment">Elected Officials</a><br>
+							<a href="http://legis.delaware.gov/">General Assembly</a><br>
+							<a href="http://courts.delaware.gov/">Courts</a><br>
+							<a href="http://www.delaware.gov/topics/agencylist_alpha">State Agencies</a><br>
+							<a href="http://www.delaware.gov/locations/">Cities &amp; Towns</a><br>
+							<div class="LinkColumnRightMore">+ <a href="http://www.delaware.gov/topics/yourgovernment">More</a></div>
+						</div>
+						<div class="portalShelfLinkColumn LinkLastColumn">
+							<strong>State Agencies</strong><br>
+							<a href="http://corp.delaware.gov/">Corporations</a><br>
+							<a href="http://www.dmv.de.gov/">DMV</a><br>
+							<a href="http://www.destateparks.com/">Parks &amp; Recreation</a><br>
+							<a href="http://revenue.delaware.gov/">Revenue</a><br>
+							<a href="http://www.doe.k12.de.us/">Education</a><br>
+							<a href="http://www.visitdelaware.com/">Tourism</a><br>
+							<div class="LinkColumnRightMore">+ <a href="http://www.delaware.gov/topics/agencylist_alpha">More</a></div>
+						</div>
+					</div>
+					<div id="portalShelfLinkColumn_SeeMore" class="portalTopBar_shelfInnerMore"><a href="http://www.delaware.gov">See More at Delaware.gov</a></div>
+				</div>
+			</div>        <!-- To remove the header image sitewide, comment out this file's code. -->
+        <!-- To remove the header image from one page only, comment out the call for this file -->
+				<!--
+        <div id="hgp1"><div id="hgp2"><div id="hgp3"><div id="hgp4"><div id="hgp5"><div id="hgp6">
+		<img src="/private/CLF30/img/CLF_1px.gif" alt="Photo" title="Photo" class="headerPhoto" />
+		</div></div></div></div></div></div>  -->
+		
+	</header>
+	
+	<!-- site title (st) -->
+	<div id="st1"><div id="st2"><div id="st3"><div id="st4"><div style="clear:both"></div>
+	<h2><!-- <a href="http://delcodehms.safesecureweb.com/">Online Delaware Code</a>  --><a href="/index.shtml">Delaware Code Online </a>
+
+</h2></div></div></div></div>
+	
+	<!-- start main content area (mca) -->
+	<div id="mcaw1"><div id="mcaw2"><div id="mcaw3"><div id="mcaw4"><div id="mcaw5"><div id="mcaw6">
+	
+	<!-- start main content area nav (mcanav) -->
+	<div id="mcanav1"><div id="mcanav2"><div id="mcanav3"><div id="mcanav4">
+	<nav id="CLF_nav">
+		<h2 class="semanticHide">Main Menu</h2>
+		
+		<div id="nav_open_button1">
+		    <div class="nav_ob1"><div class="nav_ob2"><div class="nav_ob3"><div class="nav_ob4">
+                <a href="#" onclick="showNavBar();">Main Menu</a>
+            </div></div></div></div>
+            <div class="nav_obi1">
+               <a href="#" onclick="showNavBar();"><img src="/private/CLF30/img/CLF_1px.gif" alt="Open Navigation" title="Open Navigation" class="navButtonOpen"></a>
+            </div>
+		</div>
+		
+		<div id="nav_close_button1">
+		    <div class="nav_cb1"><div class="nav_cb2"><div class="nav_cb3"><div class="nav_cb4">
+                <a href="#" onclick="hideNavBar();">Main Menu</a>
+		    </div></div></div></div>
+		    <div class="nav_cbi1">
+                <a href="#" onclick="hideNavBar();"><img src="/private/CLF30/img/CLF_1px.gif" alt="Close Navigation" title="Close Navigation" class="navButtonClose"></a>
+            </div>
+		</div>
+		
+		<div id="nav_bar">
+<ul id="collapsing-nav" class="CLF_nav_L1">
+  <li id="nav_home"><span class="nav_callout"><a href="/index.shtml">Home</a></span></li> <!-- required -->
+  <li><a href="/information.shtml">Agency Information</a></li>
+  <li><a href="/locations.shtml">Office Locations</a></li>
+  <li><a href="/help/default.shtml" target="_blank">Contact Information</a></li>
+  <li><a href="/links.shtml">Related Links</a></li>
+  <li id="nav_services"><span><span class="CLF_nav_L1_sub nav_callout">Services</span></span>
+    <ul class="CLF_nav_L2">
+      <li><a href="http://regulations.delaware.gov/services/register.shtml">Register of Regulations</a></li>
+      <li><a href="http://regulations.delaware.gov/services/current_issue.shtml" class="subnav">Current Issue</a></li>
+      <li><a href="http://legis.state.de.us/LIS/Register.nsf/Register+Documents?openview&amp;Count=75" target="_blank" class="subnav">Previous Issues</a></li>
+      <li><a href="http://www.delaware.gov/topics/subscribeemail" target="_blank" class="subnav">Subscription Services</a></li>
+      <li><a href="http://regulations.delaware.gov/AdminCode/">Administrative Code</a></li>
+      <li><a href="http://delcode.delaware.gov/">Delaware Code</a></li>
+      <li><a href="http://delcode.delaware.gov/sessionlaws/">Laws of Delaware</a></li>
+      <li><a href="http://charters.delaware.gov/index.shtml">City &amp; Town Charters</a></li>
+      <li><a href="http://regulations.delaware.gov/services/style_manual.shtml">Style Manual</a></li>
+      <li><a href="http://regulations.delaware.gov/services/cumulativetable.shtml">Cumulative Table</a></li>
+      <li><a href="http://regulations.delaware.gov/Tour">Tour of Legislative Hall </a></li>
+    </ul>
+  </li>
+  <li id="nav_information"><span><span class="CLF_nav_L1_sub nav_callout">Information</span></span>
+    <ul class="CLF_nav_L2">
+      <li><a href="http://regulations.delaware.gov/information/citizen.shtml">Citizen Participation</a></li>
+    </ul>
+  </li>
+</ul>
+<br /></div>
+		<div id="nav_open_button2">
+		    <div class="nav_ob1"><div class="nav_ob2"><div class="nav_ob3"><div class="nav_ob4">
+                <a href="#" onclick="showNavBar();">Main Menu</a>
+            </div></div></div></div>
+            <div class="nav_obi1">
+               <a href="#" onclick="showNavBar();"><img src="/private/CLF30/img/CLF_1px.gif" alt="Open Navigation" title="Open Navigation" class="navButtonOpen"></a>
+            </div>
+		</div>
+		
+		<div id="nav_close_button2">
+		    <div class="nav_cb1"><div class="nav_cb2"><div class="nav_cb3"><div class="nav_cb4">
+                <a href="#" onclick="hideNavBar();">Main Menu</a>
+		    </div></div></div></div>
+		    <div class="nav_cbi1">
+                <a href="#" onclick="hideNavBar();"><img src="/private/CLF30/img/CLF_1px.gif" alt="Close Navigation" title="Close Navigation" class="navButtonClose"></a>
+            </div>
+		</div>
+		
+	</nav>
+	</div></div></div></div>
+	<!-- end main content area nav (mcanav) --><!--set ID="CLF_OFF" to disable CLF page styling; --><div id="CLF_ON">
+			<div id="mcauser1">
+				<div class="page_toc_navbar">
+					<nav id="doc-toc">
+						<p id="headnav" style="float:left;">
+							<i class="fa fa-book fa-1x"></i> <a href="/title6/index.shtml">Title 6</a>
+						</p>
+										<p style="float:right;">
+							<i class="fa fa-file-text fa-1x"></i>
+							<a href="../title6.pdf" onclick="trackOutboundLink('../title6.pdf'); return false;">Authenticated PDF </a>
+						</p>
+					</nav>
+				</div>
+				<div id="mcauser2">
+					<div id="mcauser3">
+						<section>
+							<div id="mcauser_hdr1">
+								<div id="mcauser_hdr2">
+									<div id="mcauser_hdr3">
+										<div id="mcauser_hdr4"></div></div></div></div>
+		
+		<!-- start main content area user content sub area (mcauser_cont) -->
+		<div id="mcauser_cont1"><div id="mcauser_cont2"><div id="mcauser_cont3"><div id="mcauser_cont4" role="main">
+		<!-- C O N T E N T   B E L O W   T H I S   L I N E --><nav id="page-toc">
+												<p class="code_sect">
+													<a href="#12B-101">&sect; 12B-101</a>  <a href="#12B-102">&sect; 12B-102</a>  <a href="#12B-103">&sect; 12B-103</a>  <a href="#12B-104">&sect; 12B-104</a>  </p>
+											</nav>
+											<article>
+												<header>
+													<h1 id="h1_1">TITLE 6</h1>
+													<h1 id="h1_2">Commerce and Trade</h1>
+													<h2 id="h2_2">SUBTITLE II</h2>
+													<h2 id="h2_3">Other Laws Relating to Commerce and Trade</h2>
+													<h2 id="h2_4">CHAPTER 12B. COMPUTER SECURITY BREACHES</h2>
+												</header>
+												<br>
+	<a id="12B-101"></a>
+	<p class="section-label">&sect; 12B-101 Definitions.</p>
+		<p class="indent-1 align-none">For purposes of this chapter:</p>
+		<p class="indent-2 align-none">(1)&ensp;"Breach of the security of the system'' means the unauthorized acquisition of unencrypted computerized data that compromises the security, confidentiality, or integrity of personal information maintained by an individual or a commercial entity. Good faith acquisition of personal information by an employee or agent of an individual or a commercial entity for the purposes of the individual or the commercial entity is not a breach of the security of the system, provided that the personal information is not used or subject to further unauthorized disclosure;</p>
+		<p class="indent-2 align-none">(2)&ensp;"Commercial entity'' includes corporations, business trusts, estates, trusts, partnerships, limited partnerships, limited liability partnerships, limited liability companies, associations, organizations, joint ventures, governments, governmental subdivisions, agencies, or instrumentalities, or any other legal entity, whether for profit or not-for-profit;</p>
+		<p class="indent-2 align-none">(3)&ensp;"Notice'' means:</p>
+		<p class="indent-3 align-none">a.&ensp;Written notice;</p>
+		<p class="indent-3 align-none">b.&ensp;Telephonic notice;</p>
+		<p class="indent-3 align-none">c.&ensp;Electronic notice, if the notice provided is consistent with the provisions regarding electronic records and signatures set forth in &sect; 7001 of Title 15 of the United States Code; or</p>
+		<p class="indent-3 align-none">d.&ensp;Substitute notice, if the individual or the commercial entity required to provide notice demonstrates that the cost of providing notice will exceed $75,000, or that the affected class of Delaware residents to be notified exceeds 100,000 residents, or that the individual or the commercial entity does not have sufficient contact information to provide notice. Substitute notice consists of all of the following:</p>
+		<p class="indent-4 align-none">1.&ensp;E-mail notice if the individual or the commercial entity has e-mail addresses for the members of the affected class of Delaware residents; and</p>
+		<p class="indent-4 align-none">2.&ensp;Conspicuous posting of the notice on the web site page of the individual or the commercial entity if the individual or the commercial entity maintains one; and</p>
+		<p class="indent-4 align-none">3.&ensp;Notice to major statewide media.</p>
+		<p class="indent-2 align-none">(4)&ensp;"Personal information'' means a Delaware resident's first name or first initial and last name in combination with any 1 or more of the following data elements that relate to the resident, when either the name or the data elements are not encrypted:</p>
+		<p class="indent-3 align-none">a.&ensp;Social Security number;</p>
+		<p class="indent-3 align-none">b.&ensp;Driver's license number or Delaware Identification Card number; or</p>
+		<p class="indent-3 align-none">c.&ensp;Account number, or credit or debit card number, in combination with any required security code, access code, or password that would permit access to a resident's financial account.</p>
+		<p class="indent-2 align-none">The term "personal information'' does not include publicly available information that is lawfully made available to the general public from federal, state, or local government records;</p>
+		<p class="section-history">
+													<a href="/sessionlaws/ga143/chp061.shtml">75 Del. Laws, c. 61, &sect; 1.</a>; </p>
+	<a id="12B-102"></a>
+	<p class="section-label">&sect; 12B-102 Disclosure of breach of security of computerized personal information by an individual or a commercial entity.</p>
+		<p class="indent-1 align-none">(a)&ensp;An individual or a commercial entity that conducts business in Delaware and that owns or licenses computerized data that includes personal information about a resident of Delaware shall, when it becomes aware of a breach of the security of the system, conduct in good faith a reasonable and prompt investigation to determine the likelihood that personal information has been or will be misused. If the investigation determines that the misuse of information about a Delaware resident has occurred or is reasonably likely to occur, the individual or the commercial entity shall give notice as soon as possible to the affected Delaware resident. Notice must be made in the most expedient time possible and without unreasonable delay, consistent with the legitimate needs of law enforcement and consistent with any measures necessary to determine the scope of the breach and to restore the reasonable integrity of the computerized data system.</p>
+		<p class="indent-1 align-none">(b)&ensp;An individual or a commercial entity that maintains computerized data that includes personal information that the individual or the commercial entity does not own or license shall give notice to and cooperate with the owner or licensee of the information of any breach of the security of the system immediately following discovery of a breach, if misuse of personal information about a Delaware resident occurred or is reasonably likely to occur. Cooperation includes sharing with the owner or licensee information relevant to the breach.</p>
+		<p class="indent-1 align-none">(c)&ensp;Notice required by this chapter may be delayed if a law-enforcement agency determines that the notice will impede a criminal investigation. Notice required by this chapter must be made in good faith, without unreasonable delay and as soon as possible after the law-enforcement agency determines that notification will no longer impede the investigation.</p>
+		<p class="section-history">
+													<a href="/sessionlaws/ga143/chp061.shtml">75 Del. Laws, c. 61, &sect; 1.</a>; </p>
+	<a id="12B-103"></a>
+	<p class="section-label">&sect; 12B-103 Procedures deemed in compliance with security breach requirements.</p>
+		<p class="indent-1 align-none">(a)&ensp;Under this chapter, an individual or a commercial entity that maintains its own notice procedures as part of an information security policy for the treatment of personal information, and whose procedures are otherwise consistent with the timing requirements of this chapter is deemed to be in compliance with the notice requirements of this chapter if the individual or the commercial entity notifies affected Delaware residents in accordance with its policies in the event of a breach of security of the system.</p>
+		<p class="indent-1 align-none">(b)&ensp;Under this chapter, an individual or a commercial entity that is regulated by state or federal law and that maintains procedures for a breach of the security of the system pursuant to the laws, rules, regulations, guidances, or guidelines established by its primary or functional state or federal regulator is deemed to be in compliance with this chapter if the individual or the commercial entity notifies affected Delaware residents in accordance with the maintained procedures when a breach occurs.</p>
+		<p class="section-history">
+													<a href="/sessionlaws/ga143/chp061.shtml">75 Del. Laws, c. 61, &sect; 1.</a>; </p>
+	<a id="12B-104"></a>
+	<p class="section-label">&sect; 12B-104 Violations.</p>
+		<p class="indent-1 align-none">Pursuant to the enforcement duties and powers of the Consumer Protection Division of the Department of Justice under Chapter 25 of Title 29, the Attorney General may bring an action in law or equity to address the violations of this chapter and for other relief that may be appropriate to ensure proper compliance with this chapter or to recover direct economic damages resulting from a violation, or both. The provisions of this chapter are not exclusive and do not relieve an individual or a commercial entity subject to this chapter from compliance with all other applicable provisions of law.</p>
+		<p class="section-history">
+													<a href="/sessionlaws/ga143/chp061.shtml">75 Del. Laws, c. 61, &sect; 1</a>; <a href="/sessionlaws/ga145/chp282.shtml">77 Del. Laws, c. 282, &sect; 16.</a>; </p>
+												<br>
+											</article><!--C O N T E N T   A B O V E   T H I S   L I N E--></div></div></div></div></section></div></div></div></div><!-- end ID="CLF_ON" -->	
+	<!-- mcaw area -->
+	<div id="mcanav_mcauser_bottom"></div>
+	
+	</div></div></div></div></div></div><!-- end divs for mcaw -->
+
+	<footer>
+		<section>
+			<h1 class="semanticHide">Site Footer</h1>
+			
+			<div id="ftr1"><div id="ftr2"><div id="ftr3"><div id="ftr4">
+				
+				<div id="ftra1"><div id="ftra2"><div id="ftra3"><div id="ftra4">
+					<div id="ftra1_l">
+						<a href="/index.shtml"><img src="/usr/img/CLF_ftr_logo_agency_large.png" alt="Logo" title="Logo" class="logo_agency"></a>
+					</div>
+					<div id="ftra1_r">
+						<div id="ftra2_l">
+							<a href="/index.shtml">Delaware Code Online </a>
+						</div>
+						<div id="ftra2_r">
+						<a href="/index.shtml">Home</a> <span class="ftr_bar">|</span> <a href="/help/default.shtml">Contact</a>
+						</div>
+						<div id="ftra3_r">
+							<div class="bar_sm_rss_share1"><div class="bar_sm_rss_share2"><div class="bar_sm_rss_share3"><div class="bar_sm_rss_share4"><div class="bar_sm_rss_share5"><div class="bar_sm_rss_share6">
+    
+    <!-- When no agency-level RSS is available, comment out the span below that contains the rss button -->
+<!-- <span class="bar_sm_rss_btn"><a href="http://linkToRSS"><img src="/private/CLF30/img/CLF_1px.gif" alt="RSS" title="RSS" class="btn_rss"></a></span> -->
+
+    
+<!-- <div class="bar_sm_share_btn"><a href="http://www.addthis.com/bookmark.php?v=250&amp;pub=stateofdelaware" onMouseOver="return addthis_open(this, '', '[URL]', '[TITLE]')" onMouseOut="addthis_close();" onClick="return addthis_sendto()"><img src="/private/CLF30/img/CLF_1px.gif" alt="Bookmark and Share" title="Bookmark and Share" class="btn_share" border="0"></a></div> -->
+			<div class="addthis_share_btn at_orange" style="float:right;">
+            <a href="http://www.addthis.com/bookmark.php?v=250&amp;pub=stateofdelaware" onMouseOver="return addthis_open(this, '', '[URL]', '[TITLE]')" onMouseOut="addthis_close();" onClick="return addthis_sendto()" class="addthis_button_compact"><span>Share</span></a>
+            </div>
+            
+       <!--     <div class="rss_share_btn at_orange" style="float:right; margin-right:10px;">
+            <a href="http://spotlight.blogs.delaware.gov/feed/" class="rss_button_compact"><span>RSS</span></a>
+            </div>  -->
+    <script type="text/javascript">
+        var addthis_options = 'twitter, facebook, wordpress, blogger, stumbleupon, newsvine, digg, delicious, email, more';
+        var addthis_exclude = 'print';
+        var addthis_brand = "Agency Name";
+    </script>
+    <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js?pub=stateofdelaware"></script>
+</div></div></div></div></div></div>						</div>
+						
+						<div id="ftra2_c">
+						</div>
+					</div>
+					<div id="ftra1_c">
+					</div>
+				</div></div></div></div>
+				
+				<div id="ftrs1"><div id="ftrs2"><div id="ftrs3"><div id="ftrs4" role="contentinfo">
+					
+					<div id="ftrs1_r">
+						<div id="ftrs2_l">
+							<a href="http://www.delaware.gov">Delaware.gov</a> <span class="ftr_bar">|</span> <a href="http://www.delaware.gov/help/privacy.shtml">Privacy</a> <span class="ftr_bar">|</span> <a href="http://www.delaware.gov/help/translate.shtml">Translate</a> <span class="ftr_bar">|</span> <a href="http://smu.portal.delaware.gov/cgi-bin/mail.php?contact_us">Contact</a> <span class="ftr_bar">|</span> <a href="http://www.delaware.gov/phonedirectory/">Phone Directory</a>
+						</div>
+						<div id="ftrs2_c">
+						</div>
+					</div>
+					<div id="ftrs1_c">
+					</div>
+				</div></div></div></div>
+			
+			</div></div></div></div>
+		</section>
+	</footer>
+	
+	
+	<!-- end divs for pw -->
+	</div></div></div></div>
+	
+	<!-- bottom curve -->
+	<div id="btm1"><div id="btm2"><div id="btm3"><div id="btm4">
+		<div id="btm_bc1"><div id="btm_bc2"><div id="btm_bc3"><div id="btm_bc4"></div></div></div></div>
+	</div></div></div></div>
+</body></html>
