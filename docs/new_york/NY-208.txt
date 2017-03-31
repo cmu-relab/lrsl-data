@@ -1,0 +1,126 @@
+    §  208.  Notification; person without valid authorization has acquired
+  private information. 1. As used in this  section,  the  following  terms
+  shall have the following meanings:
+    (a)   "Private   information"   shall  mean  personal  information  in
+  combination with any one or more of the following  data  elements,  when
+  either  the personal information or the data element is not encrypted or
+  encrypted with an encryption key that has also been acquired:
+    (1) social security number;
+    (2) driver's license number or non-driver identification card  number;
+  or
+    (3)  account  number, credit or debit card number, in combination with
+  any required security code, access code, or password which would  permit
+  access to an individual's financial account.
+    "Private  information" does not include publicly available information
+  that is lawfully made available to  the  general  public  from  federal,
+  state, or local government records.
+    (b)  "Breach  of  the  security of the system" shall mean unauthorized
+  acquisition or acquisition without valid authorization  of  computerized
+  data  which  compromises  the security, confidentiality, or integrity of
+  personal  information  maintained  by  a  state   entity.   Good   faith
+  acquisition  of  personal information by an employee or agent of a state
+  entity for the purposes of the agency is not a breach of the security of
+  the system, provided that the private information is not used or subject
+  to unauthorized disclosure.
+    In determining whether information has been acquired, or is reasonably
+  believed to have been acquired, by an unauthorized person  or  a  person
+  without   valid  authorization,  such  state  entity  may  consider  the
+  following factors, among others:
+    (1) indications that the information is in the physical possession and
+  control of an unauthorized person, such as a lost or stolen computer  or
+  other device containing information; or
+    (2) indications that the information has been downloaded or copied; or
+    (3)  indications  that  the  information  was  used by an unauthorized
+  person, such as fraudulent accounts  opened  or  instances  of  identity
+  theft reported.
+    (c)  "State  entity"  shall  mean  any  state board, bureau, division,
+  committee, commission, council,  department,  public  authority,  public
+  benefit  corporation,  office  or other governmental entity performing a
+  governmental or proprietary function for the state of New York, except:
+    (1) the judiciary; and
+    (2) all cities, counties, municipalities, villages, towns,  and  other
+  local agencies.
+    (d)  "Consumer  reporting  agency"  shall  mean  any person which, for
+  monetary fees, dues, or on  a  cooperative  nonprofit  basis,  regularly
+  engages  in whole or in part in the practice of assembling or evaluating
+  consumer credit information or other information on  consumers  for  the
+  purpose  of furnishing consumer reports to third parties, and which uses
+  any means  or  facility  of  interstate  commerce  for  the  purpose  of
+  preparing  or  furnishing consumer reports. A list of consumer reporting
+  agencies shall be compiled by the state attorney general  and  furnished
+  upon  request  to  state  entities required to make a notification under
+  subdivision two of this section.
+    2. Any state entity that  owns  or  licenses  computerized  data  that
+  includes  private  information shall disclose any breach of the security
+  of the system following discovery or notification of the breach  in  the
+  security  of  the system to any resident of New York state whose private
+  information was, or is reasonably believed to have been, acquired  by  a
+  person  without valid authorization. The disclosure shall be made in the
+
+  most expedient time possible and without unreasonable delay,  consistent
+  with the legitimate needs of law enforcement, as provided in subdivision
+  four  of  this section, or any measures necessary to determine the scope
+  of  the  breach and restore the reasonable integrity of the data system.
+  The state entity shall consult with  the  state  office  of  information
+  technology services to determine the scope of the breach and restoration
+  measures.
+    3.  Any  state  entity  that maintains computerized data that includes
+  private information which such agency does  not  own  shall  notify  the
+  owner  or  licensee  of the information of any breach of the security of
+  the system immediately following discovery, if the  private  information
+  was,  or  is  reasonably  believed  to  have  been, acquired by a person
+  without valid authorization.
+    4. The notification required by this section may be delayed if  a  law
+  enforcement  agency determines that such notification impedes a criminal
+  investigation. The notification required by this section shall  be  made
+  after such law enforcement agency determines that such notification does
+  not compromise such investigation.
+    5.  The  notice required by this section shall be directly provided to
+  the affected persons by one of the following methods:
+    (a) written notice;
+    (b) electronic notice, provided that the  person  to  whom  notice  is
+  required  has expressly consented to receiving said notice in electronic
+  form and a log of each such notification is kept by the state entity who
+  notifies affected persons in such form; provided further, however,  that
+  in  no  case shall any person or business require a person to consent to
+  accepting said notice in said form as a condition  of  establishing  any
+  business relationship or engaging in any transaction;
+    (c)   telephone   notification  provided  that  a  log  of  each  such
+  notification is kept by the state entity who notifies affected  persons;
+  or
+    (d)  Substitute  notice,  if  a state entity demonstrates to the state
+  attorney general that the cost of  providing  notice  would  exceed  two
+  hundred  fifty  thousand  dollars, or that the affected class of subject
+  persons to be notified exceeds five hundred  thousand,  or  such  agency
+  does  not  have  sufficient contact information. Substitute notice shall
+  consist of all of the following:
+    (1) e-mail notice when such state entity has an e-mail address for the
+  subject persons;
+    (2) conspicuous posting of the notice on such state entity's web  site
+  page, if such agency maintains one; and
+    (3) notification to major statewide media.
+    6.  Regardless  of the method by which notice is provided, such notice
+  shall include contact  information  for  the  state  entity  making  the
+  notification  and  a  description  of the categories of information that
+  were, or are reasonably believed to have  been,  acquired  by  a  person
+  without  valid  authorization,  including  specification of which of the
+  elements of personal information and private information  were,  or  are
+  reasonably believed to have been, so acquired.
+    7.  (a)  In  the event that any New York residents are to be notified,
+  the state entity shall notify the state attorney general, the department
+  of state and the state office of information technology services  as  to
+  the  timing,  content  and  distribution  of the notices and approximate
+  number of affected persons. Such notice shall be made  without  delaying
+  notice to affected New York residents.
+    (b)  In  the event that more than five thousand New York residents are
+  to be notified at one time, the state entity shall also notify  consumer
+  reporting  agencies  as  to  the timing, content and distribution of the
+
+  notices and approximate number of affected persons. Such notice shall be
+  made without delaying notice to affected New York residents.
+    8.  Any  entity  listed  in  subparagraph  two  of  paragraph  (c)  of
+  subdivision one of this section shall adopt  a  notification  policy  no
+  more  than  one  hundred  twenty  days  after the effective date of this
+  section.  Such  entity  may  develop  a  notification  policy  which  is
+  consistent  with  this  section or alternatively shall adopt a local law
+  which is consistent with this section.
