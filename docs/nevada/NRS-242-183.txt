@@ -1,0 +1,7 @@
+      NRS 242.183  Investigation, resolution and notification of certain breaches or applications of information systems or certain unauthorized acquisitions of computerized data.
+
+      1.  The Chief of the Office of Information Security shall investigate and resolve any breach of an information system of a state agency or elected officer that uses the equipment or services of the Division or an application of such an information system or unauthorized acquisition of computerized data that materially compromises the security, confidentiality or integrity of such an information system.
+
+      2.  The Administrator or Chief of the Office of Information Security, at his or her discretion, may inform members of the Technological Crime Advisory Board created by NRS 205A.040, the Nevada Commission on Homeland Security created by NRS 239C.120 and the Information Technology Advisory Board created by NRS 242.122 of any breach of an information system of a state agency or elected officer or application of such an information system or unauthorized acquisition of computerized data that materially compromises the security, confidentiality or integrity of such an information system.
+
+      (Added to NRS by 2011, 1858)

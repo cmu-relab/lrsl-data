@@ -1,0 +1,87 @@
+ 87-801. Act, how cited.
+
+Sections 87-801 to 87-807 shall be known and may be cited as the Financial Data Protection and Consumer Notification of Data Security Breach Act of 2006.
+
+87-802. Terms, defined.
+
+For purposes of the Financial Data Protection and Consumer Notification of Data Security Breach Act of 2006:
+
+(1) Breach of the security of the system means the unauthorized acquisition of unencrypted computerized data that compromises the security, confidentiality, or integrity of personal information maintained by an individual or a commercial entity. Good faith acquisition of personal information by an employee or agent of an individual or a commercial entity for the purposes of the individual or the commercial entity is not a breach of the security of the system if the personal information is not used or subject to further unauthorized disclosure. Acquisition of personal information pursuant to a search warrant, subpoena, or other court order or pursuant to a subpoena or order of a state agency is not a breach of the security of the system;
+
+(2) Commercial entity includes a corporation, business trust, estate, trust, partnership, limited partnership, limited liability partnership, limited liability company, association, organization, joint venture, government, governmental subdivision, agency, or instrumentality, or any other legal entity, whether for profit or not for profit;
+
+(3) Encrypted means converted by use of an algorithmic process to transform data into a form in which the data is rendered unreadable or unusable without use of a confidential process or key. Data shall not be considered encrypted if the confidential process or key was or is reasonably believed to have been acquired as a result of the breach of the security of the system;
+
+(4) Notice means:
+
+(a) Written notice;
+
+(b) Telephonic notice;
+
+(c) Electronic notice, if the notice provided is consistent with the provisions regarding electronic records and signatures set forth in 15 U.S.C. 7001, as such section existed on January 1, 2006;
+
+(d) Substitute notice, if the individual or commercial entity required to provide notice demonstrates that the cost of providing notice will exceed seventy-five thousand dollars, that the affected class of Nebraska residents to be notified exceeds one hundred thousand residents, or that the individual or commercial entity does not have sufficient contact information to provide notice. Substitute notice under this subdivision requires all of the following:
+
+(i) Electronic mail notice if the individual or commercial entity has electronic mail addresses for the members of the affected class of Nebraska residents;
+
+(ii) Conspicuous posting of the notice on the web site of the individual or commercial entity if the individual or commercial entity maintains a web site; and
+
+(iii) Notice to major statewide media outlets; or
+
+(e) Substitute notice, if the individual or commercial entity required to provide notice has ten employees or fewer and demonstrates that the cost of providing notice will exceed ten thousand dollars. Substitute notice under this subdivision requires all of the following:
+
+(i) Electronic mail notice if the individual or commercial entity has electronic mail addresses for the members of the affected class of Nebraska residents;
+
+(ii) Notification by a paid advertisement in a local newspaper that is distributed in the geographic area in which the individual or commercial entity is located, which advertisement shall be of sufficient size that it covers at least one-quarter of a page in the newspaper and shall be published in the newspaper at least once a week for three consecutive weeks;
+
+(iii) Conspicuous posting of the notice on the web site of the individual or commercial entity if the individual or commercial entity maintains a web site; and
+
+(iv) Notification to major media outlets in the geographic area in which the individual or commercial entity is located;
+
+(5) Personal information means either of the following:
+
+(a) A Nebraska resident's first name or first initial and last name in combination with any one or more of the following data elements that relate to the resident if either the name or the data elements are not encrypted, redacted, or otherwise altered by any method or technology in such a manner that the name or data elements are unreadable:
+
+(i) Social security number;
+
+(ii) Motor vehicle operator's license number or state identification card number;
+
+(iii) Account number or credit or debit card number, in combination with any required security code, access code, or password that would permit access to a resident's financial account;
+
+(iv) Unique electronic identification number or routing code, in combination with any required security code, access code, or password; or
+
+(v) Unique biometric data, such as a fingerprint, voice print, or retina or iris image, or other unique physical representation; or
+
+(b) A user name or email address, in combination with a password or security question and answer, that would permit access to an online account.
+
+Personal information does not include publicly available information that is lawfully made available to the general public from federal, state, or local government records; and
+
+(6) Redact means to alter or truncate data such that no more than the last four digits of a social security number, motor vehicle operator's license number, state identification card number, or account number is accessible as part of the personal information.
+
+87-803. Breach of security; investigation; notice to resident; notice to Attorney General.
+
+(1) An individual or a commercial entity that conducts business in Nebraska and that owns or licenses computerized data that includes personal information about a resident of Nebraska shall, when it becomes aware of a breach of the security of the system, conduct in good faith a reasonable and prompt investigation to determine the likelihood that personal information has been or will be used for an unauthorized purpose. If the investigation determines that the use of information about a Nebraska resident for an unauthorized purpose has occurred or is reasonably likely to occur, the individual or commercial entity shall give notice to the affected Nebraska resident. Notice shall be made as soon as possible and without unreasonable delay, consistent with the legitimate needs of law enforcement and consistent with any measures necessary to determine the scope of the breach and to restore the reasonable integrity of the computerized data system.
+
+(2) If notice of a breach of security of the system is required by subsection (1) of this section, the individual or commercial entity shall also, not later than the time when notice is provided to the Nebraska resident, provide notice of the breach of security of the system to the Attorney General.
+
+(3) An individual or a commercial entity that maintains computerized data that includes personal information that the individual or commercial entity does not own or license shall give notice to and cooperate with the owner or licensee of the information of any breach of the security of the system when it becomes aware of a breach if use of personal information about a Nebraska resident for an unauthorized purpose occurred or is reasonably likely to occur. Cooperation includes, but is not limited to, sharing with the owner or licensee information relevant to the breach, not including information proprietary to the individual or commercial entity.
+
+(4) Notice required by this section may be delayed if a law enforcement agency determines that the notice will impede a criminal investigation. Notice shall be made in good faith, without unreasonable delay, and as soon as possible after the law enforcement agency determines that notification will no longer impede the investigation.
+
+87-804. Compliance with notice requirements; manner.
+
+(1) An individual or a commercial entity that maintains its own notice procedures which are part of an information security policy for the treatment of personal information and which are otherwise consistent with the timing requirements of section 87-803, is deemed to be in compliance with the notice requirements of section 87-803 if the individual or the commercial entity notifies affected Nebraska residents and the Attorney General in accordance with its notice procedures in the event of a breach of the security of the system.
+
+(2) An individual or a commercial entity that is regulated by state or federal law and that maintains procedures for a breach of the security of the system pursuant to the laws, rules, regulations, guidances, or guidelines established by its primary or functional state or federal regulator is deemed to be in compliance with section 87-803 if the individual or commercial entity notifies affected Nebraska residents and the Attorney General in accordance with the maintained procedures in the event of a breach of the security of the system.
+
+87-805. Waiver; void and unenforceable.
+
+Any waiver of the provisions of the Financial Data Protection and Consumer Notification of Data Security Breach Act of 2006 is contrary to public policy and is void and unenforceable.
+
+87-806. Attorney General; powers.
+
+For purposes of the Financial Data Protection and Consumer Notification of Data Security Breach Act of 2006, the Attorney General may issue subpoenas and seek and recover direct economic damages for each affected Nebraska resident injured by a violation of the act.
+
+87-807. Act; applicability.
+
+The Financial Data Protection and Consumer Notification of Data Security Breach Act of 2006 applies to the discovery of or notification pertaining to a breach of the security of the system that occurs on or after July 14, 2006.
