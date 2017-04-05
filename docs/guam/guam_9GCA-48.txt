@@ -1,187 +1,44 @@
-COL 052809
-9 GCA CRIMES AND CORRECTIONS
-CH. 48 NOTIFICATION OF BREACHES OF PERSONAL INFORMATION
-1
-CHAPTER 48
-NOTIFICATION OF BREACHES OF PERSONAL INFORMATION
-SOURCE: This entire chapter added by P.L. 30-004:1 (Mar. 13, 2009).
-2009 COMMENT: See § 48.70 for the effective date of this Chapter.
-§ 48.10. Legislative Findings and Intent.
-§ 48.20. Definitions.
-§ 48.30. Disclosure of Breach of Security of Computerized Personal
-Information by an Individual or Entity.
-§ 48.40. Procedures Deemed in Compliance with Security Breach
-Requirements.
-§ 48.50. Violations.
-§ 48.60. Applicability.
-§ 48.70. Effective Date.
-§ 48.80. Preemption.
 § 48.10.  Legislative Findings and Intent.
-I Liheslaturan Guåhan finds that both public and private entities on
-Guam have a duty to safeguard personal information that, if stolen or
-publicized, may result in crimes such as fraud and identity theft.  The
-anonymity of the global internet, that transcends the borders of sovereign
-nations, makes it possible for unscrupulous individuals to profit from the
-theft of personal information and never be brought to justice for their crimes
-or made to pay restitution.  Therefore, it is incumbent upon all entities that
-are entrusted with such data to maintain strong security systems to ensure
-that the personal information will always be protected.
-It is the intent of I Liheslatura to ensure that the personal information
-of the residents of Guam is protected, by providing procedures for
-notification of security breaches related to personal information and thereby
-encouraging individuals and commercial entities, as defined by public law,
-to provide reasonable security for unencrypted personal information.
+I Liheslaturan Guåhan finds that both public and private entities on Guam have a duty to safeguard personal information that, if stolen or publicized, may result in crimes such as fraud and identity theft.  The anonymity of the global internet, that transcends the borders of sovereign nations, makes it possible for unscrupulous individuals to profit from the theft of personal information and never be brought to justice for their crimes or made to pay restitution.  Therefore, it is incumbent upon all entities that are entrusted with such data to maintain strong security systems to ensure that the personal information will always be protected.  It is the intent of I Liheslatura to ensure that the personal information of the residents of Guam is protected, by providing procedures for notification of security breaches related to personal information and thereby encouraging individuals and commercial entities, as defined by public law, to provide reasonable security for unencrypted personal information.
 § 48.20.  Definitions.
 As used in this Chapter:
-(a) Breach of the security of a system means the unauthorized access
-and acquisition of unencrypted and unredacted computerized data that
-compromises the security or confidentiality of personal information
-maintained by an individual or entity as part of a database of personal
-COL 052809
-9 GCA CRIMES AND CORRECTIONS
-CH. 48 NOTIFICATION OF BREACHES OF PERSONAL INFORMATION
-2
-information regarding multiple individuals and that causes, or the individual
-or entity reasonably believes has caused or will cause, identity theft or other
-fraud to any resident of Guam.
-Good faith acquisition of personal information by an employee or
-agent of an individual or entity for the purposes of the individual or the
-entity is not a breach of the security of the system, provided, that the
-personal information is not used for a purpose other than a lawful purpose
-of the individual or entity or subject to further unauthorized disclosure.
-(b) Entity includes corporations, business trusts, estates, partnerships,
-limited partnerships, limited liability partnerships, limited liability
-companies, associations, organizations, joint ventures, governments,
-governmental subdivisions, agencies, or instrumentalities, or any other legal
-entity, whether for profit or not-for-profit.
-(c) Encrypted means transformation of data through the use of an
-algorithmic process into a form in which there is a low probability of
-assigning meaning without the use of a confidential process or key, or
-securing the information by another method that renders the data elements
-unreadable or unusable.
-(d) Financial institution has the meaning given that term in Section
-6809(3) of Title 15, United States Code.
+(a) Breach of the security of a system means the unauthorized access and acquisition of unencrypted and unredacted computerized data that compromises the security or confidentiality of personal information maintained by an individual or entity as part of a database of personal information regarding multiple individuals and that causes, or the individual or entity reasonably believes has caused or will cause, identity theft or other fraud to any resident of Guam.  Good faith acquisition of personal information by an employee or agent of an individual or entity for the purposes of the individual or the entity is not a breach of the security of the system, provided, that the personal information is not used for a purpose other than a lawful purpose of the individual or entity or subject to further unauthorized disclosure.
+(b) Entity includes corporations, business trusts, estates, partnerships, limited partnerships, limited liability partnerships, limited liability companies, associations, organizations, joint ventures, governments, governmental subdivisions, agencies, or instrumentalities, or any other legal entity, whether for profit or not-for-profit.
+(c) Encrypted means transformation of data through the use of an algorithmic process into a form in which there is a low probability of assigning meaning without the use of a confidential process or key, or securing the information by another method that renders the data elements unreadable or unusable.
+(d) Financial institution has the meaning given that term in Section 6809(3) of Title 15, United States Code.
 (e) Individual means a natural person.
-(f) Personal information means the first name, or first initial, and last
-name in combination with and linked to any one or more of the following
-data elements that relate to a resident of Guam, when the data elements are
-neither encrypted nor redacted:
+(f) Personal information means the first name, or first initial, and last name in combination with and linked to any one or more of the following data elements that relate to a resident of Guam, when the data elements are neither encrypted nor redacted:
 (1) Social Security number;
-(2 )Driver’s license number or Guam identification card number
-issued in lieu of a driver’s license; or
-(3) Financial account number, or credit card or debit card
-number, in combination with any required security code, access code,
-or password that would permit access to a resident’s financial
-accounts.
-(4) The term does not include information that is lawfully
-obtained from publicly available information, or from Federal, State,
-COL 052809
-9 GCA CRIMES AND CORRECTIONS
-CH. 48 NOTIFICATION OF BREACHES OF PERSONAL INFORMATION
-3
-or local government records lawfully made available to the general
-public.
+(2) Driver’s license number or Guam identification card number issued in lieu of a driver’s license; or
+(3) Financial account number, or credit card or debit card number, in combination with any required security code, access code, or password that would permit access to a resident’s financial accounts.
+(4) The term does not include information that is lawfully obtained from publicly available information, or from Federal, State, or local government records lawfully made available to the general public.
 (g) Notice means:
-(1) Written notice to the postal address in the records of the
-individual or entity;
+(1) Written notice to the postal address in the records of the individual or entity;
 (2) Telephone notice;
 (3) Electronic notice; or
-(4) Substitute notice, if the individual or the entity required to
-provide notice demonstrates that the cost of providing notice will
-exceed Ten Thousand Dollars ($10,000), or that the affected class of
-residents to be notified exceeds five thousand (5,000) persons, or that
-the individual or the entity does not have sufficient contact information
-or consent to provide notice as described in paragraphs 1, 2, or 3.
-Substitute notice consists of any two (2) of the following:
-(A) E-mail notice if the individual or the entity has e-mail
-addresses for the members of the affected class of residents;
-(B) Conspicuous posting of the notice on the Website of the
-individual or the entity, if the individual or the commercial entity
-maintains a Website; and
+(4) Substitute notice, if the individual or the entity required to provide notice demonstrates that the cost of providing notice will exceed Ten Thousand Dollars ($10,000), or that the affected class of residents to be notified exceeds five thousand (5,000) persons, or that the individual or the entity does not have sufficient contact information or consent to provide notice as described in paragraphs 1, 2, or 3.  Substitute notice consists of any two (2) of the following:
+(A) E-mail notice if the individual or the entity has e-mail addresses for the members of the affected class of residents;
+(B) Conspicuous posting of the notice on the Website of the individual or the entity, if the individual or the commercial entity maintains a Website; and
 (C) Notice to major Guam media.
-(h) Redact means alteration or truncation of data such that no more
-than the following are accessible as part of the personal information:
+(h) Redact means alteration or truncation of data such that no more than the following are accessible as part of the personal information:
 (1) five (5) digits of a Social Security Number, or
-(2) The last four (4) digits of a driver's license number, Guam
-identification card number or financial account number.
-§ 48.30.  Disclosure of Breach of Security of Computerized Personal
-Information by an Individual or Entity.
-(a)  General Rule.  An individual or entity that owns or licenses
-computerized data that includes personal information shall disclose any
-breach of the security of the system following discovery or notification of
-the breach of the security of the system to any resident of Guam whose
-unencrypted and unredacted personal information was or is reasonably
-believed to have been accessed and acquired by an unauthorized person and
-COL 052809
-9 GCA CRIMES AND CORRECTIONS
-CH. 48 NOTIFICATION OF BREACHES OF PERSONAL INFORMATION
-4
-that causes, or the individual or entity reasonably believes has caused or
-will cause, identity theft or other fraud to any resident of Guam.  Except as
-provided in subsection (d) of this Section, or in order to take any measures
-necessary to determine the scope of the breach and to restore the reasonable
-integrity of the system, the disclosure shall be made without unreasonable
-delay.
-(b)  Encrypted Information.  An individual or entity must disclose
-the breach of the security of the system if encrypted information is accessed
-and acquired in an unencrypted form, or if the security breach involves a
-person with access to the encryption key and the individual or entity
-reasonably believes that such breach has caused or will cause identity theft
-or other fraud to any resident of Guam.
-(c)  An individual or entity that maintains computerized data that
-includes personal information that the individual or entity does not own or
-license shall notify the owner or licensee of the information of any breach
-of the security of the system as soon as practicable following discovery, if
-the personal information was, or if the entity reasonably believes was,
-accessed and acquired by an unauthorized person.
-(d)  Notice required by this Section may be delayed if a law
-enforcement agency determines and advises the individual or entity that the
-notice will impede a criminal or civil investigation, or homeland or national
-security. Notice required by this Section must be made without
-unreasonable delay after the law enforcement agency determines that
-notification will no longer impede the investigation or jeopardize national
-or homeland security.
-§ 48.40. Procedures Deemed in Compliance with Security Breach
-Requirements.
-(a) Information Privacy or Security Policy. An entity that maintains
-its own notification procedures as part of an information privacy or security
-policy for the treatment of personal information and that are consistent with
-the timing requirements of this Chapter shall be deemed to be in compliance
-with the notification requirements of this Chapter if it notifies residents of
-Guam in accordance with its procedures in the event of a breach of security
-of the system.
+(2) The last four (4) digits of a driver's license number, Guam identification card number or financial account number.
+§ 48.30.  Disclosure of Breach of Security of Computerized Personal Information by an Individual or Entity.
+(a)  General Rule.  An individual or entity that owns or licenses computerized data that includes personal information shall disclose any breach of the security of the system following discovery or notification of the breach of the security of the system to any resident of Guam whose unencrypted and unredacted personal information was or is reasonably believed to have been accessed and acquired by an unauthorized person and that causes, or the individual or entity reasonably believes has caused or will cause, identity theft or other fraud to any resident of Guam.  Except as provided in subsection (d) of this Section, or in order to take any measures necessary to determine the scope of the breach and to restore the reasonable integrity of the system, the disclosure shall be made without unreasonable delay.
+(b)  Encrypted Information.  An individual or entity must disclose the breach of the security of the system if encrypted information is accessed and acquired in an unencrypted form, or if the security breach involves a person with access to the encryption key and the individual or entity reasonably believes that such breach has caused or will cause identity theft or other fraud to any resident of Guam.
+(c)  An individual or entity that maintains computerized data that includes personal information that the individual or entity does not own or license shall notify the owner or licensee of the information of any breach of the security of the system as soon as practicable following discovery, if the personal information was, or if the entity reasonably believes was, accessed and acquired by an unauthorized person.
+(d)  Notice required by this Section may be delayed if a law enforcement agency determines and advises the individual or entity that the notice will impede a criminal or civil investigation, or homeland or national security. Notice required by this Section must be made without unreasonable delay after the law enforcement agency determines that notification will no longer impede the investigation or jeopardize national or homeland security.
+§ 48.40. Procedures Deemed in Compliance with Security Breach Requirements.
+(a) Information Privacy or Security Policy. An entity that maintains its own notification procedures as part of an information privacy or security policy for the treatment of personal information and that are consistent with the timing requirements of this Chapter shall be deemed to be in compliance with the notification requirements of this Chapter if it notifies residents of Guam in accordance with its procedures in the event of a breach of security of the system.
 (b)  Compliance with Federal requirements.
-COL 052809
-9 GCA CRIMES AND CORRECTIONS
-CH. 48 NOTIFICATION OF BREACHES OF PERSONAL INFORMATION
-5
-(1) A financial institution that complies with the notification
-requirements prescribed by the Federal Interagency Guidance on
-Response Programs for Unauthorized Access to Customer Information
-and Customer Notice is deemed to be in compliance with this Chapter.
-(2) An entity that complies with the notification requirements or
-procedures pursuant to the rules, regulations, procedures, or guidelines
-established by the entity’s primary or functional Federal regulator
-shall be in compliance with this Chapter.
+(1) A financial institution that complies with the notification requirements prescribed by the Federal Interagency Guidance on Response Programs for Unauthorized Access to Customer Information and Customer Notice is deemed to be in compliance with this Chapter.
+(2) An entity that complies with the notification requirements or procedures pursuant to the rules, regulations, procedures, or guidelines established by the entity’s primary or functional Federal regulator shall be in compliance with this Chapter.
 § 48.50. Violations.
-(a) A violation of this Chapter that results in injury or loss to
-residents of Guam may be enforced by the Office of the Attorney General.
-(b) Except as provided by § 48.40 of this Chapter, the Office of the
-Attorney General shall have exclusive authority to bring action and may
-obtain either actual damages for a violation of this Chapter or a civil penalty
-not to exceed One Hundred Fifty Thousand Dollars ($150,000) per breach
-of the security of the system or series of breaches of a similar nature that are
-discovered in a single investigation.
+(a) A violation of this Chapter that results in injury or loss to residents of Guam may be enforced by the Office of the Attorney General.
+(b) Except as provided by § 48.40 of this Chapter, the Office of the Attorney General shall have exclusive authority to bring action and may obtain either actual damages for a violation of this Chapter or a civil penalty not to exceed One Hundred Fifty Thousand Dollars ($150,000) per breach of the security of the system or series of breaches of a similar nature that are discovered in a single investigation.
 § 48.60. Applicability.
-This Chapter shall apply to the discovery or notification of a breach of
-the security of the system that occurs on or after the effective date of this
-Chapter.
+This Chapter shall apply to the discovery or notification of a breach of the security of the system that occurs on or after the effective date of this Chapter.
 § 48.70. Effective Date.
-This Chapter shall take effect one hundred twenty (120) days after the
-date of enactment.
+This Chapter shall take effect one hundred twenty (120) days after the date of enactment.
 § 48.80. Preemption.
-This Chapter deals with subject matter that is of island-wide concern,
-and it is the intent of I Liheslatura that this Chapter shall supersede and
-preempt all rules and regulations regarding the matters expressly set forth in
-this Chapter.
-----------
+This Chapter deals with subject matter that is of island-wide concern, and it is the intent of I Liheslatura that this Chapter shall supersede and preempt all rules and regulations regarding the matters expressly set forth in this Chapter.
