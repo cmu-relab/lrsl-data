@@ -13,7 +13,6 @@
 (ii)   Information that an individual has consented to have publicly disseminated or listed; or
 (iii)   Information that is disseminated or listed in accordance with the federal Health Insurance Portability and Accountability Act.
 (e)   “Records” means information that is inscribed on a tangible medium or that is stored in an electronic or other medium and is retrievable in perceivable form.
-
 §14–3502.
 (a)   In this section, “customer” means an individual residing in the State who provides personal information to a business for the purpose of purchasing or leasing a product or obtaining a service from the business.
 (b)   When a business is destroying a customer’s records that contain personal information of the customer, the business shall take reasonable steps to protect against unauthorized access to or use of the personal information, taking into account:
@@ -21,14 +20,12 @@
 (2)   The nature and size of the business and its operations;
 (3)   The costs and benefits of different destruction methods; and
 (4)   Available technology.
-
 §14–3503.
 (a)   To protect personal information from unauthorized access, use, modification, or disclosure, a business that owns or licenses personal information of an individual residing in the State shall implement and maintain reasonable security procedures and practices that are appropriate to the nature of the personal information owned or licensed and the nature and size of the business and its operations.
 (b)    (1)   A business that uses a nonaffiliated third party as a service provider to perform services for the business and discloses personal information about an individual residing in the State under a written contract with the third party shall require by contract that the third party implement and maintain reasonable security procedures and practices that:
 (i)   Are appropriate to the nature of the personal information disclosed to the nonaffiliated third party; and
 (ii)   Are reasonably designed to help protect the personal information from unauthorized access, use, modification, disclosure, or destruction.
 (2)   This subsection shall apply to a written contract that is entered into on or after January 1, 2009.
-
 §14–3504.
 (a)   In this section:
 (1)   “Breach of the security of a system” means the unauthorized acquisition of computerized data that compromises the security, confidentiality, or integrity of the personal information maintained by a business; and
@@ -68,21 +65,17 @@
 (h)   Prior to giving the notification required under subsection (b) of this section and subject to subsection (d) of this section, a business shall provide notice of a breach of the security of a system to the Office of the Attorney General.
 (i)   A waiver of any provision of this section is contrary to public policy and is void and unenforceable.
 (j)   Compliance with this section does not relieve a business from a duty to comply with any other requirements of federal law relating to the protection and privacy of personal information.
-
 §14–3505.
 The provisions of this subtitle are exclusive and shall preempt any provision of local law.
-
 §14–3506.
 (a)   If a business is required under § 14–3504 of this subtitle to give notice of a breach of the security of a system to 1,000 or more individuals, the business also shall notify, without unreasonable delay, each consumer reporting agency that compiles and maintains files on consumers on a nationwide basis, as defined by 15 U.S.C. § 1681a(p), of the timing, distribution, and content of the notices.
 (b)   This section does not require the inclusion of the names or other personal identifying information of recipients of notices of the breach of the security of a system.
-
 §14–3507.
 (a)   In this section, “affiliate” means a company that controls, is controlled by, or is under common control with a business described in subsection (c)(1) of this section.
 (b)   A business that complies with the requirements for notification procedures, the protection or security of personal information, or the destruction of personal information under the rules, regulations, procedures, or guidelines established by the primary or functional federal or State regulator of the business shall be deemed to be in compliance with this subtitle.
 (c)    (1)   A business that is subject to and in compliance with § 501(b) of the federal Gramm–Leach–Bliley Act, 15 U.S.C. § 6801, § 216 of the federal Fair and Accurate Credit Transactions Act, 15 U.S.C. § 1681w, the federal Interagency Guidelines Establishing Information Security Standards, and the federal Interagency Guidance on Response Programs for Unauthorized Access to Customer Information and Customer Notice, and any revisions, additions, or substitutions, shall be deemed to be in compliance with this subtitle.
 (2)   An affiliate that complies with § 501(b) of the federal Gramm–Leach–Bliley Act, 15 U.S.C. § 6801, § 216 of the federal Fair and Accurate Credit Transactions Act, 15 U.S.C. § 1681w, the federal Interagency Guidelines Establishing Information Security Standards, and the federal Interagency Guidance on Response Programs for Unauthorized Access to Customer Information and Customer Notice, and any revisions, additions, or substitutions, shall be deemed to be in compliance with this subtitle.
-
 §14–3508.
 A violation of this subtitle:
- (1)   Is an unfair or deceptive trade practice within the meaning of Title 13 of this article; and
+(1)   Is an unfair or deceptive trade practice within the meaning of Title 13 of this article; and
 (2)   Is subject to the enforcement and penalty provisions contained in Title 13 of this article.
