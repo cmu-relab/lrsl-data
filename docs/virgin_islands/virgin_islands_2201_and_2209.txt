@@ -1,0 +1,37 @@
+§ 2201.  Definitions
+In this subchapter unless the context otherwise requires:
+(a) "Personal identification document" means a birth certificate, a drivers license, a state identification card, a public, government, or private employment identification card, a Social Security card, a firearm owner's identification card, a credit card, a debit card, or a passport issued to or on behalf of a person other than the offender, or any document made or issued, or falsely purported to have been made or issued, by or under the authority of the United States Government, the Government of the Virgin Islands, or any other state political subdivision of any state or territory, or any other governmental or quasi-governmental organization that is of a type intended for the purpose of identification of an individual, or any such document made or altered in a manner that it falsely purports to have been made on behalf of or issued to another person or by the authority of one who did not give that authority.
+(b) "Personal identifying information" means any of the following information:
+(1) A person's name;
+(2) A person's address;
+(3) A person's date of birth;
+(4) A person's telephone number;
+(5) A person's drivers license number or identification card as assigned by the Virgin Islands Police Department or a similar agency of another state or territory;
+(6) A person's Social Security number;
+(7) A person's public, private, or government employer, place of employment, or employment identification number;
+(8) The maiden name of a person's mother
+(9) The number assigned to a person's depository account, savings account, or brokerage account;
+(10) The number assigned to a person's credit or debit card, commonly known as a "Visa Card", "Master Card", "American Express Card", "Discover Card", or other similar cards, whether issued by a financial institution, corporation, or business entity;
+(11) Personal identification numbers;
+(12) Electronic identification numbers;
+(13) Digital signals;
+(14) Any other numbers or information that can be used to access a person's financial resources, or to identify a specific individual.
+(c) "Document-making implement" means any implement, impression, template, computer file, computer disc, electronic device, computer hardware, computer software, instrument, or device that is used to make a real or fictitious or fraudulent personal identification document.
+§ 2209.  Disclosure of breach of security
+(a) Any person or business that conducts business in the Virgin Islands, and that owns or licenses computerized data that includes personal information, shall disclose any breach of the security of the system following discovery or notification of the breach in the security of the data to any resident of the Virgin Islands whose unencrypted personal information was, or is reasonably believed to have been, acquired by an unauthorized person. The disclosure must be made in the most expedient time possible and without unreasonable delay, consistent with the legitimate needs of law enforcement, as provided in subsection (c), or any measures necessary to determine the scope of the breach and restore the reasonable integrity of the data system.
+(b) Any person or business that maintains computerized data that includes personal information that the person or business does not own shall notify the owner or licensee of the information of any breach of the security of the data immediately following discovery, if the personal information was, or is reasonably believed to have been, acquired by an unauthorized person.
+(c) The notification required by this section may be delayed if a law enforcement agency determines that the notification will impede a criminal investigation. The notification required by this section shall be made after the law enforcement agency determines that it will not compromise the investigation.
+(d) For purposes of this section, "breach of the security of the system" means unauthorized acquisition of computerized data that compromises the security, confidentiality, or integrity of personal information maintained by the person or business. Good faith acquisition of personal information by an employee or agent of the person or business for the purposes of the person or business is not a breach of the security of the system, provided that the personal information is not used or subject to further unauthorized disclosure.
+(e) For purposes of this section, "personal information" means an individual's first name or first initial and last name in combination with any one or more of the following data elements, when either the name or the data elements are not encrypted:
+(1) Social Security number.
+(2) Driver's license number.
+(3) Account number, credit or debit card number, in combination with any required security code, access code, or password that would permit access to an individual's financial account.
+(f) For purposes of this section, "personal information" does not include publicly available information that is lawfully made available to the general public from federal, state, or local government records.
+(g) For purposes of this section, "notice" may be provided by one of the following methods:
+(1) Written notice.
+(2) Electronic notice, if the notice provided is consistent with the provisions regarding electronic records and signatures set forth in Section 7001 of Title 15 of the United States Code.
+(3) Substitute notice, if the person or business demonstrates that the cost of providing notice would exceed $ 100,000 or that the affected class of subject persons to be notified exceeds 50,000, or the person or business does not have sufficient contact information. Substitute notice shall consist of all of the following:
+(A) E-mail notice when the person or business has an e-mail address for the subject persons.
+(B) Conspicuous posting of the notice on the Web site page of the person or business, if the person or business maintains one.
+(C) Notification to major territory-wide media.
+(h) Notwithstanding subsection (g), a person or business that maintains its own notification procedures as part of an information security policy for the treatment of personal information and is otherwise consistent with the timing requirements of this subchapter is deemed to be in compliance with the notification requirements of this section if the person or business notifies subject persons in accordance with its policies in the event of a breach of security of the system.
