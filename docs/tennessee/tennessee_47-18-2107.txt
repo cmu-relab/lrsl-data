@@ -1,8 +1,8 @@
-47-18-2107.  Release of personal consumer information.
+47-18-2107. Release of personal consumer information.
 (a) As used in this section, unless the context otherwise requires:
 (1) "Breach of the security of the system" means unauthorized acquisition of computerized data that materially compromises the security, confidentiality, or integrity of personal information maintained by the information holder. Good faith acquisition of personal information by an employee or agent of the information holder for the purposes of the information holder is not a breach of the security of the system; provided, that the personal information is not used or subject to further unauthorized disclosure;
 (2) "Information holder" means any person or business that conducts business in this state, or any agency of the state of Tennessee or any of its political subdivisions, that owns or licenses computerized data that includes personal information;
-(3)  (A) "Personal information" means an individual's first name or first initial and last name, in combination with any one (1) or more of the following data elements, when either the name or the data elements are not encrypted:
+(3) (A) "Personal information" means an individual's first name or first initial and last name, in combination with any one (1) or more of the following data elements, when either the name or the data elements are not encrypted:
 (i) Social security number;
 (ii) Driver license number; or
 (iii) Account number, credit or debit card number, in combination with any required security code, access code, or password that would permit access to an individual's financial account; and

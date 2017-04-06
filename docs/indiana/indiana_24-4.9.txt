@@ -68,7 +68,7 @@ Sec. 3.5. (a) This section does not apply to a data base owner that maintains it
 (2) Executive Order 13224;
 (3) the federal Driver's Privacy Protection Act (18 U.S.C. 2721 et seq.);
 (4) the federal Fair Credit Reporting Act (15 U.S.C. 1681 et seq.);
-(5) the federal Financial Modernization Act of 1999 (15 U.S.C.  6801 et seq.); or
+(5) the federal Financial Modernization Act of 1999 (15 U.S.C. 6801 et seq.); or
 (6) the federal Health Insurance Portability and Accountability Act (HIPAA) (P.L. 104-191);
 if the data base owner's information privacy, security policy, or compliance plan requires the data base owner to maintain reasonable procedures to protect and safeguard from unlawful use or disclosure personal information of Indiana residents that is collected or maintained by the data base owner and the data base owner complies with the data base owner's information privacy, security policy, or compliance plan.
 (b) A data base owner shall implement and maintain reasonable procedures, including taking any appropriate corrective action, to protect and safeguard from unlawful use or disclosure any personal information of Indiana residents collected or maintained by the data base owner.
@@ -99,7 +99,7 @@ Sec. 4. (a) Except as provided in subsection (b), a data base owner required to 
 (2) Executive Order 13224;
 (3) the federal Driver's Privacy Protection Act (18 U.S.C. 2781 et seq.);
 (4) the federal Fair Credit Reporting Act (15 U.S.C. 1681 et seq.);
-(5) the federal Financial Modernization Act of 1999 (15 U.S.C.  6801 et seq.); or
+(5) the federal Financial Modernization Act of 1999 (15 U.S.C. 6801 et seq.); or
 (6) the federal Health Insurance Portability and Accountability Act (HIPAA) (P.L. 104-191);
 is not required to make a disclosure under this chapter if the data base owner's information privacy, security policy, or compliance plan requires that Indiana residents be notified of a breach of the security of data without unreasonable delay and the data base owner complies with the data base owner's information privacy, security policy, or compliance plan.
 (e) A financial institution that complies with the disclosure requirements prescribed by the Federal Interagency Guidance on Response Programs for Unauthorized Access to Customer Information and Customer Notice or the Guidance on Response Programs for Unauthorized Access to Member Information and Member Notice, as applicable, is not required to make a disclosure under this chapter.
@@ -110,7 +110,7 @@ Sec. 1. (a) A person that is required to make a disclosure or notification in ac
 (b) A failure to make a required disclosure or notification in connection with a related series of breaches of the security of data constitutes one (1) deceptive act.
 IC 24-4.9-4-2 Action by attorney general
 Sec. 2. The attorney general may bring an action under this chapter to obtain any or all of the following:
-(1) An injunction to enjoin future violations of IC 24-4.9-3.  (2) A civil penalty of not more than one hundred fifty thousand dollars ($150,000) per deceptive act.
+(1) An injunction to enjoin future violations of IC 24-4.9-3. (2) A civil penalty of not more than one hundred fifty thousand dollars ($150,000) per deceptive act.
 (3) The attorney general's reasonable costs in:
 (A) the investigation of the deceptive act; and
 (B) maintaining the action.
