@@ -1,0 +1,13 @@
+.pmtermOn {CURSOR:hand; FONT-WEIGHT:bold; font-style:normal; color:#CC0000;}
+.pmtermS1 {CURSOR:hand; FONT-WEIGHT:bold; font-style:normal; color:black;}
+.pmtermS2 {CURSOR:hand; FONT-WEIGHT:bold; font-style:normal; color:black;}
+.pmtermS3 {CURSOR:hand; FONT-WEIGHT:bold; font-style:normal; color:black;}
+.pmtermS4 {CURSOR:hand; FONT-WEIGHT:bold; font-style:normal; color:black;}
+.pmtermS5 {CURSOR:hand; FONT-WEIGHT:bold; font-style:normal; color:black;}
+.pmtermS6 {CURSOR:hand; FONT-WEIGHT:bold; font-style:normal; color:black;}
+.pmhead {text-decoration:none; color:black; font-style: italic;}
+.pmheadOn {text-decoration:none; color:#CC0000; font-style: italic;}
+.pmheadDef {text-decoration:none; color:black; font-style: italic;}
+.pmtermSel{CURSOR:hand; FONT-WEIGHT:bold; color:white; background-Color:#0000CC;}
+.citeLyr {font-size: 10pt; font-family: Arial,Helvetica,sans-serif;position:absolute; background-color: #FFFFCC; layer-background-color: #FFFFCC; margin:1px; border: 1px #000000 solid; border-color: #000000; padding:1px;visibility:hidden}
+.pmtermDef {CURSOR:hand; FONT-WEIGHT:bold; font-style:normal; color:black;}

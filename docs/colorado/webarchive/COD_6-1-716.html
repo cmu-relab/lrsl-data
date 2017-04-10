@@ -1,0 +1,417 @@
+
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0;" />
+<link  rel="stylesheet" type="text/css" href="/ri/newUIGlobal_22-OCT-2016.css"></link>
+
+
+<LINK REL="stylesheet" TYPE="text/css" HREF="/ri/starpag_22-OCT-2016.css" >
+<LINK REL="stylesheet" TYPE="text/css" HREF="/ri/ldcPopUp_22-OCT-2016.css">
+<LINK REL="stylesheet" TYPE="text/css" HREF="/ri/treeView_22-OCT-2016.css">
+<title>Search - 1 Result - 6-1-716.&nbsp;Notification of security breach</title>
+<META NAME="SEARCHHINT" CONTENT="48de36576ebd7b703d2846f00e86a963d0d6a8caaf476e877d7441250d0856e46f62c1d13fd0ccd7e806ff09366309e1acad6c92933b170fc7e988d2d634c09bc23c1bc700297ce4654e0f85b9714144cd787adf16407d1b067a696137666e4cb5b094cf8e97ae41b91b1756c56e9ee79a97aadfb40e5c2c50a1aab59027d2c2353d382996722255407ec75a59295a387d96e3a77ba4a950722f53ef134126974f5e42199bd1ea7a3f14edbcbe80ed93e91896aaeee73acbc090df6e6680a5797cbd576abd4d8b5a0d2c727406a5d153">
+<script src="/ri/lnjquery_22-OCT-2016.js" language="JavaScript"></script><script src="/ri/browser_22-OCT-2016.js" language="JavaScript"></script><script src="/ri/ldcDom_utils_22-OCT-2016.js" language="JavaScript"></script><script src="/ri/ettoc_ns6_22-OCT-2016.js" language="JavaScript"></script><script src="/ri/dom_et3_ui_22-OCT-2016.js" language="JavaScript"></script><script src="/ri/ns_me_ui_22-OCT-2016.js" language="JavaScript"></script><script src="/ri/dom_me_ui_22-OCT-2016.js" language="JavaScript"></script><script src="/ri/commonscript_22-OCT-2016.js" language="JavaScript"></script><script src="/ri/browser_22-OCT-2016.js" language="JavaScript"></script>
+
+<SCRIPT language="JavaScript1.2">
+<!--
+
+
+function browseObject() {
+this.lni="5KN3-VF90-004D-12KX-00000-00";
+this.csi="4900";
+this.psl_lni="lni|4900|5KN3-VF90-004D-12KX-00000-00";
+this.svc="toc2doc";
+this.ajuri="";
+this.deyear="";
+this.disablePushme="1";
+this.disableFastPrintPushme="1";
+this.docName="";
+this.cite="";
+this.isgetable="1";
+this.xlinkURL="";
+this.browseURL="/research/retrieve?_m=00883f0d1bb0fdd093d74fa4401df96e&_browseType=TEXTONLY&docnum=1&_fmtstr=FULL&_startdoc=1&wchp=dGLzVzB-zSkAz&_md5=426ae8a89a262695a2c4c95110ad63d3";
+this.shepBuddyExpanded="0";
+this.searchHint="";
+this.searchHintWithBar="";
+this.shepBPon="1";
+this.firstCite="0";
+}
+var ln_browse=new browseObject();
+
+
+
+
+
+
+
+function loadHandler()
+{
+//WT: 154544-Start
+restoreViewOption();
+//WT: 154544-End
+if (location.host.indexOf("lexisnexis1.com") > 0) {
+window.name="cui";
+}
+
+self.focus();
+
+
+
+
+}
+
+function resizeHandler()
+{
+
+}
+function viewScript(name ,anchor){
+var loc="uri";
+var args = getWf(loc,anchor.href);
+var format="";
+if (args._fmtstr)
+format = args._fmtstr;
+if(format=="CITE" || format=="XCITE"){
+name="Cite";
+}
+if(format=="FULL"){
+name="Full";
+}
+if(format=="VKWIC" || format == "SKWIC"){
+name="KWIC";
+}
+if(format=="CUSTOM"){
+name="Custom";
+}
+if(format=="DIGEST"){
+name="Digest";
+}
+if(format=="BRIEF"){
+name="Brief";
+}
+if(format=="TTOCHITS"){
+name="TOC Hits";
+}
+if(format=="TOC"){
+name="TOC";
+}
+
+
+
+}
+//-->
+</SCRIPT>
+</head>
+
+<script></script>
+<!-- Begin Fix - Karthika
+Issue:HOTLINE-font colors in text of documents seems to change randomly
+for get a document by citation (irc Sec 401) in IE
+Fix:Interchange the two functions changeFont() and loadHandler()-->
+<body bgcolor="#FFFFFF" topmargin=0 leftmargin=0 rightmargin=0 ID="body"
+marginheight=0 marginwidth=0  onResize="resizeHandler()" onLoad="changeFont();loadHandler();" >
+<!-- End Fix -->
+<div id="globalNavbar">
+
+
+
+<script>
+<!--
+$(document).ready(function(){ 
+
+// Adding onclick to topic trail
+
+$('.truncatedSSA').mouseover(function(){
+//Begin: Fix for webstar 3971359  - Nov 18 - Moses
+$(this).data("truncTrail",$(this).html());
+//End: Fix for webstar 3971359  - Nov 18 - Moses
+$(this).html($(this).data("fullTrail"));
+});
+
+$('.truncatedSSA').mouseout(function(){
+$(this).html($(this).data("truncTrail"));
+});
+
+
+
+
+var arrOfDrodownElement =document.getElementsByName("dropList");
+if(arrOfDrodownElement.length>=2)
+{
+arrOfDrodownElement[1].setAttribute("name","dropList1");
+}
+
+$("select[name='dropList']").change(function(){
+viewname=$("option:selected", this).text();
+url=$("option:selected", this).val()
+anchor = document.createElement("a");
+anchor.setAttribute('href',url);
+anchor.setAttribute('id','dynamicAnchor');
+anchor.setAttribute('style','display:hidden');
+anchor.name='View';
+$(submitview(viewname,anchor));
+});
+
+$("select[name='dropList1']").change(function(){
+
+viewname=$("option:selected", this).text();
+url=$("option:selected", this).val();
+anchor = document.createElement("a");
+anchor.setAttribute('href',url);
+anchor.setAttribute('id','dynamicAnchor');
+anchor.setAttribute('style','display:hidden');
+anchor.name='View';
+$(submitview(viewname,anchor));
+});
+
+
+function submitview(viewname,anchor)
+{
+var newlink = document.getElementById('baseUrlForView');
+var baseUrl = newlink.value;
+if(anchor.href.indexOf(baseUrl) < 0) {
+anchor.href = baseUrl+anchor.href;
+}
+if(viewname== 'Cite')
+{
+//Begin Fix for webstar 3983306 - Nov 2011 - Moses
+// passed an extra argument as an identifier that cite view is selected
+if(window.pNav)
+pNav.preserveDocNo(1, anchor,1);
+//End Fix for webstar 3983306 - Nov 2011 - Moses
+window.setTaggedDocsState(anchor.href,'0','window')
+}
+if(viewname =='Digest')
+{
+if(window.pNav)
+pNav.preserveDocNo(1, anchor);
+window.setTaggedDocsState(anchor.href,'0','window')
+}
+if(viewname== 'Case Brief')
+{
+if(window.pNav)
+pNav.preserveDocNo(0, anchor);
+window.setTaggedDocsState(anchor.href,'0','window')
+}
+if(viewname=='Full'){
+if(window.pNav)
+pNav.preserveDocNo(0, anchor);
+window.setTaggedDocsState(anchor.href,'0','window')
+}
+if(viewname.search('Custom')!=-1){
+if(window.pNav)
+pNav.preserveDocNo(0, anchor);
+window.setTaggedDocsState(anchor.href,'Custom','window')
+}
+if(viewname.search('KWIC')!=-1){
+if(window.pNav)
+pNav.preserveDocNo(0, anchor);
+window.setTaggedDocsState(anchor.href,'0','window')
+}
+
+if(viewname== 'TOC'){
+window.setTaggedDocsState(anchor.href,'0','window');
+return window.pTocHits.persistHitCheckboxes(anchor,'0','window');
+}
+if(viewname =='TOC Hits')
+{
+
+if(window.pToc.tcFormSubmit)
+{
+if (window.pToc.tcOut(anchor, anchor.href))
+{
+window.setTaggedDocsState(anchor.href, '0','window', true);
+window.pToc.tcFormSubmit(anchor, 'citeForm',anchor.href);
+}
+}
+else
+{
+window.setTaggedDocsState(anchor.href,'0','window');
+}
+}
+}
+
+ });
+//-->
+</script>
+
+
+</div>
+<a name="Modeless"></a>
+
+<input type="hidden" id="baseUrlForView" name="baseUrlForView" value= >
+
+
+
+<!-- Hidded field for Dedupe Indication -->
+<INPUT TYPE=hidden ID="dedupeFlag"  NAME="dedupeFlag" VALUE="0">
+<input type="hidden" id="clusterIndicator" value="0">
+<FORM NAME="citeForm" ID="citeForm"  method=get class="brwsMrgnBtm">
+<INPUT TYPE=hidden NAME="pushme" VALUE="1">
+<INPUT TYPE=hidden NAME="tmpFBSel" VALUE="">
+<INPUT TYPE=hidden NAME="totaldocs" VALUE="">
+<INPUT TYPE=hidden NAME="taggedDocs" VALUE="">
+<input type=hidden name=toggleValue VALUE="">
+<INPUT TYPE=hidden NAME="numDocsChked" VALUE="">
+<INPUT TYPE=hidden NAME="prefFBSel" VALUE="0">
+<INPUT TYPE=hidden NAME="delformat" VALUE="FULL">
+<INPUT TYPE=hidden NAME="fpDocs">
+<INPUT TYPE=hidden NAME="fpNodeId">
+<INPUT TYPE=hidden NAME="fpCiteReq">
+<input type=hidden name="expNewLead" value= id="expandedNewLead" />
+
+
+
+</FORM>
+</table>
+
+
+
+<div ID="bodystyle" class="variable">
+
+
+
+
+
+
+
+
+<div id="lineheight">
+&nbsp;
+</div>
+
+
+
+<div align=center>
+<em>
+C.R.S. 6-1-716 
+</em>
+
+</div>
+<br>
+<center><br class="br"/>COLORADO REVISED STATUTES</center><center><br class="br"/>*** This document reflects changes current through all laws passed at the Second Regular Session of the Seventieth General Assembly of the State of Colorado (2016) ***</center><center><br class="br"/>TITLE 6. CONSUMER AND COMMERCIAL AFFAIRS &nbsp;<br class="br"/>FAIR TRADE AND RESTRAINT OF TRADE &nbsp;<br class="br"/>ARTICLE 1.COLORADO CONSUMER PROTECTION ACT &nbsp;<br class="br"/>PART 7. SPECIFIC PROVISIONS</center><center><br class="br"/>C.R.S. 6-1-716  (2016)</center><br class="br"/>6-1-716. Notification of security breach<br class="br"/><br class="br"/><br class="br"/><br class="br"/>(1) Definitions. As used in this section, unless the context otherwise requires:<br class="br"/><br class="br"/>(a) &quot;Breach of the security of the system&quot; means the unauthorized acquisition of unencrypted computerized data that compromises the security, confidentiality, or integrity of personal information maintained by an individual or a commercial entity. Good faith acquisition of personal information by an employee or agent of an individual or commercial entity for the purposes of the individual or commercial entity is not a breach of the security of the system if the personal information is not used for or is not subject to further unauthorized disclosure.<br class="br"/><br class="br"/>(b) &quot;Commercial entity&quot; means any private legal entity, whether for-profit or not-for-profit.<br class="br"/><br class="br"/>(c) &quot;Notice&quot; means:<br class="br"/><br class="br"/>(I) Written notice to the postal address listed in the records of the individual or commercial entity;<br class="br"/><br class="br"/>(II) Telephonic notice;<br class="br"/><br class="br"/>(III) Electronic notice, if a primary means of communication by the individual or commercial entity with a Colorado resident is by electronic means or the notice provided is consistent with the provisions regarding electronic records and signatures set forth in 15 U.S.C. sec. 7001 et seq.; or<br class="br"/><br class="br"/>(IV) Substitute notice, if the individual or the commercial entity required to provide notice demonstrates that the cost of providing notice will exceed two hundred fifty thousand dollars, the affected class of persons to be notified exceeds two hundred fifty thousand Colorado residents, or the individual or the commercial entity does not have sufficient contact information to provide notice. Substitute notice consists of all of the following:<br class="br"/><br class="br"/>(A) E-mail notice if the individual or the commercial entity has e-mail addresses for the members of the affected class of Colorado residents;<br class="br"/><br class="br"/>(B) Conspicuous posting of the notice on the website page of the individual or the commercial entity if the individual or the commercial entity maintains one; and<br class="br"/><br class="br"/>(C) Notification to major statewide media.<br class="br"/><br class="br"/>(d) (I) &quot;Personal information&quot; means a Colorado resident's first name or first initial and last name in combination with any one or more of the following data elements that relate to the resident, when the data elements are not encrypted, redacted, or secured by any other method rendering the name or the element unreadable or unusable:<br class="br"/><br class="br"/>(A) Social security number;<br class="br"/><br class="br"/>(B) Driver's license number or identification card number;<br class="br"/><br class="br"/>(C) Account number or credit or debit card number, in combination with any required security code, access code, or password that would permit access to a resident's financial account.<br class="br"/><br class="br"/>(II) &quot;Personal information&quot; does not include publicly available information that is lawfully made available to the general public from federal, state, or local government records or widely distributed media.<br class="br"/><br class="br"/>(2) Disclosure of breach. (a) An individual or a commercial entity that conducts business in Colorado and that owns or licenses computerized data that includes personal information about a resident of Colorado shall, when it becomes aware of a breach of the security of the system, conduct in good faith a prompt investigation to determine the likelihood that personal information has been or will be misused. The individual or the commercial entity shall give notice as soon as possible to the affected Colorado resident unless the investigation determines that the misuse of information about a Colorado resident has not occurred and is not reasonably likely to occur. Notice shall be made in the most expedient time possible and without unreasonable delay, consistent with the legitimate needs of law enforcement and consistent with any measures necessary to determine the scope of the breach and to restore the reasonable integrity of the computerized data system.<br class="br"/><br class="br"/>(b) An individual or a commercial entity that maintains computerized data that includes personal information that the individual or the commercial entity does not own or license shall give notice to and cooperate with the owner or licensee of the information of any breach of the security of the system immediately following discovery of a breach, if misuse of personal information about a Colorado resident occurred or is likely to occur. Cooperation includes sharing with the owner or licensee information relevant to the breach; except that such cooperation shall not be deemed to require the disclosure of confidential business information or trade secrets.<br class="br"/><br class="br"/>(c) Notice required by this section may be delayed if a law enforcement agency determines that the notice will impede a criminal investigation and the law enforcement agency has notified the individual or commercial entity that conducts business in Colorado not to send notice required by this section. Notice required by this section shall be made in good faith, without unreasonable delay, and as soon as possible after the law enforcement agency determines that notification will no longer impede the investigation and has notified the individual or commercial entity that conducts business in Colorado that it is appropriate to send the notice required by this section.<br class="br"/><br class="br"/>(d) If an individual or commercial entity is required to notify more than one thousand Colorado residents of a breach of the security of the system pursuant to this section, the individual or commercial entity shall also notify, without unreasonable delay, all consumer reporting agencies that compile and maintain files on consumers on a nationwide basis, as defined by 15 U.S.C. sec. 1681a (p), of the anticipated date of the notification to the residents and the approximate number of residents who are to be notified. Nothing in this paragraph (d) shall be construed to require the individual or commercial entity to provide to the consumer reporting agency the names or other personal information of breach notice recipients. This paragraph (d) shall not apply to a person who is subject to Title V of the federal &quot;Gramm-Leach-Bliley Act&quot;, 15 U.S.C. sec. 6801 et seq.<br class="br"/><br class="br"/>(3) Procedures deemed in compliance with notice requirements. (a) Under this section, an individual or a commercial entity that maintains its own notification procedures as part of an information security policy for the treatment of personal information and whose procedures are otherwise consistent with the timing requirements of this section shall be deemed to be in compliance with the notice requirements of this section if the individual or the commercial entity notifies affected Colorado customers in accordance with its policies in the event of a breach of security of the system.<br class="br"/><br class="br"/>(b) An individual or a commercial entity that is regulated by state or federal law and that maintains procedures for a breach of the security of the system pursuant to the laws, rules, regulations, guidances, or guidelines established by its primary or functional state or federal regulator is deemed to be in compliance with this section.<br class="br"/><br class="br"/>(4) Violations. The attorney general may bring an action in law or equity to address violations of this section and for other relief that may be appropriate to ensure compliance with this section or to recover direct economic damages resulting from a violation, or both. The provisions of this section are not exclusive and do not relieve an individual or a commercial entity subject to this section from compliance with all other applicable provisions of law.<br class="br"/><br class="br"/><a class="segh_links" name="SEGH" id="SEGH_HISTORY"><b>HISTORY:</b></a> Source: L. 2006: Entire section added, p. 536, § 1, effective September 1.L. 2010: (2)(d) amended, (HB 10-1422), ch. 419, p. 2064, § 9, effective August 11.
+
+
+</div>
+<div id="bodyend" style="position:absolute"></div>
+
+
+
+<form name="SubmitText" action="/research/search/mlst/submit" method=post>
+<input type=hidden name="_csort" value="">
+<input type=hidden name="sortFmtstr" value="">
+<input type=hidden name="selectedText" value="This is the first text...">
+<input type=hidden name="pushme" value="1">
+<input type=hidden name="inputdel" value="tccspec">
+<input type=hidden name="statedel" value="_tscspec">
+<INPUT TYPE="hidden" NAME="_stateList" VALUE="selectedText,docnum,_fmtstr,_startdoc,_startch">
+<INPUT TYPE="hidden" NAME="_ansset" VALUE="D-WA-A-A-A-MsSWYWC-UUB-UUYVYAUUU-U-U-U-U-U-U-AVYCEYWDZE-AVYBCZBCZE-DACAEVBZD-A-U">
+<INPUT TYPE="hidden" NAME="lhnstatus" VALUE="closed">
+<INPUT TYPE="hidden" NAME="lhnwidth" VALUE="295">
+<INPUT TYPE="hidden" NAME="tccspec" VALUE="4900.a2b80a8daf225d0e331c6f8e7b0bfb92">
+<INPUT TYPE="hidden" NAME="_browseType" VALUE="TEXTONLY">
+<INPUT TYPE="hidden" NAME="docnum" VALUE="1">
+<INPUT TYPE="hidden" NAME="_fmtstr" VALUE="FULL">
+<INPUT TYPE="hidden" NAME="_startdoc" VALUE="1">
+<INPUT TYPE="hidden" NAME="prevCase" VALUE="">
+<INPUT TYPE="hidden" NAME="prevCite" VALUE="C.R.S. 6-1-716">
+<INPUT TYPE="hidden" NAME="_session" VALUE="11f37ed0-d12e-11e6-a853-fc5d612768da.1.3660843448.1417323.0.0.0">
+<INPUT TYPE="hidden" NAME="_state" VALUE="ORIGINATION_CODE%a400006%a3MIDDLEWARE_CODE%a4LP%a3zone%a4costat%a3lhnxlink%a4closed%a3lhnstatus%a4closed%a3hnlink%a4off%a3toclink%a4off%a3_dedupexlink%a4FALSE%a3_delPrivs%a4OFF%a3_interface%a41%a3_noeslnk%a41%a3docinfo%a4off%a3HIDE_ALL_SEPARATORS%a41%a3_tcdsp%a41%a3histXlink%a41%a3svc%a4toc2doc%a3_form%a4searchForm%a3authClient%a4%a3isTabletRequest%a4false%a3lhnwidth%a4295%a3client%a4 %a3_optval%a4110111100101010%a3isNewsSource%a40%a3dedupeOption%a40%a3ssaHeadingFlag%a41%a3_orig_tdocs%a41%a3_xfercite%a4&#60;cite cc=&#34;USA&#34;&#62;&#60;![CDATA[C.R.S. 6-1-716]]&#62;&#60;/cite&#62;%a3_src%a44900%a3">
+<INPUT TYPE="hidden" NAME="_bundles" VALUE="%a3forever%a6topframe%a5OFF%a6powernav%a5OFF%a6_kwsz%a525%a6LDCtabList%a53:All,2:Find A Source,3002485:North Carolina,4:Legal,3002457:Colorado,LIST_END%a6cc%a51%a6cls%a51%a6clOvr%a51%a6ochn%a51%a6lawed%a50%a6comphn%a51%a6PNMax%a5showNode%a6snid%a5ldc%a6pp%a5http://web.lexisnexis.com/research/retrieve?_m=944ed71c241f59b5d3821b6dd04ddb8e&#38;csvc=toc2doc&#38;cform=searchForm&#38;_fmtstr=FULL&#38;docnum=1&#38;_startdoc=1&#38;wchp=dGLzVzB-zSkAz&#38;_md5=d201f4220cdc86a6f8235b7a799b13fe%a6cp%a5http://web.lexisnexis.com/research/retrieve?_m=00883f0d1bb0fdd093d74fa4401df96e&#38;_browseType=TEXTONLY&#38;docnum=1&#38;_fmtstr=FULL&#38;_startdoc=1&#38;wchp=dGLzVzB-zSkAz&#38;_md5=426ae8a89a262695a2c4c95110ad63d3%a6ircEnabled%a5N%a6%a4%a3tabBundle%a6%a4">
+<INPUT TYPE="hidden" NAME="wchp" VALUE="dGLzVzB-zSkAz">
+<INPUT TYPE="hidden" NAME="_md5" VALUE="c4ecfe34f90f83decf033a48b19b385b">
+
+</form>
+<br>
+
+
+
+
+
+
+<br>
+<script>
+if (typeof(openFormhelp)=="undefined"){
+function openFormhelp(pageToLoad,winName,width,height,center){
+args=getArgs(width,height,center,0,0,0);
+if ((parseInt(navigator.appVersion) >= 4 ) && (center)){
+if(window.formhelp && !window.formhelp.closed){
+formhelp.close();
+}
+}
+formhelp=window.open(pageToLoad,winName,args);
+return false;
+}
+function getArgs(width,height,center,menu,yoffset,xoffset){
+xposition=0; yposition=0;
+if ((parseInt(navigator.appVersion) >= 4 ) && (center)){
+if (menu==0){
+xposition = (screen.width - width) - 10;
+yposition = (screen.height - height) - 58;
+}
+else if(menu==1){
+xposition = (screen.width - width) / 2;
+yposition = ((screen.height - height) / 2) - 67;
+}
+else if(menu==2){
+xposition = (screen.width - width) / 2;
+yposition = ((screen.height - height) / 2) - 67;
+menu = 0;
+}
+xposition += xoffset;
+yposition += yoffset;
+}
+if (navigator.appName == 'Netscape'){
+width = width + 25;
+height = height + 25;
+}
+args="width="+width+",height="+height
++",toolbar="+menu+",menubar="+menu
++",screenx="+ xposition+",screeny="+yposition
++",left="+xposition+",top="+yposition
++",resizable=1,scrollbars=1,";
+ return args;
+}
+}
+</script>
+<div style="padding-top:20px;padding-bottom:20px">
+<div style="clear:both;text-align:center;vertical-align:middle">
+<a href="http://www.lexisnexis.com" target="home"><img src="/ri/lexis_pagetop_xlink.gif" width=145 height=30 alt="LexisNexis Home" title="LexisNexis Home" border=0 class="bottomlogo"></a>
+<span style="display:inline-block;text-align:left;vertical-align:middle">
+<a href="https://web.lexisnexis.com/research/lnhome/about" target="help" onclick="return openFormhelp('https://web.lexisnexis.com/research/lnhome/about','formhelp',500,375,0)">About LexisNexis</a>
+&nbsp;
+<span class="l3d">
+|
+</span>
+<a href="http://www.lexisnexis.com/en-us/terms/privacy-policy.page" target="help" onclick="return openFormhelp('http://www.lexisnexis.com/en-us/terms/privacy-policy.page','formhelp',500,375,0)">Privacy Policy</a>
+&nbsp;
+<span class="l3d">
+|
+</span>
+<a href="https://web.lexisnexis.com/research/lnhome/terms/general" target="help" onclick="return openFormhelp('https://web.lexisnexis.com/research/lnhome/terms/general','formhelp',500,375,0)">Terms & Conditions</a>
+&nbsp;
+<span class="l3d">
+|
+</span>
+<a href="http://support.lexisnexis.com/contact_us.asp?vcProdName=lexiscom" onclick="return openFormhelp('http://support.lexisnexis.com/contact_us.asp?vcProdName=lexiscom','formhelp',500,375,0)">Contact Us</a>
+&nbsp;
+<br/>
+<span class="footer">
+<a href="https://web.lexisnexis.com/research/lnhome/terms/copyright/" target="help" onclick="return openFormhelp('https://web.lexisnexis.com/research/lnhome/terms/copyright/','formhelp',500,375,0)">Copyright &copy;</a>
+</span>
+&nbsp;2017 LexisNexis, a division of Reed Elsevier Inc. All rights reserved.
+</span>
+</div>
+<span style="padding-right:15px;float:right;margin-top:-35px">
+<a href="http://www.relxgroup.com" target="home"><img src="/ri/OrangeGrey_TM.png" width=145 height=23 alt="relx.com" title="relx.com" border=0 class="bottomlogo"></a>
+</span>
+</div>
+
+
+
+<!-- NPS2.0 - include the div which will be shown on change of sort drop down incombine source search -->
+
+<input type="hidden" id="sortDamataLink" name="sortDamataLink" value="">
+
+</body>
+
+</html>

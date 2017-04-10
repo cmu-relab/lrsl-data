@@ -1,0 +1,38 @@
+RCW 42.56.590
+Personal information—Notice of security breaches.
+(1)(a) Any agency that owns or licenses data that includes personal information shall disclose any breach of the security of the system following discovery or notification of the breach in the security of the data to any resident of this state whose personal information was, or is reasonably believed to have been, acquired by an unauthorized person and the personal information was not secured. Notice is not required if the breach of the security of the system is not reasonably likely to subject consumers to a risk of harm. The breach of secured personal information must be disclosed if the information acquired and accessed is not secured during a security breach or if the confidential process, encryption key, or other means to decipher the secured information was acquired by an unauthorized person.
+(b) For purposes of this section, "agency" means the same as in RCW 42.56.010.
+(2) Any agency that maintains data that includes personal information that the agency does not own shall notify the owner or licensee of the information of any breach of the security of the data immediately following discovery, if the personal information was, or is reasonably believed to have been, acquired by an unauthorized person.
+(3) The notification required by this section may be delayed if the data owner or licensee contacts a law enforcement agency after discovery of a breach of the security of the system and a law enforcement agency determines that the notification will impede a criminal investigation. The notification required by this section shall be made after the law enforcement agency determines that it will not compromise the investigation.
+(4) For purposes of this section, "breach of the security of the system" means unauthorized acquisition of data that compromises the security, confidentiality, or integrity of personal information maintained by the agency. Good faith acquisition of personal information by an employee or agent of the agency for the purposes of the agency is not a breach of the security of the system when the personal information is not used or subject to further unauthorized disclosure.
+(5) For purposes of this section, "personal information" means an individual's first name or first initial and last name in combination with any one or more of the following data elements:
+(a) Social security number;
+(b) Driver's license number or Washington identification card number; or
+(c) Full account number, credit or debit card number, or any required security code, access code, or password that would permit access to an individual's financial account.
+(6) For purposes of this section, "personal information" does not include publicly available information that is lawfully made available to the general public from federal, state, or local government records.
+(7) For purposes of this section, "secured" means encrypted in a manner that meets or exceeds the national institute of standards and technology (NIST) standard or is otherwise modified so that the personal information is rendered unreadable, unusable, or undecipherable by an unauthorized person.
+(8) For purposes of this section and except under subsections (9) and (10) of this section, notice may be provided by one of the following methods:
+(a) Written notice;
+(b) Electronic notice, if the notice provided is consistent with the provisions regarding electronic records and signatures set forth in 15 U.S.C. Sec. 7001; or
+(c) Substitute notice, if the agency demonstrates that the cost of providing notice would exceed two hundred fifty thousand dollars, or that the affected class of subject persons to be notified exceeds five hundred thousand, or the agency does not have sufficient contact information. Substitute notice shall consist of all of the following:
+(i) Email notice when the agency has an email address for the subject persons;
+(ii) Conspicuous posting of the notice on the agency's web site page, if the agency maintains one; and
+(iii) Notification to major statewide media.
+(9) An agency that maintains its own notification procedures as part of an information security policy for the treatment of personal information and is otherwise consistent with the timing requirements of this section is in compliance with the notification requirements of this section if it notifies subject persons in accordance with its policies in the event of a breach of security of the system.
+(10) A covered entity under the federal health insurance portability and accountability act of 1996, 42 U.S.C. Sec. 1320d et seq., is deemed to have complied with the requirements of this section with respect to protected health information if it has complied with section 13402 of the federal health information technology for economic and clinical health act, Public Law 111-5 as it existed on July 24, 2015. Covered entities shall notify the attorney general pursuant to subsection (14) of this section in compliance with the timeliness of notification requirements of section 13402 of the federal health information technology for economic and clinical health act, Public Law 111-5 as it existed on July 24, 2015, notwithstanding the notification requirement in subsection (15) of this section.
+(11) Any waiver of the provisions of this section is contrary to public policy, and is void and unenforceable.
+(12)(a) Any individual injured by a violation of this section may institute a civil action to recover damages.
+(b) Any agency that violates, proposes to violate, or has violated this section may be enjoined.
+(c) The rights and remedies available under this section are cumulative to each other and to any other rights and remedies available under law.
+(13) Any agency that is required to issue notification pursuant to this section shall meet all of the following requirements:
+(a) The notification must be written in plain language; and
+(b) The notification must include, at a minimum, the following information:
+(i) The name and contact information of the reporting agency subject to this section;
+(ii) A list of the types of personal information that were or are reasonably believed to have been the subject of a breach;
+(iii) The toll-free telephone numbers and addresses of the major credit reporting agencies if the breach exposed personal information.
+(14) Any agency that is required to issue a notification pursuant to this section to more than five hundred Washington residents as a result of a single breach shall, by the time notice is provided to affected individuals, electronically submit a single sample copy of that security breach notification, excluding any personally identifiable information, to the attorney general. The agency shall also provide to the attorney general the number of Washington residents affected by the breach, or an estimate if the exact number is not known.
+(15) Notification to affected individuals and to the attorney general must be made in the most expedient time possible and without unreasonable delay, no more than forty-five calendar days after the breach was discovered, unless at the request of law enforcement as provided in subsection (3) of this section, or due to any measures necessary to determine the scope of the breach and restore the reasonable integrity of the data system.
+[ 2015 c 64 § 3; 2007 c 197 § 9; 2005 c 368 § 1. Formerly RCW 42.17.31922.]
+NOTES:
+Intent—2015 c 64: See note following RCW 19.255.010.
+Similar provision: RCW 19.255.010.

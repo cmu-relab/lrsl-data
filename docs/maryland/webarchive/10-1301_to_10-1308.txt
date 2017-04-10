@@ -1,0 +1,92 @@
+§10–1301.
+(a)   In this subtitle the following words have the meanings indicated.
+(b)   “Encryption” means the protection of data in electronic or optical form, in storage or in transit, using a technology that:
+(1)   is certified to meet or exceed the level that has been adopted by the Federal Information Processing Standards issued by the National Institute of Standards and Technology; and
+(2)   renders such data indecipherable without an associated cryptographic key necessary to enable decryption of such data.
+(c)   “Personal information” means an individual’s first name or first initial and last name, personal mark, or unique biometric or genetic print or image, in combination with one or more of the following data elements:
+(1)   a Social Security number;
+(2)   a driver’s license number, state identification card number, or other individual identification number issued by a unit;
+(3)   a passport number or other identification number issued by the United States government;
+(4)   an Individual Taxpayer Identification Number; or
+(5)   a financial or other account number, a credit card number, or a debit card number that, in combination with any required security code, access code, or password, would permit access to an individual’s account.
+(d)   “Reasonable security procedures and practices” means data security procedures and practices developed, in good faith, and set forth in a written information security policy.
+(e)   “Records” means information that is inscribed on a tangible medium or that is stored in an electronic or other medium and is retrievable in perceivable form.
+(f)   “Unit” means:
+(1)   an executive agency, or a department, a board, a commission, an authority, a public institution of higher education, a unit or an instrumentality of the State; or
+(2)   a county, municipality, bi–county, regional, or multicounty agency, county board of education, public corporation or authority, or any other political subdivision of the State.
+
+§10–1302.
+(a)   This subtitle does not apply to personal information that:
+(1)   is publicly available information that is lawfully made available to the general public from federal, State, or local government records;
+(2)   an individual has consented to have publicly disseminated or listed;
+(3)   except for a medical record that a person is prohibited from redisclosing under § 4–302(d) of the Health – General Article, is disclosed in accordance with the federal Health Insurance Portability and Accountability Act; or
+(4)   is disclosed in accordance with the federal Family Educational Rights and Privacy Act.
+(b)   This subtitle does not apply to the Legislative or Judicial Branch of State government.
+
+§10–1303.
+When a unit is destroying records of an individual that contain personal information of the individual, the unit shall take reasonable steps to protect against unauthorized access to or use of the personal information, taking into account:
+ (1)   the sensitivity of the records;
+(2)   the nature of the unit and its operations;
+(3)   the costs and benefits of different destruction methods; and
+(4)   available technology.
+
+§10–1304.
+(a)   To protect personal information from unauthorized access, use, modification, or disclosure, a unit that collects personal information of an individual shall implement and maintain reasonable security procedures and practices that are appropriate to the nature of the personal information collected and the nature of the unit and its operations.
+(b)    (1)   This subsection shall apply to a written contract or agreement that is entered into on or after July 1, 2014.
+(2)   A unit that uses a nonaffiliated third party as a service provider to perform services for the unit and discloses personal information about an individual under a written contract or agreement with the third party shall require by written contract or agreement that the third party implement and maintain reasonable security procedures and practices that:
+(i)   are appropriate to the nature of the personal information disclosed to the nonaffiliated third party; and
+(ii)   are reasonably designed to help protect the personal information from unauthorized access, use, modification, disclosure, or destruction.
+
+§10–1305.
+(a)    (1)   In this section, “breach of the security of a system” means the unauthorized acquisition of computerized data that compromises the security, confidentiality, or integrity of the personal information maintained by a unit.
+(2)   “Breach of the security of a system” does not include the good faith acquisition of personal information by an employee or agent of a unit for the purposes of the unit, provided that the personal information is not used or subject to further unauthorized disclosure.
+(b)    (1)   If a unit that collects computerized data that includes personal information of an individual discovers or is notified of a breach of the security of a system, the unit shall conduct in good faith a reasonable and prompt investigation to determine whether the unauthorized acquisition of personal information of the individual has resulted in or is likely to result in the misuse of the information.
+(2)    (i)   Except as provided in subparagraph (ii) of this paragraph, if after the investigation is concluded, the unit determines that the misuse of the individual’s personal information has occurred or is likely to occur, the unit or the nonaffiliated third party, if authorized under a written contract or agreement with the unit, shall notify the individual of the breach.
+(ii)   Unless the unit or nonaffiliated third party knows that the encryption key has been broken, a unit or the nonaffiliated third party is not required to notify an individual under subparagraph (i) of this paragraph if:
+1.   the personal information of the individual was secured by encryption or redacted; and
+2.   the encryption key has not been compromised or disclosed.
+(3)   Except as provided in subsection (d) of this section, the notification required under paragraph (2) of this subsection shall be given as soon as reasonably practicable after the unit conducts the investigation required under paragraph (1) of this subsection.
+(4)   If, after the investigation required under paragraph (1) of this subsection is concluded, the unit determines that notification under paragraph (2) of this subsection is not required, the unit shall maintain records that reflect its determination for 3 years after the determination is made.
+(c)    (1)   A nonaffiliated third party that maintains computerized data that includes personal information provided by a unit shall notify the unit of a breach of the security of a system if the unauthorized acquisition of the individual’s personal information has occurred or is likely to occur.
+(2)   Except as provided in subsection (d) of this section, the notification required under paragraph (1) of this subsection shall be given as soon as reasonably practicable after the nonaffiliated third party discovers or is notified of the breach of the security of a system.
+(3)   A nonaffiliated third party that is required to notify a unit of a breach of the security of a system under paragraph (1) of this subsection shall share with the unit information relating to the breach.
+(d)    (1)   The notification required under subsection (b) of this section may be delayed:
+(i)   if a law enforcement agency determines that the notification will impede a criminal investigation or jeopardize homeland or national security; or
+(ii)   to determine the scope of the breach of the security of a system, identify the individuals affected, or restore the integrity of the system.
+(2)   If notification is delayed under paragraph (1)(i) of this subsection, notification shall be given as soon as reasonably practicable after the law enforcement agency determines that the notification will not impede a criminal investigation and will not jeopardize homeland or national security.
+(e)   The notification required under subsection (b) of this section may be given:
+(1)   by written notice sent to the most recent address of the individual in the records of the unit;
+(2)   by electronic mail to the most recent electronic mail address of the individual in the records of the unit if:
+(i)   the individual has expressly consented to receive electronic notice; or
+(ii)   the unit conducts its duties primarily through Internet account transactions or the Internet;
+(3)   by telephonic notice, to the most recent telephone number of the individual in the records of the unit; or
+(4)   by substitute notice as provided in subsection (f) of this section if:
+(i)   the unit demonstrates that the cost of providing notice would exceed $100,000 or that the affected class of individuals to be notified exceeds 175,000; or
+(ii)   the unit does not have sufficient contact information to give notice in accordance with item (1), (2), or (3) of this subsection.
+(f)   Substitute notice under subsection (e)(4) of this section shall consist of:
+(1)   electronically mailing the notice to an individual entitled to notification under subsection (b) of this section if the unit has an electronic mail address for the individual to be notified;
+(2)   conspicuous posting of the notice on the Web site of the unit if the unit maintains a Web site; and
+(3)   notification to appropriate media.
+(g)   The notification required under subsection (b) of this section shall include:
+(1)   to the extent possible, a description of the categories of information that were, or are reasonably believed to have been, acquired by an unauthorized person, including which of the elements of personal information were, or are reasonably believed to have been, acquired;
+(2)   contact information for the unit making the notification, including the unit’s address, telephone number, and toll–free telephone number if one is maintained;
+(3)   the toll–free telephone numbers and addresses for the major consumer reporting agencies; and
+(4)    (i)   the toll–free telephone numbers, addresses, and Web site addresses for:
+1.   the Federal Trade Commission; and
+2.   the Office of the Attorney General; and
+(ii)   a statement that an individual can obtain information from these sources about steps the individual can take to avoid identity theft.
+(h)    (1)   Before giving the notification required under subsection (b) of this section, a unit shall provide notice of a breach of the security of a system to the Office of the Attorney General.
+(2)   In addition to the notice required under paragraph (1) of this subsection, a unit, as defined in § 10–1301(f)(1) of this subtitle, shall provide notice of a breach of security to the Department of Information Technology.
+(i)   A waiver of any provision of this section is contrary to public policy and is void and unenforceable.
+(j)   Compliance with this section does not relieve a unit from a duty to comply with any other requirements of federal law relating to the protection and privacy of personal information.
+
+§10–1306.
+The provisions of this subtitle are exclusive and shall preempt any provision of local law.
+
+§10–1307.
+(a)   If a unit is required under § 10–1305 of this subtitle to give notice of a breach of the security of a system to 1,000 or more individuals, the unit also shall notify, without unreasonable delay, each consumer reporting agency that compiles and maintains files on consumers on a nationwide basis, as defined by 15 U.S.C. § 1681a(p), of the timing, distribution, and content of the notices.
+(b)   This section does not require the inclusion of the names or other personal identifying information of recipients of notices of the breach of the security of a system.
+
+§10–1308.
+A unit or nonaffiliated third party that complies with § 501(b) of the federal Gramm–Leach–Bliley Act; 15 U.S.C. § 6801, § 216 of the federal Fair and Accurate Credit Transactions Act; 15 U.S.C. § 1681w Disposal of Records; the federal Interagency Guidelines Establishing Information Security Standards; and the federal Interagency Guidance on Response Programs for Unauthorized Access to Customer Information and Customer Notice; and any revisions, additions, or substitutions of those enactments, shall be deemed to be in compliance with this subtitle.
+

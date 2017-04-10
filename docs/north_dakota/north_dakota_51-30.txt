@@ -1,0 +1,47 @@
+51-30-01. Definitions.
+In this chapter, unless the context or subject matter otherwise requires:
+1. "Breach of the security system" means unauthorized acquisition of computerized data when access to personal information has not been secured by encryption or by any other method or technology that renders the electronic files, media, or databases unreadable or unusable. Good-faith acquisition of personal information by an employee or agent of the person is not a breach of the security of the system, if the
+personal information is not used or subject to further unauthorized disclosure.
+2. "Health insurance information" means an individual's health insurance policy number or subscriber identification number and any unique identifier used by a health insurer
+to identify the individual.
+3. "Medical information" means any information regarding an individual's medical history,
+mental or physical condition, or medical treatment or diagnosis by a health care professional.
+4. a.
+"Personal information" means an individual's first name or first initial and last name in combination with any of the following data elements, when the name and the data elements are not encrypted:
+(1) The individual's social security number;
+(2) The operator's license number assigned to an individual by the department of transportation under section 39-06-14;
+(3) A nondriver color photo identification card number assigned to the individual by the department of transportation under section 39-06-03.1;
+(4) The individual's financial institution account number, credit card number, or debit card number in combination with any required security code, access code, or password that would permit access to an individual's financial accounts;
+(5) The individual's date of birth;
+(6) The maiden name of the individual's mother;
+(7) Medical information;
+(8) Health insurance information;
+(9) An identification number assigned to the individual by the individual's
+employer in combination with any required security code, access code, or
+password; or
+(10) The individual's digitized or other electronic signature.
+"Personal information" does not include publicly available information that is lawfully made available to the general public from federal, state, or local government records.
+b.
+51-30-02. Notice to attorney general and consumers.
+Any person that owns or licenses computerized data that includes personal information, shall disclose any breach of the security system following discovery or notification of the breach in the security of the data to any resident of the state whose unencrypted personal information was, or is reasonably believed to have been, acquired by an unauthorized person. In addition, any person that experiences a breach of the security system as provided in this section shall disclose to the attorney general by mail or electronic mail any breach of the security system which exceeds two hundred fifty individuals. The disclosure must be made in the most expedient time possible and without unreasonable delay, consistent with the legitimate needs of law enforcement, as provided in section 51-30-04, or any measures necessary to determine the scope of the breach and to restore the integrity of the data system.
+51-30-03. Notice to owner or licensee of personal information.
+Any person that maintains computerized data that includes personal information that the person does not own shall notify the owner or licensee of the information of the breach of the security of the data immediately following the discovery, if the personal information was, or is reasonably believed to have been, acquired by an unauthorized person.
+51-30-04. Delayed notice.
+The notification required by this chapter may be delayed if a law enforcement agency determines that the notification will impede a criminal investigation. The notification required by this chapter must be made after the law enforcement agency determines that the notification will not compromise the investigation.
+51-30-05. Method of notice.
+Notice under this chapter may be provided by one of the following methods:
+1. Written notice;
+2. Electronic notice, if the notice provided is consistent with the provisions regarding
+electronic records and signatures set forth in section 7001 of title 15 of the United
+States Code; or
+3. Substitute notice, if the person demonstrates that the cost of providing notice would
+exceed two hundred fifty thousand dollars, or that the affected class of subject persons to be notified exceeds five hundred thousand, or the person does not have sufficient contact information. Substitute notice consists of the following:
+a. Electronic mail notice when the person has an electronic mail address for the
+subject persons;
+b. Conspicuous posting of the notice on the person's website page, if the person
+maintains one; and
+c. Notification to major statewide media.
+51-30-06. Alternate compliance.
+Notwithstanding section 51-30-05, a person that maintains its own notification procedures as part of an information security policy for the treatment of personal information and is otherwise consistent with the timing requirements of this chapter is deemed to be in compliance with the notification requirements of this chapter if the person notifies subject individuals in accordance with its policies in the event of a breach of security of the system. A financial institution, trust company, or credit union that is subject to, examined for, and in compliance with the federal interagency guidance on response programs for unauthorized access to customer information and customer notice is in compliance with this chapter. A covered entity, business associate, or subcontractor subject to breach notification requirements under title 45, Code of Federal Regulations, subpart D, part 164, is considered to be in compliance with this chapter.
+51-30-07. Enforcement - Powers - Remedies - Penalties.
+The attorney general may enforce this chapter. The attorney general, in enforcing this chapter, has all the powers provided in chapter 51-15 and may seek all the remedies in chapter 51-15. A violation of this chapter is deemed a violation of chapter 51-15. The remedies, duties, prohibitions, and penalties of this chapter are not exclusive and are in addition to all other causes of action, remedies, and penalties under chapter 51-15, or otherwise provided by law.

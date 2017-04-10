@@ -1,0 +1,19 @@
+8-4-119.  Report to comptroller of treasury of government fraud.
+
+  (a) Any state agency having determined that a theft, forgery, credit card fraud or any other intentional act of unlawful or unauthorized taking, or abuse of public money, property, or services, or that other cash shortages have occurred in the state agency, shall report the information to the office of the comptroller of the treasury.
+
+(b) The comptroller of the treasury, in consultation with the state agencies, shall have the authority to establish guidelines for such reports.
+
+(c)  (1) Any state agency shall, within a reasonable amount of time, notify the comptroller of the treasury of any confirmed or suspected unauthorized acquisition of computerized data and any confirmed or suspected breach of a computer information system or related security system established to safeguard the data and computer information system.
+
+   (2) For purposes of subdivision (c)(1):
+
+      (A) "Breach" does not include individual occurrences of malware or spyware;
+
+      (B) "Computer information system" and "related security system" mean those computer information systems and security system infrastructures operated and administered by the state agency or an entity with which the state agency contracts for such operation and administration; and
+
+      (C) "Reasonable amount of time" means any amount of time that is reasonable under the particular circumstances, but shall not under any circumstances exceed five (5) working days.
+
+(d) The information received pursuant to this section shall be confidential working papers of the comptroller of the treasury, and therefore, shall not be an open record pursuant to title 10, chapter 7.
+
+(e) As used in this section "state agency" means each state board, commission, committee, department, office, or any other unit of state government.

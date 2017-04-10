@@ -1,0 +1,659 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="Head1"><title>
+	Lawriter - ORC - 
+
+  1347.12 
+
+
+
+Agency disclosure of security breach of computerized personal information data.
+</title><link href="/_files/main.css" media="all" rel="Stylesheet" type="text/css" /><link href="/_files/print.css" media="print" rel="Stylesheet" type="text/css" />
+    <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-34415685-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+ <script language="javascript" type="text/javascript">
+    function fncheck()
+    {
+        try {
+//            if (window.event.keyCode == 13) {
+                var re = /\s/g;
+                var ch=document.getElementById("query").value;
+                ch = ch.replace(re, "");
+                if ((ch == null) || (ch.length == 0)) {
+                   return false;
+                }
+                else {
+                    return true;
+                }
+           // }
+        }
+        catch (err) { alert(err); }
+    }
+    
+    function fnchecks()
+    {  
+        try {
+                var re = /\s/g;
+                var typename=document.getElementById("from").value;
+                var ch=document.getElementById("section").value;
+                ch = ch.replace(re, "");
+                if ((ch == null) || (ch.length == 0)) {
+                  return false;
+                }
+                else if (typename=="orc") 
+                {
+                 if(ch.indexOf("-")>0 || ch.indexOf("%3A")>0)
+                 {   alert("Are you looking for an Admin Rule. Please switch to Ohio Admin Code? "); 
+                    return false;
+                 }
+                 var chklen =ch.substring(0,ch.indexOf("."))
+                 if (chklen.length>0 && chklen.length < 3 && ch.indexOf(".")>0)
+                 {  document.getElementById("section").value='gp' + ch;
+                 }
+                 return true;
+                
+                }else{  return true;}
+        }
+        catch (err) 
+        { 
+        alert(err);
+         }
+    }
+    
+function fncheckqts()
+    {  
+        try {
+                var re = /"/g;
+                var ch=document.getElementById("query").value;
+                
+                ch = ch.replace(re, "%22");
+                document.getElementById("query").value=ch;
+        }
+        catch (err) 
+        { 
+        alert(err);
+         }
+    }
+    </script>
+</head>
+<body>
+       <div id="header">
+    <div class="container">
+      <div class="content">
+        <div id="logo">
+          <span>LAW</span>
+          <span id="writer">
+            <span id="w-in-writer">W</span>riter<sup><span>®</span></sup>
+          </span>
+          <span id="ohio">Ohio Laws and Rules</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="sidebar">
+      <div id="full-text-search">
+        <form action="../Search.aspx" method="get" onsubmit="javascript:return fncheckqts();">
+          <label for="query" accesskey="s">
+            <em class="mnemonic">S</em>earch ORC:<input type="hidden" name="from" value="orc">
+          </label>
+          <input id="query" name="query" type="text" />
+          <input class="submit" value="Go" type="submit" />
+          <input type="hidden" id="msg" value="REPLACE_MESSAGE" />
+        </form>
+      </div>
+
+      <div id="links">
+      <a href="/oac" title="Ohio Administrative Code">Ohio Administrative Code</a>
+        <a href="../" class="constant" title="home">Home</a>
+        <a href="../help.aspx" class="constant" title="help">Help</a>
+      </div>
+    </div>
+
+  <div id="infobar">
+  <a href="javascript:;" accesskey="r"
+    name="Route" title="Route" class="quickkey">
+    <em class="mnemonic">R</em>oute</a>:
+
+  <ul class="breadcrumb"><li>
+  <a href="/orc" name="orc" title="orc"> Ohio Revised Code</a></li><li> &raquo; 
+<a href="/orc/13" title="13">Title [13] XIII COMMERCIAL TRANSACTIONS - OHIO UNIFORM COMMERCIAL CODE</a>
+</li><li> &raquo; 
+<a href="/orc/1347" title="1347">Chapter 1347: PERSONAL INFORMATION SYSTEMS</a>
+</li></ul>
+</div>
+      </div>
+  <div id="doc" class="container">
+    <div class="content"><h2> 1347.12 
+
+ 
+
+Agency disclosure of security breach of computerized personal information data.</h2>
+</B></P>
+<p>
+
+<p>
+<a style="white-space:nowrap;" title="§ 1347.12. (A)" name="1347.12(A)">(A)</a>
+ As
+ used in this section:
+
+<p>
+<a style="white-space:nowrap;" title="§ 1347.12. (A)(1)" name="1347.12(A)(1)">(1)</a>
+ "Agency of a
+ political subdivision" means each organized body, office, or agency established
+ by a political subdivision for the exercise of any function of the political
+ subdivision, except that "agency of a political subdivision" does not include
+ an agency that is a covered entity as defined in
+ 45 C.F.R.
+ 160.103, as amended.
+</p>
+
+
+<p>
+<a style="white-space:nowrap;" title="§ 1347.12. (A)(2)" name="1347.12(A)(2)">(2)</a>
+
+
+<p>
+<a style="white-space:nowrap;" title="§ 1347.12. (A)(2)(a)" name="1347.12(A)(2)(a)">(a)</a>
+
+ "Breach of the security of the system" means unauthorized access to and
+ acquisition of computerized data that compromises the security or
+ confidentiality of personal information owned or licensed by a state agency or
+ an agency of a political subdivision and that causes, reasonably is believed to
+ have caused, or reasonably is believed will cause a material risk of identity
+ theft or other fraud to the person or property of a resident of this
+ state.
+</p>
+
+
+<p>
+<a style="white-space:nowrap;" title="§ 1347.12. (A)(2)(b)" name="1347.12(A)(2)(b)">(b)</a>
+ For purposes
+ of division (A)(2)(a) of this section: 
+ 
+
+<p>
+<a style="white-space:nowrap;" title="§ 1347.12. (A)(2)(b)(i)" name="1347.12(A)(2)(b)(i)">(i)</a>
+
+ Good faith acquisition of personal information by an employee or agent of the
+ state agency or agency of the political subdivision for the purposes of the
+ agency is not a breach of the security of the system, provided that the
+ personal information is not used for an unlawful purpose or subject to further
+ unauthorized disclosure.
+</p>
+
+
+<p>
+<a style="white-space:nowrap;" title="§ 1347.12. (A)(2)(b)(ii)" name="1347.12(A)(2)(b)(ii)">(ii)</a>
+
+ Acquisition of personal information pursuant to a search warrant, subpoena, or
+ other court order, or pursuant to a subpoena, order, or duty of a regulatory
+ state agency, is not a breach of the security of the system.
+</p>
+
+
+</p>
+
+
+</p>
+
+
+<p>
+<a style="white-space:nowrap;" title="§ 1347.12. (A)(3)" name="1347.12(A)(3)">(3)</a>
+ "Consumer
+ reporting agency that compiles and maintains files on consumers on a nationwide
+ basis" means a consumer reporting agency that regularly engages in the practice
+ of assembling or evaluating, and maintaining, for the purpose of furnishing
+ consumer reports to third parties bearing on a consumer's creditworthiness,
+ credit standing, or credit capacity, each of the following regarding consumers
+ residing nationwide:
+
+<p>
+<a style="white-space:nowrap;" title="§ 1347.12. (A)(3)(a)" name="1347.12(A)(3)(a)">(a)</a>
+ Public
+ record information;
+</p>
+
+
+<p>
+<a style="white-space:nowrap;" title="§ 1347.12. (A)(3)(b)" name="1347.12(A)(3)(b)">(b)</a>
+ Credit
+ account information from persons who furnish that information regularly and in
+ the ordinary course of business.
+</p>
+
+
+</p>
+
+
+<p>
+<a style="white-space:nowrap;" title="§ 1347.12. (A)(4)" name="1347.12(A)(4)">(4)</a>
+
+ "Encryption" means the use of an algorithmic process to transform data into a
+ form in which there is a low probability of assigning meaning without use of a
+ confidential process or key.
+</p>
+
+
+<p>
+<a style="white-space:nowrap;" title="§ 1347.12. (A)(5)" name="1347.12(A)(5)">(5)</a>
+
+ "Individual" means a natural person.
+</p>
+
+
+<p>
+<a style="white-space:nowrap;" title="§ 1347.12. (A)(6)" name="1347.12(A)(6)">(6)</a>
+
+
+<p>
+<a style="white-space:nowrap;" title="§ 1347.12. (A)(6)(a)" name="1347.12(A)(6)(a)">(a)</a>
+
+ "Personal information" means, notwithstanding section
+ <a class="CodeLink" href="/orc/1347.01" title="1347.01"> 1347.01</a> of the Revised Code, an
+ individual's name, consisting of the individual's first name or first initial
+ and last name, in combination with and linked to any one or more of the
+ following data elements, when the data elements are not encrypted, redacted, or
+ altered by any method or technology in such a manner that the data elements are
+ unreadable:
+
+<p>
+<a style="white-space:nowrap;" title="§ 1347.12. (A)(6)(a)(i)" name="1347.12(A)(6)(a)(i)">(i)</a>
+ Social
+ security number;
+</p>
+
+
+<p>
+<a style="white-space:nowrap;" title="§ 1347.12. (A)(6)(a)(ii)" name="1347.12(A)(6)(a)(ii)">(ii)</a>
+ Driver's
+ license number or state identification card number;
+</p>
+
+
+<p>
+<a style="white-space:nowrap;" title="§ 1347.12. (A)(6)(a)(iii)" name="1347.12(A)(6)(a)(iii)">(iii)</a>
+
+ Account number or credit or debit card number, in combination with and linked
+ to any required security code, access code, or password that would permit
+ access to an individual's financial account.
+</p>
+
+
+</p>
+
+
+<p>
+<a style="white-space:nowrap;" title="§ 1347.12. (A)(6)(b)" name="1347.12(A)(6)(b)">(b)</a>
+
+ "Personal information" does not include publicly available information that is
+ lawfully made available to the general public from federal, state, or local
+ government records or any of the following media that are widely distributed: 
+ 
+
+<p>
+<a style="white-space:nowrap;" title="§ 1347.12. (A)(6)(b)(i)" name="1347.12(A)(6)(b)(i)">(i)</a>
+ Any
+ news, editorial, or advertising statement published in any bona fide newspaper,
+ journal, or magazine, or broadcast over radio or television;
+</p>
+
+
+<p>
+<a style="white-space:nowrap;" title="§ 1347.12. (A)(6)(b)(ii)" name="1347.12(A)(6)(b)(ii)">(ii)</a>
+
+ Any gathering or furnishing of information or news by any bona fide reporter,
+ correspondent, or news bureau to news media described in division (A)(6)(b)(i)
+ of this section;
+</p>
+
+
+<p>
+<a style="white-space:nowrap;" title="§ 1347.12. (A)(6)(b)(iii)" name="1347.12(A)(6)(b)(iii)">(iii)</a>
+ Any
+ publication designed for and distributed to members of any bona fide
+ association or charitable or fraternal nonprofit corporation;
+</p>
+
+
+<p>
+<a style="white-space:nowrap;" title="§ 1347.12. (A)(6)(b)(iv)" name="1347.12(A)(6)(b)(iv)">(iv)</a>
+
+ Any type of media similar in nature to any item, entity, or activity identified
+ in division (A)(6)(b)(i), (ii), or (iii) of this section.
+</p>
+
+
+</p>
+
+
+</p>
+
+
+<p>
+<a style="white-space:nowrap;" title="§ 1347.12. (A)(7)" name="1347.12(A)(7)">(7)</a>
+ "Political
+ subdivision" has the same meaning as in section
+ <a class="CodeLink" href="/orc/2744.01" title="2744.01"> 2744.01</a> of the Revised
+ Code.
+</p>
+
+
+<p>
+<a style="white-space:nowrap;" title="§ 1347.12. (A)(8)" name="1347.12(A)(8)">(8)</a>
+ "Record"
+ means any information that is stored in an electronic medium and is retrievable
+ in perceivable form. "Record" does not include any publicly available directory
+ containing information an individual voluntarily has consented to have publicly
+ disseminated or listed, such as name, address, or telephone number.
+</p>
+
+
+<p>
+<a style="white-space:nowrap;" title="§ 1347.12. (A)(9)" name="1347.12(A)(9)">(9)</a>
+
+ "Redacted" means altered or truncated so that no more than the last four digits
+ of a social security number, driver's license number, state identification card
+ number, account number, or credit or debit card number is accessible as part of
+ the data.
+</p>
+
+
+<p>
+<a style="white-space:nowrap;" title="§ 1347.12. (A)(10)" name="1347.12(A)(10)">(10)</a>
+ "State
+ agency" has the same meaning as in section
+ <a class="CodeLink" href="/orc/gp1.60" title="gp1.60"> 1.60</a> of the Revised Code, except
+ that "state agency" does not include an agency that is a covered entity as
+ defined in 45 C.F.R.
+ 160.103, as amended.
+</p>
+
+
+<p>
+<a style="white-space:nowrap;" title="§ 1347.12. (A)(11)" name="1347.12(A)(11)">(11)</a>
+
+ "System" means, notwithstanding section
+ <a class="CodeLink" href="/orc/1347.01" title="1347.01"> 1347.01</a> of the Revised Code, any
+ collection or group of related records that are kept in an organized manner,
+ that are maintained by a state agency or an agency of a political subdivision,
+ and from which personal information is retrieved by the name of the individual
+ or by some identifying number, symbol, or other identifier assigned to the
+ individual. "System" does not include any collected archival records in the
+ custody of or administered under the authority of the Ohio
+ history connection , any published directory, any
+ reference material or newsletter, or any routine information that is maintained
+ for the purpose of internal office administration of the agency, if the use of
+ the directory, material, newsletter, or information would not adversely affect
+ an individual and if there has been no unauthorized external breach of the
+ directory, material, newsletter, or information.
+</p>
+
+
+</p>
+
+
+<p>
+<a style="white-space:nowrap;" title="§ 1347.12. (B)" name="1347.12(B)">(B)</a>
+
+
+<p>
+<a style="white-space:nowrap;" title="§ 1347.12. (B)(1)" name="1347.12(B)(1)">(1)</a>
+ Any
+ state agency or agency of a political subdivision that owns or licenses
+ computerized data that includes personal information shall disclose any breach
+ of the security of the system, following its discovery or notification of the
+ breach of the security of the system, to any resident of this state whose
+ personal information was, or reasonably is believed to have been, accessed and
+ acquired by an unauthorized person if the access and acquisition by the
+ unauthorized person causes or reasonably is believed will cause a material risk
+ of identity theft or other fraud to the resident. The disclosure described in
+ this division may be made pursuant to any provision of a contract entered into
+ by the state agency or agency of a political subdivision with any person or
+ another state agency or agency of a political subdivision prior to the date the
+ breach of the security of the system occurred if that contract does not
+ conflict with any provision of this section. For purposes of this section, a
+ resident of this state is an individual whose principal mailing address as
+ reflected in the records of the state agency or agency of a political
+ subdivision is in this state.
+</p>
+
+
+<p>
+<a style="white-space:nowrap;" title="§ 1347.12. (B)(2)" name="1347.12(B)(2)">(2)</a>
+ The
+ state agency or agency of a political subdivision shall make the disclosure
+ described in division (B)(1) of this section in the most expedient time
+ possible but not later than forty-five days following its discovery or
+ notification of the breach in the security of the system, subject to the
+ legitimate needs of law enforcement activities described in division (D) of
+ this section and consistent with any measures necessary to determine the scope
+ of the breach, including which residents' personal information was accessed and
+ acquired, and to restore the reasonable integrity of the data system.
+</p>
+
+
+</p>
+
+
+<p>
+<a style="white-space:nowrap;" title="§ 1347.12. (C)" name="1347.12(C)">(C)</a>
+ Any state
+ agency or agency of a political subdivision that, on behalf of or at the
+ direction of another state agency or agency of a political subdivision, is the
+ custodian of or stores computerized data that includes personal information
+ shall notify that other state agency or agency of a political subdivision of
+ any breach of the security of the system in an expeditious manner, if the
+ personal information was, or reasonably is believed to have been, accessed and
+ acquired by an unauthorized person and if the access and acquisition by the
+ unauthorized person causes or reasonably is believed will cause a material risk
+ of identity theft or other fraud to a resident of this state.
+</p>
+
+
+<p>
+<a style="white-space:nowrap;" title="§ 1347.12. (D)" name="1347.12(D)">(D)</a>
+ The
+ state agency or agency of a political subdivision may delay the disclosure or
+ notification required by division (B), (C), or (F) of this section if a law
+ enforcement agency determines that the disclosure or notification will impede a
+ criminal investigation or jeopardize homeland or national security, in which
+ case, the state agency or agency of a political subdivision shall make the
+ disclosure or notification after the law enforcement agency determines that
+ disclosure or notification will not compromise the investigation or jeopardize
+ homeland or national security.
+</p>
+
+
+<p>
+<a style="white-space:nowrap;" title="§ 1347.12. (E)" name="1347.12(E)">(E)</a>
+ For
+ purposes of this section, a state agency or agency of a political subdivision
+ may disclose or make a notification by any of the following methods: 
+ 
+
+<p>
+<a style="white-space:nowrap;" title="§ 1347.12. (E)(1)" name="1347.12(E)(1)">(1)</a>
+
+ Written notice;
+</p>
+
+
+<p>
+<a style="white-space:nowrap;" title="§ 1347.12. (E)(2)" name="1347.12(E)(2)">(2)</a>
+ Electronic
+ notice, if the state agency's or agency of a political subdivision's primary
+ method of communication with the resident to whom the disclosure must be made
+ is by electronic means;
+</p>
+
+
+<p>
+<a style="white-space:nowrap;" title="§ 1347.12. (E)(3)" name="1347.12(E)(3)">(3)</a>
+
+ Telephone notice;
+</p>
+
+
+<p>
+<a style="white-space:nowrap;" title="§ 1347.12. (E)(4)" name="1347.12(E)(4)">(4)</a>
+ Substitute
+ notice in accordance with this division, if the state agency or agency of a
+ political subdivision required to disclose demonstrates that the agency does
+ not have sufficient contact information to provide notice in a manner described
+ in division (E)(1), (2), or (3) of this section, or that the cost of providing
+ disclosure or notice to residents to whom disclosure or notification is
+ required would exceed two hundred fifty thousand dollars, or that the affected
+ class of subject residents to whom disclosure or notification is required
+ exceeds five hundred thousand persons. Substitute notice under this division
+ shall consist of all of the following: 
+ 
+
+<p>
+<a style="white-space:nowrap;" title="§ 1347.12. (E)(4)(a)" name="1347.12(E)(4)(a)">(a)</a>
+
+ Electronic mail notice if the state agency or agency of a political subdivision
+ has an electronic mail address for the resident to whom the disclosure must be
+ made;
+</p>
+
+
+<p>
+<a style="white-space:nowrap;" title="§ 1347.12. (E)(4)(b)" name="1347.12(E)(4)(b)">(b)</a>
+ Conspicuous
+ posting of the disclosure or notice on the state agency's or agency of a
+ political subdivision's web site, if the agency maintains one;
+</p>
+
+
+<p>
+<a style="white-space:nowrap;" title="§ 1347.12. (E)(4)(c)" name="1347.12(E)(4)(c)">(c)</a>
+
+ Notification to major media outlets, to the extent that the cumulative total of
+ the readership, viewing audience, or listening audience of all of the outlets
+ so notified equals or exceeds seventy-five per cent of the population of this
+ state.
+</p>
+
+
+</p>
+
+
+<p>
+<a style="white-space:nowrap;" title="§ 1347.12. (E)(5)" name="1347.12(E)(5)">(5)</a>
+ Substitute
+ notice in accordance with this division, if the state agency or agency of a
+ political subdivision required to disclose demonstrates that the agency has ten
+ employees or fewer and that the cost of providing the disclosures or notices to
+ residents to whom disclosure or notification is required will exceed ten
+ thousand dollars. Substitute notice under this division shall consist of all of
+ the following:
+
+<p>
+<a style="white-space:nowrap;" title="§ 1347.12. (E)(5)(a)" name="1347.12(E)(5)(a)">(a)</a>
+ Notification
+ by a paid advertisement in a local newspaper that is distributed in the
+ geographic area in which the state agency or agency of a political subdivision
+ is located, which advertisement shall be of sufficient size that it covers at
+ least one-quarter of a page in the newspaper and shall be published in the
+ newspaper at least once a week for three consecutive weeks;
+</p>
+
+
+<p>
+<a style="white-space:nowrap;" title="§ 1347.12. (E)(5)(b)" name="1347.12(E)(5)(b)">(b)</a>
+
+ Conspicuous posting of the disclosure or notice on the state agency's or agency
+ of a political subdivision's web site, if the agency maintains one;
+</p>
+
+
+<p>
+<a style="white-space:nowrap;" title="§ 1347.12. (E)(5)(c)" name="1347.12(E)(5)(c)">(c)</a>
+
+ Notification to major media outlets in the geographic area in which the state
+ agency or agency of a political subdivision is located.
+</p>
+
+
+</p>
+
+
+</p>
+
+
+<p>
+<a style="white-space:nowrap;" title="§ 1347.12. (F)" name="1347.12(F)">(F)</a>
+ If a state
+ agency or agency of a political subdivision discovers circumstances that
+ require disclosure under this section to more than one thousand residents of
+ this state involved in a single occurrence of a breach of the security of the
+ system, the state agency or agency of a political subdivision shall notify,
+ without unreasonable delay, all consumer reporting agencies that compile and
+ maintain files on consumers on a nationwide basis of the timing, distribution,
+ and content of the disclosure given by the state agency or agency of a
+ political subdivision to the residents of this state. In no case shall a state
+ agency or agency of a political subdivision that is required to make a
+ notification required by this division delay any disclosure or notification
+ required by division (B) or (C) of this section in order to make the
+ notification required by this division.
+</p>
+
+
+<p>
+<a style="white-space:nowrap;" title="§ 1347.12. (G)" name="1347.12(G)">(G)</a>
+ The
+ attorney general, pursuant to sections
+ <a class="CodeLink" href="/orc/1349.191" title="1349.191"> 1349.191</a> and
+ <a class="CodeLink" href="/orc/1349.192" title="1349.192"> 1349.192</a> of the Revised Code,
+ may conduct an investigation and bring a civil action upon an alleged failure
+ by a state agency or agency of a political subdivision to comply with the
+ requirements of this section.
+</p>
+
+
+
+<P class="HistoryFirst">
+ Amended by
+ 131st General Assembly File No.
+ TBD, HB 141, §1, eff.
+ 9/29/2015.</font>
+</P>
+<P class="HistoryRest">
+<font size="-1">Effective date:
+ 02-17-2006; 03-30-200.</font>
+</P>
+ 
+
+</p>
+
+    </div>
+    </div>
+    <div id="toc" class="sidebar">
+  <form action="../Search.aspx" method="get" onsubmit="javascript:return fnchecks();">
+  <div>
+<input type="hidden" id="from" name="from" value="orc" />  <label accesskey="g" for="section">
+    <em class="mnemonic">G</em>o&nbsp;To:</label>
+  <input id="section" name="section" type="text" value=""/>  <input class="submit" type="submit" value="Go" />  </div>
+</form>
+
+<div class="prev-next">
+  <a href="/orc/1347.10" accesskey="p" name="Previous" title="Previous"><em class="mnemonic">P</em>rev</a>
+  | 
+ <a href="/orc/1347.15" accesskey="n" name="Next" title="Next"><em class="mnemonic">N</em>ext</a>
+ </div>
+
+</div>
+    </body></html>

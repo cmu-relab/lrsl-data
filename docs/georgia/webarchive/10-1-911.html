@@ -1,0 +1,420 @@
+
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0;" />
+<link  rel="stylesheet" type="text/css" href="/ri/newUIGlobal_22-OCT-2016.css"></link>
+
+
+<LINK REL="stylesheet" TYPE="text/css" HREF="/ri/starpag_22-OCT-2016.css" >
+<LINK REL="stylesheet" TYPE="text/css" HREF="/ri/ldcPopUp_22-OCT-2016.css">
+<LINK REL="stylesheet" TYPE="text/css" HREF="/ri/treeView_22-OCT-2016.css">
+<title>Search - 1 Result - No terms specified</title>
+<META NAME="SEARCHHINT" CONTENT="48de36576ebd7b702dc8b52dbcc670d573e1f3a680fbb704aa2e858543729b612415e3c359156b3cab8fbc4d83124f6241f655c30fe4ba274a7b3849678b1eefb13bc386f5fdccbd0cfb92814495f30afc2717c02c484bccb10d928030fd632be23904247a4ac590912cc5bad6fee2f0183e07f66eda139b4408a28222399a95a751ab2b5b8920487ed1badaa799d23d">
+<script src="/ri/lnjquery_22-OCT-2016.js" language="JavaScript"></script><script src="/ri/browser_22-OCT-2016.js" language="JavaScript"></script><script src="/ri/ldcDom_utils_22-OCT-2016.js" language="JavaScript"></script><script src="/ri/ettoc_ns6_22-OCT-2016.js" language="JavaScript"></script><script src="/ri/dom_et3_ui_22-OCT-2016.js" language="JavaScript"></script><script src="/ri/ns_me_ui_22-OCT-2016.js" language="JavaScript"></script><script src="/ri/dom_me_ui_22-OCT-2016.js" language="JavaScript"></script><script src="/ri/commonscript_22-OCT-2016.js" language="JavaScript"></script><script src="/ri/browser_22-OCT-2016.js" language="JavaScript"></script>
+
+<SCRIPT language="JavaScript1.2">
+<!--
+
+
+function browseObject() {
+this.lni="5KHW-MJH0-008Y-V4N5-00000-00";
+this.csi="305984";
+this.psl_lni="lni|305984|5KHW-MJH0-008Y-V4N5-00000-00";
+this.svc="toc2doc";
+this.ajuri="";
+this.deyear="";
+this.disablePushme="1";
+this.disableFastPrintPushme="1";
+this.docName="";
+this.cite="";
+this.isgetable="1";
+this.xlinkURL="";
+this.browseURL="/research/retrieve?_m=4aaedf64ce1b461db4a4ba6515ca171c&displacement=1&_xfercite=%26%2360%3bcite%20cc%3d%26%2334%3bUSA%26%2334%3b%26%2362%3b%26%2360%3b%21%5bCDATA%5bO.C.G.A.%20%26%23167%3b%2010-1-911%5d%5d%26%2362%3b%26%2360%3b%2fcite%26%2362%3b&_browseType=TEXTONLY&docnum=1&_fmtstr=BOOK&_startdoc=1&wchp=dGLbVzt-zSkAA&_md5=2588613539ffebbdfcd8c8acd8448621";
+this.shepBuddyExpanded="0";
+this.searchHint="";
+this.searchHintWithBar="";
+this.shepBPon="1";
+this.firstCite="0";
+}
+var ln_browse=new browseObject();
+
+
+
+
+
+
+
+function loadHandler()
+{
+//WT: 154544-Start
+restoreViewOption();
+//WT: 154544-End
+if (location.host.indexOf("lexisnexis1.com") > 0) {
+window.name="cui";
+}
+
+self.focus();
+
+
+
+
+}
+
+function resizeHandler()
+{
+
+}
+function viewScript(name ,anchor){
+var loc="uri";
+var args = getWf(loc,anchor.href);
+var format="";
+if (args._fmtstr)
+format = args._fmtstr;
+if(format=="CITE" || format=="XCITE"){
+name="Cite";
+}
+if(format=="FULL"){
+name="Full";
+}
+if(format=="VKWIC" || format == "SKWIC"){
+name="KWIC";
+}
+if(format=="CUSTOM"){
+name="Custom";
+}
+if(format=="DIGEST"){
+name="Digest";
+}
+if(format=="BRIEF"){
+name="Brief";
+}
+if(format=="TTOCHITS"){
+name="TOC Hits";
+}
+if(format=="TOC"){
+name="TOC";
+}
+
+
+
+}
+//-->
+</SCRIPT>
+</head>
+
+<script></script>
+<!-- Begin Fix - Karthika
+Issue:HOTLINE-font colors in text of documents seems to change randomly
+for get a document by citation (irc Sec 401) in IE
+Fix:Interchange the two functions changeFont() and loadHandler()-->
+<body bgcolor="#FFFFFF" topmargin=0 leftmargin=0 rightmargin=0 ID="body"
+marginheight=0 marginwidth=0  onResize="resizeHandler()" onLoad="changeFont();loadHandler();" >
+<!-- End Fix -->
+<div id="globalNavbar">
+
+
+
+<script>
+<!--
+$(document).ready(function(){ 
+
+// Adding onclick to topic trail
+
+$('.truncatedSSA').mouseover(function(){
+//Begin: Fix for webstar 3971359  - Nov 18 - Moses
+$(this).data("truncTrail",$(this).html());
+//End: Fix for webstar 3971359  - Nov 18 - Moses
+$(this).html($(this).data("fullTrail"));
+});
+
+$('.truncatedSSA').mouseout(function(){
+$(this).html($(this).data("truncTrail"));
+});
+
+
+
+
+var arrOfDrodownElement =document.getElementsByName("dropList");
+if(arrOfDrodownElement.length>=2)
+{
+arrOfDrodownElement[1].setAttribute("name","dropList1");
+}
+
+$("select[name='dropList']").change(function(){
+viewname=$("option:selected", this).text();
+url=$("option:selected", this).val()
+anchor = document.createElement("a");
+anchor.setAttribute('href',url);
+anchor.setAttribute('id','dynamicAnchor');
+anchor.setAttribute('style','display:hidden');
+anchor.name='View';
+$(submitview(viewname,anchor));
+});
+
+$("select[name='dropList1']").change(function(){
+
+viewname=$("option:selected", this).text();
+url=$("option:selected", this).val();
+anchor = document.createElement("a");
+anchor.setAttribute('href',url);
+anchor.setAttribute('id','dynamicAnchor');
+anchor.setAttribute('style','display:hidden');
+anchor.name='View';
+$(submitview(viewname,anchor));
+});
+
+
+function submitview(viewname,anchor)
+{
+var newlink = document.getElementById('baseUrlForView');
+var baseUrl = newlink.value;
+if(anchor.href.indexOf(baseUrl) < 0) {
+anchor.href = baseUrl+anchor.href;
+}
+if(viewname== 'Cite')
+{
+//Begin Fix for webstar 3983306 - Nov 2011 - Moses
+// passed an extra argument as an identifier that cite view is selected
+if(window.pNav)
+pNav.preserveDocNo(1, anchor,1);
+//End Fix for webstar 3983306 - Nov 2011 - Moses
+window.setTaggedDocsState(anchor.href,'0','window')
+}
+if(viewname =='Digest')
+{
+if(window.pNav)
+pNav.preserveDocNo(1, anchor);
+window.setTaggedDocsState(anchor.href,'0','window')
+}
+if(viewname== 'Case Brief')
+{
+if(window.pNav)
+pNav.preserveDocNo(0, anchor);
+window.setTaggedDocsState(anchor.href,'0','window')
+}
+if(viewname=='Full'){
+if(window.pNav)
+pNav.preserveDocNo(0, anchor);
+window.setTaggedDocsState(anchor.href,'0','window')
+}
+if(viewname.search('Custom')!=-1){
+if(window.pNav)
+pNav.preserveDocNo(0, anchor);
+window.setTaggedDocsState(anchor.href,'Custom','window')
+}
+if(viewname.search('KWIC')!=-1){
+if(window.pNav)
+pNav.preserveDocNo(0, anchor);
+window.setTaggedDocsState(anchor.href,'0','window')
+}
+
+if(viewname== 'TOC'){
+window.setTaggedDocsState(anchor.href,'0','window');
+return window.pTocHits.persistHitCheckboxes(anchor,'0','window');
+}
+if(viewname =='TOC Hits')
+{
+
+if(window.pToc.tcFormSubmit)
+{
+if (window.pToc.tcOut(anchor, anchor.href))
+{
+window.setTaggedDocsState(anchor.href, '0','window', true);
+window.pToc.tcFormSubmit(anchor, 'citeForm',anchor.href);
+}
+}
+else
+{
+window.setTaggedDocsState(anchor.href,'0','window');
+}
+}
+}
+
+ });
+//-->
+</script>
+
+
+</div>
+<a name="Modeless"></a>
+
+<input type="hidden" id="baseUrlForView" name="baseUrlForView" value= >
+
+
+
+<!-- Hidded field for Dedupe Indication -->
+<INPUT TYPE=hidden ID="dedupeFlag"  NAME="dedupeFlag" VALUE="0">
+<input type="hidden" id="clusterIndicator" value="0">
+<FORM NAME="citeForm" ID="citeForm"  method=get class="brwsMrgnBtm">
+<INPUT TYPE=hidden NAME="pushme" VALUE="1">
+<INPUT TYPE=hidden NAME="tmpFBSel" VALUE="">
+<INPUT TYPE=hidden NAME="totaldocs" VALUE="">
+<INPUT TYPE=hidden NAME="taggedDocs" VALUE="">
+<input type=hidden name=toggleValue VALUE="">
+<INPUT TYPE=hidden NAME="numDocsChked" VALUE="">
+<INPUT TYPE=hidden NAME="prefFBSel" VALUE="0">
+<INPUT TYPE=hidden NAME="delformat" VALUE="BOOK">
+<INPUT TYPE=hidden NAME="fpDocs">
+<INPUT TYPE=hidden NAME="fpNodeId">
+<INPUT TYPE=hidden NAME="fpCiteReq">
+<input type=hidden name="expNewLead" value= id="expandedNewLead" />
+
+
+
+</FORM>
+</table>
+
+
+
+<div ID="bodystyle" class="variable">
+
+
+
+
+
+
+
+
+<div id="lineheight">
+&nbsp;
+</div>
+
+
+
+<div align=center>
+<em>
+O.C.G.A. § 10-1-911 
+</em>
+
+</div>
+<br>
+<center>GEORGIA CODE<br class="br"/>Copyright 2016 by The State of Georgia<br class="br"/>All rights reserved.</center><center><br class="br"/>*** Current Through the 2016 Regular Session ***</center><center><br class="br"/>TITLE 10.&nbsp;&nbsp;COMMERCE AND TRADE &nbsp;<br class="br"/>CHAPTER 1.&nbsp;&nbsp;SELLING AND OTHER TRADE PRACTICES &nbsp;<br class="br"/>ARTICLE 34.&nbsp;&nbsp;IDENTITY THEFT </center><center><br class="br"/>O.C.G.A. § 10-1-911 &nbsp;(2016)</center><br class="br"/>§ 10-1-911.&nbsp;&nbsp;Definitions <br class="br"/><br class="br"/><br class="br"/>&nbsp;&nbsp;&nbsp;As used in this article, the term:<br class="br"/><br class="br"/>&nbsp;&nbsp;&nbsp;(1)&nbsp;&quot;Breach of the security of the system&quot; means unauthorized acquisition of an individual's electronic data that compromises the security, confidentiality, or integrity of personal information of such individual maintained by an information broker or data collector. Good faith acquisition or use of personal information by an employee or agent of an information broker or data collector for the purposes of such information broker or data collector is not a breach of the security of the system, provided that the personal information is not used or subject to further unauthorized disclosure.<br class="br"/><br class="br"/>&nbsp;&nbsp;&nbsp;(2)&nbsp;&quot;Data collector&quot; means any state or local agency or subdivision thereof including any department, bureau, authority, public university or college, academy, commission, or other government entity; provided, however, that the term &quot;data collector&quot; shall not include any governmental agency whose records are maintained primarily for traffic safety, law enforcement, or licensing purposes or for purposes of providing public access to court records or to real or personal property information.<br class="br"/><br class="br"/>&nbsp;&nbsp;&nbsp;(3)&nbsp;&quot;Information broker&quot; means any person or entity who, for monetary fees or dues, engages in whole or in part in the business of collecting, assembling, evaluating, compiling, reporting, transmitting, transferring, or communicating information concerning individuals for the primary purpose of furnishing personal information to nonaffiliated third parties, but does not include any governmental agency whose records are maintained primarily for traffic safety, law enforcement, or licensing purposes.<br class="br"/><br class="br"/>&nbsp;&nbsp;&nbsp;(4)&nbsp;&quot;Notice&quot; means:<br class="br"/><br class="br"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(A)&nbsp;Written notice;<br class="br"/><br class="br"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(B)&nbsp;Telephone notice;<br class="br"/><br class="br"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(C)&nbsp;Electronic notice, if the notice provided is consistent with the provisions regarding electronic records and signatures set forth in Section 7001 of Title 15 of the United States Code; or<br class="br"/><br class="br"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(D)&nbsp;Substitute notice, if the information broker or data collector demonstrates that the cost of providing notice would exceed $50,000.00, that the affected class of individuals to be notified exceeds 100,000, or that the information broker or data collector does not have sufficient contact information to provide written or electronic notice to such individuals. Substitute notice shall consist of all of the following:<br class="br"/><br class="br"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(i)&nbsp;E-mail notice, if the information broker or data collector has an e-mail address for the individuals to be notified;<br class="br"/><br class="br"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ii)&nbsp;Conspicuous posting of the notice on the information broker's or data collector's website page, if the information broker or data collector maintains one; and<br class="br"/><br class="br"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(iii)&nbsp;Notification to major state-wide media.<br class="br"/><br class="br"/>Notwithstanding any provision of this paragraph to the contrary, an information broker or data collector that maintains its own notification procedures as part of an information security policy for the treatment of personal information and is otherwise consistent with the timing requirements of this article shall be deemed to be in compliance with the notification requirements of this article if it notifies the individuals who are the subjects of the notice in accordance with its policies in the event of a breach of the security of the system.<br class="br"/><br class="br"/>&nbsp;&nbsp;&nbsp;(5)&nbsp;&quot;Person&quot; means any individual, partnership, corporation, limited liability company, trust, estate, cooperative, association, or other entity. The term &quot;person&quot; as used in this article shall not be construed to require duplicative reporting by any individual, corporation, trust, estate, cooperative, association, or other entity involved in the same transaction.<br class="br"/><br class="br"/>&nbsp;&nbsp;&nbsp;(6)&nbsp;&quot;Personal information&quot; means an individual's first name or first initial and last name in combination with any one or more of the following data elements, when either the name or the data elements are not encrypted or redacted:<br class="br"/><br class="br"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(A)&nbsp;Social security number;<br class="br"/><br class="br"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(B)&nbsp;Driver's license number or state identification card number;<br class="br"/><br class="br"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(C)&nbsp;Account number, credit card number, or debit card number, if circumstances exist wherein such a number could be used without additional identifying information, access codes, or passwords;<br class="br"/><br class="br"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(D)&nbsp;Account passwords or personal identification numbers or other access codes; or<br class="br"/><br class="br"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(E)&nbsp;Any of the items contained in subparagraphs (A) through (D) of this paragraph when not in connection with the individual's first name or first initial and last name, if the information compromised would be sufficient to perform or attempt to perform identity theft against the person whose information was compromised.<br class="br"/><br class="br"/>The term &quot;personal information&quot; does not include publicly available information that is lawfully made available to the general public from federal, state, or local government records.<br class="br"/><br class="br"/><a class="segh_links" name="SEGH" id="SEGH_HISTORY"><b>HISTORY:</b></a> Code 1981, § 10-1-911, enacted by Ga. L. 2005, p. 851, § 1/SB 230; Ga. L. 2007, p. 450, § 2/SB 236.
+
+
+</div>
+<div id="bodyend" style="position:absolute"></div>
+
+
+
+<form name="SubmitText" action="/research/search/mlst/submit" method=post>
+<input type=hidden name="_csort" value="">
+<input type=hidden name="sortFmtstr" value="">
+<input type=hidden name="selectedText" value="This is the first text...">
+<input type=hidden name="pushme" value="1">
+<input type=hidden name="inputdel" value="tccspec">
+<input type=hidden name="statedel" value="_tscspec">
+<INPUT TYPE="hidden" NAME="_stateList" VALUE="selectedText,docnum,_fmtstr,_startdoc,_startch">
+<INPUT TYPE="hidden" NAME="_ansset" VALUE="D-WA-A-A-A-MsSAYWZ-UUB-UUYVYAUUU-U-U-U-U-U-U-AVYCEYVVCA-AVYBCZCWCA-DAZAEEDVD-A-U">
+<INPUT TYPE="hidden" NAME="lhnstatus" VALUE="closed">
+<INPUT TYPE="hidden" NAME="lhnwidth" VALUE="295">
+<INPUT TYPE="hidden" NAME="tccspec" VALUE="305984.80a9049d9c7ee9f2a633bb31e136b9ed">
+<INPUT TYPE="hidden" NAME="_browseType" VALUE="TEXTONLY">
+<INPUT TYPE="hidden" NAME="_fmtstr" VALUE="FULL">
+<INPUT TYPE="hidden" NAME="docnum" VALUE="1">
+<INPUT TYPE="hidden" NAME="displacement" VALUE="1">
+<INPUT TYPE="hidden" NAME="oldFmt" VALUE="">
+<INPUT TYPE="hidden" NAME="oldAlias" VALUE="">
+<INPUT TYPE="hidden" NAME="_startdoc" VALUE="1">
+<INPUT TYPE="hidden" NAME="prevCase" VALUE="">
+<INPUT TYPE="hidden" NAME="prevCite" VALUE="O.C.G.A. &#167; 10-1-911">
+<INPUT TYPE="hidden" NAME="_session" VALUE="153a2180-d132-11e6-a853-fff2afd6fe90.1.3660845171.836449.0.0.0">
+<INPUT TYPE="hidden" NAME="_state" VALUE="ORIGINATION_CODE%a400006%a3MIDDLEWARE_CODE%a4LP%a3zone%a4newStateHotTopicZone%a3lhnxlink%a4closed%a3lhnstatus%a4closed%a3hnlink%a4off%a3toclink%a4off%a3_dedupexlink%a4FALSE%a3_delPrivs%a4off%a3_noeslnk%a41%a3_interface%a41%a3docinfo%a4off%a3HIDE_ALL_SEPARATORS%a41%a3histXlink%a41%a3target%a4toc%a3authClient%a4%a3svc%a4toc2doc%a3isTabletRequest%a4false%a3lhnwidth%a4295%a3client%a4 %a3_optval%a4110111100101010%a3isNewsSource%a40%a3dedupeOption%a40%a3_xfercite%a4&#60;cite cc=&#34;USA&#34;&#62;&#60;![CDATA[O.C.G.A. &#167; 10-1-911]]&#62;&#60;/cite&#62;%a3_src%a4305984%a3">
+<INPUT TYPE="hidden" NAME="_bundles" VALUE="%a3forever%a6topframe%a5OFF%a6powernav%a5OFF%a6_kwsz%a5999%a6LDCtabList%a53:All,LIST_END%a6cc%a51%a6cls%a51%a6clOvr%a51%a6ochn%a51%a6lawed%a50%a6comphn%a51%a6PNMax%a5showNode%a6snid%a5ldc%a6pp%a5https://web.lexisnexis.com/research/retrieve?_m=b0d06eeabc4f75ffa4f78c1db96995ca&#38;_fmtstr=FULL&#38;docnum=1&#38;_startdoc=1&#38;wchp=dGLbVzt-zSkAA&#38;_md5=e400885175989b90afbff9857a07b237%a6cp%a5https://web.lexisnexis.com/research/retrieve?_m=4aaedf64ce1b461db4a4ba6515ca171c&#38;displacement=1&#38;_xfercite=%26%2360%3bcite%20cc%3d%26%2334%3bUSA%26%2334%3b%26%2362%3b%26%2360%3b%21%5bCDATA%5bO.C.G.A.%20%26%23167%3b%2010-1-911%5d%5d%26%2362%3b%26%2360%3b%2fcite%26%2362%3b&#38;_browseType=TEXTONLY&#38;docnum=1&#38;_fmtstr=BOOK&#38;_startdoc=1&#38;wchp=dGLbVzt-zSkAA&#38;_md5=2588613539ffebbdfcd8c8acd8448621%a6ircEnabled%a5N%a6%a4%a3tabBundle%a6%a4">
+<INPUT TYPE="hidden" NAME="wchp" VALUE="dGLbVzt-zSkAA">
+<INPUT TYPE="hidden" NAME="_md5" VALUE="b43ca6d88d78762e5020e3c0584bc2e1">
+
+</form>
+<br>
+
+
+
+
+
+
+<br>
+<script>
+if (typeof(openFormhelp)=="undefined"){
+function openFormhelp(pageToLoad,winName,width,height,center){
+args=getArgs(width,height,center,0,0,0);
+if ((parseInt(navigator.appVersion) >= 4 ) && (center)){
+if(window.formhelp && !window.formhelp.closed){
+formhelp.close();
+}
+}
+formhelp=window.open(pageToLoad,winName,args);
+return false;
+}
+function getArgs(width,height,center,menu,yoffset,xoffset){
+xposition=0; yposition=0;
+if ((parseInt(navigator.appVersion) >= 4 ) && (center)){
+if (menu==0){
+xposition = (screen.width - width) - 10;
+yposition = (screen.height - height) - 58;
+}
+else if(menu==1){
+xposition = (screen.width - width) / 2;
+yposition = ((screen.height - height) / 2) - 67;
+}
+else if(menu==2){
+xposition = (screen.width - width) / 2;
+yposition = ((screen.height - height) / 2) - 67;
+menu = 0;
+}
+xposition += xoffset;
+yposition += yoffset;
+}
+if (navigator.appName == 'Netscape'){
+width = width + 25;
+height = height + 25;
+}
+args="width="+width+",height="+height
++",toolbar="+menu+",menubar="+menu
++",screenx="+ xposition+",screeny="+yposition
++",left="+xposition+",top="+yposition
++",resizable=1,scrollbars=1,";
+ return args;
+}
+}
+</script>
+<div style="padding-top:20px;padding-bottom:20px">
+<div style="clear:both;text-align:center;vertical-align:middle">
+<a href="https://www.lexisnexis.com" target="home"><img src="/ri/lexis_pagetop_xlink.gif" width=145 height=30 alt="LexisNexis Home" title="LexisNexis Home" border=0 class="bottomlogo"></a>
+<span style="display:inline-block;text-align:left;vertical-align:middle">
+<a href="https://web.lexisnexis.com/research/lnhome/about" target="help" onclick="return openFormhelp('https://web.lexisnexis.com/research/lnhome/about','formhelp',500,375,0)">About LexisNexis</a>
+&nbsp;
+<span class="l3d">
+|
+</span>
+<a href="http://www.lexisnexis.com/en-us/terms/privacy-policy.page" target="help" onclick="return openFormhelp('http://www.lexisnexis.com/en-us/terms/privacy-policy.page','formhelp',500,375,0)">Privacy Policy</a>
+&nbsp;
+<span class="l3d">
+|
+</span>
+<a href="https://web.lexisnexis.com/research/lnhome/terms/general" target="help" onclick="return openFormhelp('https://web.lexisnexis.com/research/lnhome/terms/general','formhelp',500,375,0)">Terms & Conditions</a>
+&nbsp;
+<span class="l3d">
+|
+</span>
+<a href="https://support.lexisnexis.com/contact_us.asp?vcProdName=lexiscom" onclick="return openFormhelp('https://support.lexisnexis.com/contact_us.asp?vcProdName=lexiscom','formhelp',500,375,0)">Contact Us</a>
+&nbsp;
+<br/>
+<span class="footer">
+<a href="https://web.lexisnexis.com/research/lnhome/terms/copyright/" target="help" onclick="return openFormhelp('https://web.lexisnexis.com/research/lnhome/terms/copyright/','formhelp',500,375,0)">Copyright &copy;</a>
+</span>
+&nbsp;2017 LexisNexis, a division of Reed Elsevier Inc. All rights reserved.
+</span>
+</div>
+<span style="padding-right:15px;float:right;margin-top:-35px">
+<a href="http://www.relxgroup.com" target="home"><img src="/ri/OrangeGrey_TM.png" width=145 height=23 alt="relx.com" title="relx.com" border=0 class="bottomlogo"></a>
+</span>
+</div>
+
+
+
+<!-- NPS2.0 - include the div which will be shown on change of sort drop down incombine source search -->
+
+<input type="hidden" id="sortDamataLink" name="sortDamataLink" value="">
+
+</body>
+
+</html>
