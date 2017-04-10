@@ -99,10 +99,13 @@ class StateLaw:
         'å': 'a',
     }
 
-    def __init__(self, state, filename):
+    def __init__(self, state, filename, state_laws_dir=None):
         self.state = state
         self.filename = filename
-        self.file = os.path.join(state, filename)
+        if state_laws_dir:
+            self.file = os.path.join(state_laws_dir, state, filename)
+        else:
+            self.file = os.path.join(state, filename)
         if not os.path.exists(self.file):
             raise FileNotFoundError
         self.original_string = None
